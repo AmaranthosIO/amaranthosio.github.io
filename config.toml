@@ -10,7 +10,7 @@ theme = "zolastrap"
 
 taxonomies = [
   {name = "tags", paginate_by = 5},
-  {name = "people", paginate_by = 5},
+  {name = "authors", paginate_by = 5},
 ]
 
 build_search_index = true
@@ -34,7 +34,7 @@ tags = 'Posts by Topics'
 
 links = [
 	{title = 'Articles', url = 'articles'},
-    {title = 'People', url = 'people'},
+  {title = 'Authors', url = 'authors'},
 	{title = 'Topics', url = 'tags'},
 	{title = 'About', url = 'about'}
 ]

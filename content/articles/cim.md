@@ -6,7 +6,7 @@ extra:
 taxonomies:
   tags:
     - cim
-  people:
+  authors:
     - steele
 ---
 
