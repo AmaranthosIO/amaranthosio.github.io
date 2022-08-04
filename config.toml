@@ -4,6 +4,8 @@ default_language = "en"
 compile_sass = true
 title = "Amaranthos IO"
 description = "We deliver your most important information"
+logo = "img/amaranthos.png"
+
 generate_feed = true
 output_dir = "docs"
 theme = "zolastrap"
@@ -24,7 +26,7 @@ highlight_code = true
 banner = "img/banner.jpeg"
 date_format = '%Y-%m-%d'
 
-theme = 'morph'
+theme = 'slate'
 bg = "dark"
 inverted = false
 

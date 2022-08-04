@@ -2,7 +2,7 @@
 title: Composable Information Machine
 date: 2022-08-03
 extra:
-  image: /img/FunctionalProg.png
+  image: "/img/FunctionalProg.png"
 taxonomies:
   tags:
     - cim
