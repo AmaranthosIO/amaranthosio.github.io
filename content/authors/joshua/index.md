@@ -2,6 +2,8 @@
 title: Joshua Denne
 template: about.html
 extra:
-  image: profile.jpg
+  image: pjoshuadenne.webp
 ---
-Morbi placerat elit lacus, nec vulputate ipsum interdum id. Nullam ultricies ligula vitae turpis suscipit, ut ullamcorper eros mattis. In posuere facilisis nulla a laoreet. Praesent ut finibus lorem, nec molestie arcu. Donec ante est, vulputate sit amet arcu nec, commodo ullamcorper massa. Cras egestas volutpat aliquet. Duis tincidunt libero ac odio rhoncus vulputate. Proin tempus lorem venenatis rutrum consectetur. 
+Over the last two decades, I have excitedly supported people to reach their potential through business ownership and entrepreneurial endeavors. Many think that success is out of reach, but I have done the impossible I have gone from rags to riches because I believe we all have the potential for success all that matters is are you willing to tip the scales in your favor. It wasn't always fancy cars and seven figure incomes. There were many hard years before I had the opportunity to be where I am today. I have gone through power outages, eviction notices, and phones being turned off, because I was nearly a million dollars in debt. Now I am reaping the benefits I sowed long ago.
+
+[JoshuaDenne.com](https://joshuadenne.com)
