@@ -1,5 +1,5 @@
 ---
-title: Aggragate
+title: Algebraic Data Types
 date: 2022-08-03
 template: library.html
 #extra:
