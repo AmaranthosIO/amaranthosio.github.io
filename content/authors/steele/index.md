@@ -4,8 +4,8 @@ template: about.html
 extra:
   image: steele.jfif
 ---
-Steele Price is the creator of the [Composable Information Machine][/library/cim].
 As Chief Scientist at Amaranthos, he has brought a new understanding of how to relate information in provable and distributed ways.
+He is the creator of the [Composable Information Machine](/library/cim).
 
 He started professionally developing software in 1982.  Software development has not only been his primary source of income since; it is his passion.  Many of his software development processes grew to fruition by seeing a business or consumer need and working diligently to fulfill that need with a real application.  When you love to do something it invades every aspect of your life.  
 
