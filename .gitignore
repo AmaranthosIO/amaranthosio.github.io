@@ -21,7 +21,6 @@ Gemfile.lock
 
 #zola
 public/
-themes/
 
 #rust
 
