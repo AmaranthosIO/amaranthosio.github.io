@@ -11,6 +11,7 @@ theme = "zolastrap"
 taxonomies = [
   {name = "tags", paginate_by = 5},
   {name = "authors", paginate_by = 5},
+  {name = "library", paginate_by = 5},
 ]
 
 build_search_index = true
@@ -19,6 +20,7 @@ build_search_index = true
 highlight_code = true
 
 [extra]
+
 banner = "img/banner.jpeg"
 date_format = '%Y-%m-%d'
 
@@ -35,15 +37,17 @@ tags = 'Posts by Topics'
 links = [
 	{title = 'Articles', url = 'articles'},
   {title = 'Authors', url = 'authors'},
+  {title = 'Tooling', url = 'tools'},
+  {title = 'Library', url = 'library'},
 	{title = 'Topics', url = 'tags'},
 	{title = 'About', url = 'about'}
 ]
 email = "info@amaranthos.io"
 icons = [
   {title = 'Twitter', icon = 'twitter', url = 'https://twitter.com/amaranthosio'},
-  {title = 'Facebook', icon = 'facebook-f', url = 'https://www.facebook.com'},
-  {title = 'Instagram', icon = 'instagram', url = 'https://www.instagram.com'},
-  {title = 'YouTube', icon = 'youtube', url = 'https://www.youtube.com'}
+  {title = 'Facebook', icon = 'facebook-f', url = 'https://www.facebook.com/amaranthosio'},
+  {title = 'Instagram', icon = 'instagram', url = 'https://www.instagram.com/amaranthosio'},
+  {title = 'YouTube', icon = 'youtube', url = 'https://www.youtube.com/amaranthosio'}
 ]
 
 utterances = ""

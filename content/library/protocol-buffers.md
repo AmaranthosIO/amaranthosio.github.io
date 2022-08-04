@@ -1,0 +1,23 @@
+---
+title: Protocol Buffers
+date: 2022-08-03
+template: library.html
+#extra:
+#  image: cim.svg
+taxonomies:
+  tags:
+    - library
+    - language
+    - concept
+---
+A language-neutral, platform-neutral extensible mechanism for serializing structured data.
+
+We begin with 3 fundamental [things](/library/things):
+    [Thing](/library/thing)
+    [Person](/library/person)
+    [Organization](/library/organization)
+
+
+---
+#### reference
+[Protocol Buffers](https://developers.google.com/protocol-buffers)
