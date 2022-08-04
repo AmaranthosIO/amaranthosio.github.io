@@ -18,8 +18,7 @@ RUN mkdir -p /workspaces \
     && cargo build --release \
     && cp target/release/zola /usr/local/bin
 
-    #git clone https://github.com/amaranthosio/zhuia.git
+    #git clone https://github.com/amaranthosio/zolastrap.git
 
-EXPOSE [1111:1111]
 
 

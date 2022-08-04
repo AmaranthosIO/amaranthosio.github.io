@@ -2,7 +2,7 @@
 title: Composable Information Machine
 date: 2022-08-03
 extra:
-  image: img/FunctionalProg.png
+  image: /img/FunctionalProg.png
 taxonomies:
   tags:
     - cim
@@ -33,7 +33,7 @@ Self-assembly, replication and identification are key ideas that [DNA](/library/
 
 We will be using a style of structuring based on [Merkle DAGs](https://proto.school/merkle-dags) and accessing them as [Block Storage](https://docs.ipfs.tech/how-to/work-with-blocks/) in a [Metric Space](https://ncatlab.org/nlab/show/metric+space).
 
-![hash tree](img/hashTree.svg)
+![hash tree](/img/hashTree.svg)
 
 Several current theories take us from the single machine to the connected network, on to a truly distributed machine.  Most of us aren't interested in becoming theoretical mathematicians or computer scientists, let alone linquists and statisticians just to understand our budget. We need an easier way to connect everything, without being subject to vendorization or great cost. Those interested may dive deeply into the theories that make up a [Composable Information Machine](/library/cim) we offer a wealth of connected understanding for the theories presented in [Docs](/doc).
 
@@ -55,7 +55,7 @@ We need to cover structure, construction, types, power, networking, people, hard
 
 ### Composable Information Machine
 
-![cimTruth](img/cimState.png)
+![cimTruth](/img/cimState.png)
 
 We define an inventory system which, in turn, defines the informational limits and boundaries. We will combine many well-known services, yet see them as related and usable in very specific ways.
 
