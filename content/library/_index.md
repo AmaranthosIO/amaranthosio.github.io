@@ -1,5 +1,5 @@
 ---
 title: Library
-paginate_by: 5
+paginate_by: 10
 sort_by: title
 ---
