@@ -24,7 +24,8 @@ for production level IT Environments. [Github](https://github.com) has the abili
 
 ---
 #### reference
-[Devcontainer Standard](https://github.com/devcontainers/)
-[Dev Container CLI](https://github.com/devcontainers/cli)
-[Containers.dev](https://containers.dev/)
-[Containers and Continuous Integration](https://www.skilledcookie.com/2021/04/06/devcontainers-and-continuous-integration/)
+
+* [Devcontainer Standard](https://github.com/devcontainers/)
+* [Dev Container CLI](https://github.com/devcontainers/cli)
+* [Containers.dev](https://containers.dev/)
+* [Containers and Continuous Integration](https://www.skilledcookie.com/2021/04/06/devcontainers-and-continuous-integration/)

@@ -31,8 +31,8 @@ theme = 'slate'
 bg = "dark"
 inverted = false
 
-themes = "Choose a Theme"
-schemes = "Choose a Color Scheme"
+#themes = "Choose a Theme"
+#schemes = "Choose a Color Scheme"
 search = 'Search'
 tag = 'Posts by Topic'
 tags = 'Posts by Topics'
