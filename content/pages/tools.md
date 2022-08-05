@@ -3,6 +3,9 @@ title: Tooling
 path: tools
 template: about.html
 ---
+Tooling is extremly important to any successful venture. While everything we use
+is [Open Source](https://opensource.com/resources/what-open-source), 
+we do have specific methodologies we employ to utilize them.
 
   * [Event Store](https://eventstore.com/)
   * [NetBox](https://docs.netbox.dev/en/stable/)
@@ -24,3 +27,7 @@ template: about.html
   * [Ubiquiti](https://store.ui.com/collections/unifi-network-unifi-os-consoles)
   * [StarLink](https://starlink.com)
 
+To build the [Composable Information Machine](/library/cim) we assemble and 
+configure these tools in a specific way and they serve a specific purpose 
+Each element of a [cim](/library/cim), there is a [repository](https://git-scm.com/docs/git) and [development
+environment](/library/devcontainer) created to work speficifically with this ecosystem.

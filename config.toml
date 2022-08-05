@@ -12,6 +12,7 @@ theme = "zolastrap"
 
 taxonomies = [
   {name = "tags", paginate_by = 5},
+  {name = "articles", paginate_by = 5},
   {name = "authors", paginate_by = 5},
   {name = "library", paginate_by = 5},
 ]

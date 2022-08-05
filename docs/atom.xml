@@ -437,12 +437,43 @@ There is always a feedback and identity mechanism&lt;&#x2F;p&gt;
 </content>
 	</entry>
 	<entry xml:lang="en">
+		<title>Conventions</title>
+		<published>2022-08-03T00:00:00+00:00</published>
+		<updated>2022-08-03T00:00:00+00:00</updated>
+		<link rel="alternate" href="/library/conventions/" type="text/html"/>
+		<id>/library/conventions/</id>
+		<content type="html">&lt;p&gt;Methodologies use for a specified topic.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
 		<title>Convergence</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
 		<link rel="alternate" href="/library/convergence/" type="text/html"/>
 		<id>/library/convergence/</id>
 		<content type="html">&lt;p&gt;Different systems that move towards performing similar tasks. This concept moves tasks previously performed by separate systems into a single system that performs them all. Voice, video, and data were previously transmitted by different systems but now are transmitted over the same communication protocols. We have moved mostly from analog to digital and digital information is now converging into something distinct.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Devcontainer</title>
+		<published>2022-08-03T00:00:00+00:00</published>
+		<updated>2022-08-03T00:00:00+00:00</updated>
+		<link rel="alternate" href="/library/devcontainer/" type="text/html"/>
+		<id>/library/devcontainer/</id>
+		<content type="html">&lt;h1 id=&quot;devcontainer&quot;&gt;devcontainer&lt;&#x2F;h1&gt;
+&lt;p&gt;This is a term &lt;a href=&quot;https:&#x2F;&#x2F;microsoft.github.io&#x2F;code-with-engineering-playbook&#x2F;developer-experience&#x2F;devcontainers&#x2F;&quot;&gt;coined by Microsoft&lt;&#x2F;a&gt; 
+for running development environments inside &lt;a href=&quot;https:&#x2F;&#x2F;code.visualstudio.com&#x2F;docs&#x2F;remote&#x2F;containers&quot;&gt;VSCode&lt;&#x2F;a&gt; and &lt;a href=&quot;https:&#x2F;&#x2F;docs.microsoft.com&#x2F;en-us&#x2F;visualstudio&#x2F;containers&#x2F;overview&quot;&gt;Visual Studio&lt;&#x2F;a&gt;. 
+It is now a &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;devcontainers&#x2F;&quot;&gt;standard&lt;&#x2F;a&gt;, 
+used widely to contain the &lt;a href=&quot;&#x2F;library&#x2F;limits&quot;&gt;limits&lt;&#x2F;a&gt;, &lt;a href=&quot;&#x2F;library&#x2F;boundary&quot;&gt;boundaries&lt;&#x2F;a&gt; 
+and &lt;a href=&quot;&#x2F;library&#x2F;initial-state&quot;&gt;initial state&lt;&#x2F;a&gt; of a development system. &lt;&#x2F;p&gt;
+&lt;p&gt;There are thousands of &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Microsoft&#x2F;vscode-dev-containers&quot;&gt;premade containers&lt;&#x2F;a&gt;, ready for use and testing and most 
+for production level IT Environments. &lt;a href=&quot;https:&#x2F;&#x2F;github.com&quot;&gt;Github&lt;&#x2F;a&gt; has the ability to run them as &lt;a href=&quot;https:&#x2F;&#x2F;docs.github.com&#x2F;en&#x2F;codespaces&#x2F;setting-up-your-project-for-codespaces&#x2F;introduction-to-dev-containers&quot;&gt;Codespaces&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;reference&quot;&gt;reference&lt;&#x2F;h4&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;devcontainers&#x2F;&quot;&gt;Devcontainer Standard&lt;&#x2F;a&gt;
+&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;devcontainers&#x2F;cli&quot;&gt;Dev Container CLI&lt;&#x2F;a&gt;
+&lt;a href=&quot;https:&#x2F;&#x2F;containers.dev&#x2F;&quot;&gt;Containers.dev&lt;&#x2F;a&gt;
+&lt;a href=&quot;https:&#x2F;&#x2F;www.skilledcookie.com&#x2F;2021&#x2F;04&#x2F;06&#x2F;devcontainers-and-continuous-integration&#x2F;&quot;&gt;Containers and Continuous Integration&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
 	</entry>
 	<entry xml:lang="en">
