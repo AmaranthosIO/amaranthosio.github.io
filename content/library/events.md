@@ -10,4 +10,4 @@ taxonomies:
     - language
     - concept
 ---
-An encapsulation of something thaat has already happened.
+An encapsulation of something that has already happened.

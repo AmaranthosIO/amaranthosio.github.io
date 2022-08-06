@@ -18,6 +18,7 @@ we do have specific methodologies we employ to utilize them.
   * [IPFS](https://ipfs.io)
   * [git](https://git-scm.com)
   * [Decentralized Identifiers](https://www.w3.org/TR/did-core/)
+  * [Self Sovereign Identity](https://101blockchains.com/self-sovereign-identity/)
   * [OpenAPI Generator](https://openapi-generator.tech/)
   * [VSCode](https://code.visualstudio.com/)
   * [Typedefs](https://typedefs.com)

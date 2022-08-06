@@ -71,7 +71,7 @@
         <a class="navbar-brand"
           href="{{config.base_url}}"
           title="{{config.description}}"
-        >{{config.title}}</a>
+        ><img alt="{{config.title}}" src="{{config.extra.site_logo}}"/>{{config.title}}</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -173,6 +173,12 @@
       text-center
       text-{% if nav_type == "dark" %}white{% else %}black{% endif %}
     ">
+      {% if config.copyright %}
+      <h4 class="border-bottom border-primary border-2 text-uppercase mt-5 fw-bold">
+        {{config.copyright}}
+      </h4>
+      {% endif %}
+
       {% if config.extra.email %}
       <a
         href="mailto:{{config.extra.email}}"
