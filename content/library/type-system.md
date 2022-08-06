@@ -1,15 +1,12 @@
----
-title: Type System
-date: 2022-08-03
-template: library.html
-#extra:
-#  image: cim.svg
-taxonomies:
-  tags:
-    - library
-    - language
-    - concept
----
++++
+title = "Type System"
+date = 2022-08-03
+template = "library.html"
+[extra]
+#  image = cim.svg
+[taxonomies]
+   tags = ["ubiquitous-language", "library", "concept"]
++++
 
 > In programming languages, a type system is a logical system comprising a set of rules that assigns a property called a type to the various constructs of a computer program, such as variables, expressions, functions or modules. - [wikipedia](https://en.wikipedia.org/wiki/Type_system)
 

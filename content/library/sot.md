@@ -1,15 +1,12 @@
----
-title: Source of Truth
-date: 2022-08-03
-template: library.html
-#extra:
-#  image: cim.svg
-taxonomies:
-  tags:
-    - library
-    - language
-    - concept
----
++++
+title = "Source of Truth"
+date = 2022-08-03
+template = "library.html"
+[extra]
+#  image = cim.svg
+[taxonomies]
+   tags = ["ubiquitous-language", "library", "concept"]
++++
 
 
 The trusted source with a complete picture of the defined object as a whole. [a.k.a. Read Model](/library/read-model)

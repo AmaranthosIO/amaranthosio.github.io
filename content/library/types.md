@@ -1,15 +1,12 @@
----
-title: Types
-date: 2022-08-03
-template: library.html
-#extra:
-#  image: cim.svg
-taxonomies:
-  tags:
-    - library
-    - language
-    - concept
----
++++
+title = "Types"
+date = 2022-08-03
+template = "library.html"
+[extra]
+#  image = cim.svg
+[taxonomies]
+   tags = ["ubiquitous-language", "library", "concept"]
++++
 [Rust Types](https://doc.rust-lang.org/reference/types.html) are already available to us and provide a rich basis from which to expand the [Type System](type-system).
 - [Boolean](https://doc.rust-lang.org/reference/types/boolean.html)
 - [Numeric](https://doc.rust-lang.org/reference/types/numeric.html)

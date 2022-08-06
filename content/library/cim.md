@@ -1,15 +1,12 @@
----
-title: Composable Information Machine
-date: 2022-08-03
-template: library.html
-#extra:
-#  image: cim.svg
-taxonomies:
-  tags:
-    - library
-    - language
-    - concept
----
++++
+title = "Composable Information Machine"
+date = 2022-08-03
+template = "library.html"
+[extra]
+#  image = cim.svg
+[taxonomies]
+   tags = ["ubiquitous-language", "library", "concept"]
++++
 A `Composable Information Machine` encapsulates information in such a way that we can see the shape of the concepts we are thinking about, we will create a 3 Dimensional universe of shapes these relationships form through [Emergence Theory](http://emergence.co.uk/the-science/what-is-emergence-theory/).
 
 `Composable Information Machine` are based on [Category Theory](https://ncatlab.org/nlab/show/category+theory#section_Idea), where *`objects`* are all [Topological Spaces](https://mathworld.wolfram.com/TopologicalSpace.html) and *`arrows`* are [morphisms](https://ncatlab.org/nlab/show/morphism).

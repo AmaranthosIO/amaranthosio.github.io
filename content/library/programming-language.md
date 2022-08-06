@@ -1,15 +1,12 @@
----
-title: Programming Language
-date: 2022-08-03
-template: library.html
-#extra:
-#  image: cim.svg
-taxonomies:
-  tags:
-    - library
-    - language
-    - concept
----
++++
+title = "Programming Language"
+date = 2022-08-03
+template = "library.html"
+[extra]
+#  image = cim.svg
+[taxonomies]
+   tags = ["ubiquitous-language", "library", "concept"]
++++
 Language specifically designed to write algorithms for computing.
 
 Consider these paths:

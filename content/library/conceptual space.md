@@ -1,17 +1,14 @@
----
-title: Conceptual Space
-date: 2022-08-03
-template: library.html
-#extra:
-#  image: cim.svg
-taxonomies:
-  tags:
-    - library
-    - language
-    - concept
----
++++
+title = "Conceptual Space"
+date = 2022-08-03
+template = "library.html"
+[extra]
+#  image = cim.svg
+[taxonomies]
+   tags = ["ubiquitous-language", "library", "concept"]
++++
 A high level collection of concepts and relations, used for organizing and comparing sensory, memory or imaginative experiences.
 
---- reference
++++ reference
 [Categories in Conceptual Spaces](http://www.shirandudy.com/post/categories-in-conceptual-spaces)
 

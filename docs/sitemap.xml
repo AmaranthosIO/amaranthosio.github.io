@@ -412,10 +412,22 @@
         <loc>/tags/</loc>
     </url>
     <url>
+        <loc>/tags/act/</loc>
+    </url>
+    <url>
+        <loc>/tags/act/page/1/</loc>
+    </url>
+    <url>
         <loc>/tags/cim/</loc>
     </url>
     <url>
         <loc>/tags/cim/page/1/</loc>
+    </url>
+    <url>
+        <loc>/tags/composable/</loc>
+    </url>
+    <url>
+        <loc>/tags/composable/page/1/</loc>
     </url>
     <url>
         <loc>/tags/concept/</loc>
@@ -481,61 +493,10 @@
         <loc>/tags/development/page/1/</loc>
     </url>
     <url>
-        <loc>/tags/language/</loc>
+        <loc>/tags/game-theory/</loc>
     </url>
     <url>
-        <loc>/tags/language/page/1/</loc>
-    </url>
-    <url>
-        <loc>/tags/language/page/10/</loc>
-    </url>
-    <url>
-        <loc>/tags/language/page/11/</loc>
-    </url>
-    <url>
-        <loc>/tags/language/page/12/</loc>
-    </url>
-    <url>
-        <loc>/tags/language/page/13/</loc>
-    </url>
-    <url>
-        <loc>/tags/language/page/14/</loc>
-    </url>
-    <url>
-        <loc>/tags/language/page/15/</loc>
-    </url>
-    <url>
-        <loc>/tags/language/page/16/</loc>
-    </url>
-    <url>
-        <loc>/tags/language/page/17/</loc>
-    </url>
-    <url>
-        <loc>/tags/language/page/18/</loc>
-    </url>
-    <url>
-        <loc>/tags/language/page/2/</loc>
-    </url>
-    <url>
-        <loc>/tags/language/page/3/</loc>
-    </url>
-    <url>
-        <loc>/tags/language/page/4/</loc>
-    </url>
-    <url>
-        <loc>/tags/language/page/5/</loc>
-    </url>
-    <url>
-        <loc>/tags/language/page/6/</loc>
-    </url>
-    <url>
-        <loc>/tags/language/page/7/</loc>
-    </url>
-    <url>
-        <loc>/tags/language/page/8/</loc>
-    </url>
-    <url>
-        <loc>/tags/language/page/9/</loc>
+        <loc>/tags/game-theory/page/1/</loc>
     </url>
     <url>
         <loc>/tags/library/</loc>
@@ -593,6 +554,63 @@
     </url>
     <url>
         <loc>/tags/library/page/9/</loc>
+    </url>
+    <url>
+        <loc>/tags/ubiquitous-language/</loc>
+    </url>
+    <url>
+        <loc>/tags/ubiquitous-language/page/1/</loc>
+    </url>
+    <url>
+        <loc>/tags/ubiquitous-language/page/10/</loc>
+    </url>
+    <url>
+        <loc>/tags/ubiquitous-language/page/11/</loc>
+    </url>
+    <url>
+        <loc>/tags/ubiquitous-language/page/12/</loc>
+    </url>
+    <url>
+        <loc>/tags/ubiquitous-language/page/13/</loc>
+    </url>
+    <url>
+        <loc>/tags/ubiquitous-language/page/14/</loc>
+    </url>
+    <url>
+        <loc>/tags/ubiquitous-language/page/15/</loc>
+    </url>
+    <url>
+        <loc>/tags/ubiquitous-language/page/16/</loc>
+    </url>
+    <url>
+        <loc>/tags/ubiquitous-language/page/17/</loc>
+    </url>
+    <url>
+        <loc>/tags/ubiquitous-language/page/18/</loc>
+    </url>
+    <url>
+        <loc>/tags/ubiquitous-language/page/2/</loc>
+    </url>
+    <url>
+        <loc>/tags/ubiquitous-language/page/3/</loc>
+    </url>
+    <url>
+        <loc>/tags/ubiquitous-language/page/4/</loc>
+    </url>
+    <url>
+        <loc>/tags/ubiquitous-language/page/5/</loc>
+    </url>
+    <url>
+        <loc>/tags/ubiquitous-language/page/6/</loc>
+    </url>
+    <url>
+        <loc>/tags/ubiquitous-language/page/7/</loc>
+    </url>
+    <url>
+        <loc>/tags/ubiquitous-language/page/8/</loc>
+    </url>
+    <url>
+        <loc>/tags/ubiquitous-language/page/9/</loc>
     </url>
     <url>
         <loc>/tools/</loc>

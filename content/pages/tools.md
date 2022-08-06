@@ -1,8 +1,8 @@
----
-title: Tooling
-path: tools
-template: about.html
----
++++
+title = "Tooling"
+path = "tools"
+template = "about.html"
++++
 Everything we use here is [Open Source](https://opensource.com/resources/what-open-source), 
 we have specific places where each of these fit into a [Composable Information Machine](/library/cim).
 
@@ -14,7 +14,7 @@ is often an intricate one.
   • Given what I have, what is the minimum cost to get what I want?
   • Given what I have, what is the set of ways to get what I want?
 
-We have a formalism for expressing recipes—methods for transforming one set of resources into another—and for deriving new recipes from old. Thes fill a role and are replaceable.
+We have a formalism for expressing recipes—methods for transforming one set of resources into another—and for deriving new recipes from old. These fill a role or ingrdient in the recipe and are often replaceable.
 
   * [Event Store](https://eventstore.com/)
     An Event Store acts as the [System of Record](/library/sor)  

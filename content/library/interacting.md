@@ -1,15 +1,12 @@
----
-title: Interaction
-date: 2022-08-03
-template: library.html
-#extra:
-#  image: cim.svg
-taxonomies:
-  tags:
-    - library
-    - language
-    - concept
----
++++
+title = "Interaction"
+date = 2022-08-03
+template = "library.html"
+[extra]
+#  image = cim.svg
+[taxonomies]
+   tags = ["ubiquitous-language", "library", "concept"]
++++
 Decide how to interact with information. While there is no advance knowledge needed, we use:
  
  - [Information Theory](/library/information-theory)

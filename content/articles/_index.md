@@ -1,5 +1,5 @@
----
-title: Articles
-paginate_by: 6
-sort_by: date
----
++++
+title = "Articles"
+paginate_by = 6
+sort_by = "date"
++++

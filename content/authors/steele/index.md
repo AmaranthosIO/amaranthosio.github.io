@@ -1,9 +1,9 @@
----
-title: Steele Price
-template: about.html
-extra:
-  image: steele.jfif
----
++++
+title = "Steele Price"
+template = "about.html"
+[extra]
+  image = "steele.jfif"
++++
 As Chief Scientist at Amaranthos, he has brought a new understanding of how to relate information in provable and distributed ways.
 He is the creator of the [Composable Information Machine](/library/cim).
 
@@ -14,3 +14,5 @@ In recent years he has focused on improving the software development process, de
 He has always maintained a passion for taking that knowledge back to the community by speaking and sharing often with local user groups.
 
 He is also a 10 year veteran [Microsoft MVP](https://mvp.microsoft.com/en-us/PublicProfile/32249)
+
+[steeleprice.net](https://steeleprice.net)

@@ -1,16 +1,12 @@
----
-title: Devcontainer
-date: 2022-08-03
-template: library.html
-#extra:
-#  image: cim.svg
-taxonomies:
-  tags:
-    - library
-    - language
-    - concept
-    - development
----
++++
+title = "Devcontainer"
+date = 2022-08-03
+template = "library.html"
+[extra]
+#  image = cim.svg
+[taxonomies]
+   tags = ["ubiquitous-language", "library", "concept", "development"]
++++
 # devcontainer
 
 This is a term [coined by Microsoft](https://microsoft.github.io/code-with-engineering-playbook/developer-experience/devcontainers/) 
@@ -22,7 +18,7 @@ and [initial state](/library/initial-state) of a development system.
 There are thousands of [premade containers](https://github.com/Microsoft/vscode-dev-containers), ready for use and testing and most 
 for production level IT Environments. [Github](https://github.com) has the ability to run them as [Codespaces](https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/introduction-to-dev-containers)
 
----
++++
 #### reference
 
 * [Devcontainer Standard](https://github.com/devcontainers/)
