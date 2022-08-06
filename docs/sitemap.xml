@@ -1,587 +1,587 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>amaranthos.io/</loc>
+        <loc>/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/about/</loc>
+        <loc>/about/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/articles/</loc>
+        <loc>/articles/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/articles/cim/</loc>
+        <loc>/articles/cim/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/articles/page/1/</loc>
+        <loc>/articles/page/1/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/authors/</loc>
+        <loc>/authors/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/authors/david/</loc>
+        <loc>/authors/david/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/authors/jacob/</loc>
+        <loc>/authors/jacob/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/authors/joshua/</loc>
+        <loc>/authors/joshua/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/authors/steele/</loc>
+        <loc>/authors/steele/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/authors/steele/page/1/</loc>
+        <loc>/authors/steele/page/1/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/library/</loc>
+        <loc>/library/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/library/abstraction/</loc>
+        <loc>/library/abstraction/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/aggregatable/</loc>
+        <loc>/library/aggregatable/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/aggregate/</loc>
+        <loc>/library/aggregate/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/algebraic-data-types/</loc>
+        <loc>/library/algebraic-data-types/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/algebraic-structures/</loc>
+        <loc>/library/algebraic-structures/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/applied-category-theory/</loc>
+        <loc>/library/applied-category-theory/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/behaviors/</loc>
+        <loc>/library/behaviors/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/boundaries/</loc>
+        <loc>/library/boundaries/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/boundary/</loc>
+        <loc>/library/boundary/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/bounded-context/</loc>
+        <loc>/library/bounded-context/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/categories/</loc>
+        <loc>/library/categories/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/category-theory/</loc>
+        <loc>/library/category-theory/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/chainable/</loc>
+        <loc>/library/chainable/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/cim/</loc>
+        <loc>/library/cim/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/classify/</loc>
+        <loc>/library/classify/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/composable/</loc>
+        <loc>/library/composable/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/compositional-game-theory/</loc>
+        <loc>/library/compositional-game-theory/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/conceptual-space/</loc>
+        <loc>/library/conceptual-space/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/conceptual-spaces/</loc>
+        <loc>/library/conceptual-spaces/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/configuration/</loc>
+        <loc>/library/configuration/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/content-addressing/</loc>
+        <loc>/library/content-addressing/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/context/</loc>
+        <loc>/library/context/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/conventions/</loc>
+        <loc>/library/conventions/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/convergence/</loc>
+        <loc>/library/convergence/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/devcontainer/</loc>
+        <loc>/library/devcontainer/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/dna/</loc>
+        <loc>/library/dna/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/domain-object/</loc>
+        <loc>/library/domain-object/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/effect/</loc>
+        <loc>/library/effect/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/either/</loc>
+        <loc>/library/either/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/event-sourcing/</loc>
+        <loc>/library/event-sourcing/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/event-store/</loc>
+        <loc>/library/event-store/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/events/</loc>
+        <loc>/library/events/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/eventual-consistency/</loc>
+        <loc>/library/eventual-consistency/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/frp/</loc>
+        <loc>/library/frp/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/functor/</loc>
+        <loc>/library/functor/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/geometric-algebra/</loc>
+        <loc>/library/geometric-algebra/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/groups/</loc>
+        <loc>/library/groups/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/information-theory/</loc>
+        <loc>/library/information-theory/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/initial-state/</loc>
+        <loc>/library/initial-state/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/interacting/</loc>
+        <loc>/library/interacting/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/ipfs/</loc>
+        <loc>/library/ipfs/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/ipld/</loc>
+        <loc>/library/ipld/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/irm/</loc>
+        <loc>/library/irm/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/javascript/</loc>
+        <loc>/library/javascript/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/limits/</loc>
+        <loc>/library/limits/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/mappable/</loc>
+        <loc>/library/mappable/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/mapping/</loc>
+        <loc>/library/mapping/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/maybe/</loc>
+        <loc>/library/maybe/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/me/</loc>
+        <loc>/library/me/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/metric-space/</loc>
+        <loc>/library/metric-space/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/monad/</loc>
+        <loc>/library/monad/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/monoid/</loc>
+        <loc>/library/monoid/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/multiverse-of-information/</loc>
+        <loc>/library/multiverse-of-information/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/network/</loc>
+        <loc>/library/network/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/organic-growth/</loc>
+        <loc>/library/organic-growth/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/organization/</loc>
+        <loc>/library/organization/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/page/1/</loc>
+        <loc>/library/page/1/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/library/page/2/</loc>
+        <loc>/library/page/2/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/library/page/3/</loc>
+        <loc>/library/page/3/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/library/page/4/</loc>
+        <loc>/library/page/4/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/library/page/5/</loc>
+        <loc>/library/page/5/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/library/page/6/</loc>
+        <loc>/library/page/6/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/library/page/7/</loc>
+        <loc>/library/page/7/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/library/page/8/</loc>
+        <loc>/library/page/8/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/library/page/9/</loc>
+        <loc>/library/page/9/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/library/pattern-matching/</loc>
+        <loc>/library/pattern-matching/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/person-type/</loc>
+        <loc>/library/person-type/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/person/</loc>
+        <loc>/library/person/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/programming-language/</loc>
+        <loc>/library/programming-language/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/projections/</loc>
+        <loc>/library/projections/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/proof/</loc>
+        <loc>/library/proof/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/protocol-buffers/</loc>
+        <loc>/library/protocol-buffers/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/purescript/</loc>
+        <loc>/library/purescript/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/python/</loc>
+        <loc>/library/python/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/raspberry-pi/</loc>
+        <loc>/library/raspberry-pi/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/read-model/</loc>
+        <loc>/library/read-model/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/relationship/</loc>
+        <loc>/library/relationship/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/rust/</loc>
+        <loc>/library/rust/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/sor/</loc>
+        <loc>/library/sor/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/sot/</loc>
+        <loc>/library/sot/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/structure/</loc>
+        <loc>/library/structure/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/thing-type/</loc>
+        <loc>/library/thing-type/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/thing/</loc>
+        <loc>/library/thing/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/things/</loc>
+        <loc>/library/things/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/topologies/</loc>
+        <loc>/library/topologies/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/traits/</loc>
+        <loc>/library/traits/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/type-system/</loc>
+        <loc>/library/type-system/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/typedefs/</loc>
+        <loc>/library/typedefs/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/types/</loc>
+        <loc>/library/types/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/uefi/</loc>
+        <loc>/library/uefi/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/ui/</loc>
+        <loc>/library/ui/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/universe/</loc>
+        <loc>/library/universe/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/user/</loc>
+        <loc>/library/user/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/library/write-model/</loc>
+        <loc>/library/write-model/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
-        <loc>amaranthos.io/tags/</loc>
+        <loc>/tags/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/cim/</loc>
+        <loc>/tags/cim/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/cim/page/1/</loc>
+        <loc>/tags/cim/page/1/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/concept/</loc>
+        <loc>/tags/concept/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/concept/page/1/</loc>
+        <loc>/tags/concept/page/1/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/concept/page/10/</loc>
+        <loc>/tags/concept/page/10/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/concept/page/11/</loc>
+        <loc>/tags/concept/page/11/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/concept/page/12/</loc>
+        <loc>/tags/concept/page/12/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/concept/page/13/</loc>
+        <loc>/tags/concept/page/13/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/concept/page/14/</loc>
+        <loc>/tags/concept/page/14/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/concept/page/15/</loc>
+        <loc>/tags/concept/page/15/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/concept/page/16/</loc>
+        <loc>/tags/concept/page/16/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/concept/page/17/</loc>
+        <loc>/tags/concept/page/17/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/concept/page/2/</loc>
+        <loc>/tags/concept/page/2/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/concept/page/3/</loc>
+        <loc>/tags/concept/page/3/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/concept/page/4/</loc>
+        <loc>/tags/concept/page/4/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/concept/page/5/</loc>
+        <loc>/tags/concept/page/5/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/concept/page/6/</loc>
+        <loc>/tags/concept/page/6/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/concept/page/7/</loc>
+        <loc>/tags/concept/page/7/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/concept/page/8/</loc>
+        <loc>/tags/concept/page/8/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/concept/page/9/</loc>
+        <loc>/tags/concept/page/9/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/development/</loc>
+        <loc>/tags/development/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/development/page/1/</loc>
+        <loc>/tags/development/page/1/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/language/</loc>
+        <loc>/tags/language/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/language/page/1/</loc>
+        <loc>/tags/language/page/1/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/language/page/10/</loc>
+        <loc>/tags/language/page/10/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/language/page/11/</loc>
+        <loc>/tags/language/page/11/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/language/page/12/</loc>
+        <loc>/tags/language/page/12/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/language/page/13/</loc>
+        <loc>/tags/language/page/13/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/language/page/14/</loc>
+        <loc>/tags/language/page/14/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/language/page/15/</loc>
+        <loc>/tags/language/page/15/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/language/page/16/</loc>
+        <loc>/tags/language/page/16/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/language/page/17/</loc>
+        <loc>/tags/language/page/17/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/language/page/2/</loc>
+        <loc>/tags/language/page/2/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/language/page/3/</loc>
+        <loc>/tags/language/page/3/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/language/page/4/</loc>
+        <loc>/tags/language/page/4/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/language/page/5/</loc>
+        <loc>/tags/language/page/5/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/language/page/6/</loc>
+        <loc>/tags/language/page/6/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/language/page/7/</loc>
+        <loc>/tags/language/page/7/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/language/page/8/</loc>
+        <loc>/tags/language/page/8/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/language/page/9/</loc>
+        <loc>/tags/language/page/9/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/library/</loc>
+        <loc>/tags/library/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/library/page/1/</loc>
+        <loc>/tags/library/page/1/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/library/page/10/</loc>
+        <loc>/tags/library/page/10/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/library/page/11/</loc>
+        <loc>/tags/library/page/11/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/library/page/12/</loc>
+        <loc>/tags/library/page/12/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/library/page/13/</loc>
+        <loc>/tags/library/page/13/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/library/page/14/</loc>
+        <loc>/tags/library/page/14/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/library/page/15/</loc>
+        <loc>/tags/library/page/15/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/library/page/16/</loc>
+        <loc>/tags/library/page/16/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/library/page/17/</loc>
+        <loc>/tags/library/page/17/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/library/page/2/</loc>
+        <loc>/tags/library/page/2/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/library/page/3/</loc>
+        <loc>/tags/library/page/3/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/library/page/4/</loc>
+        <loc>/tags/library/page/4/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/library/page/5/</loc>
+        <loc>/tags/library/page/5/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/library/page/6/</loc>
+        <loc>/tags/library/page/6/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/library/page/7/</loc>
+        <loc>/tags/library/page/7/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/library/page/8/</loc>
+        <loc>/tags/library/page/8/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tags/library/page/9/</loc>
+        <loc>/tags/library/page/9/</loc>
     </url>
     <url>
-        <loc>amaranthos.io/tools/</loc>
+        <loc>/tools/</loc>
     </url>
 </urlset>

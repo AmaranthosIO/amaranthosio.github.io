@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 Allow: /
-Sitemap: amaranthos.io/sitemap.xml
+Sitemap: /sitemap.xml

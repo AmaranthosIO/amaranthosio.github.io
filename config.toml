@@ -1,4 +1,4 @@
-base_url = "amaranthos.io"
+base_url = "/"
 
 default_language = "en"
 compile_sass = true
