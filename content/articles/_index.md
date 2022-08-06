@@ -1,5 +1,5 @@
 +++
 title = "Articles"
-paginate_by = 6
+paginate_by = 10
 sort_by = "date"
 +++
