@@ -14,8 +14,8 @@ taxonomies:
 
 This book is an invitation to discover advanced topics in category theory through concrete, real-world examples. It aims to give a tour: a gentle, quick introduction to guide later exploration. The tour takes place over seven sketches, each pairing an evocative application, such as databases, electric circuits, or dynamical systems, with the exploration of a categorical structure, such as adjoint functors, enriched categories, or toposes.
 
-No prior knowledge of category theory is assumed.
 
+![Applied Category Theory](/img/applied-category-theory.png)
 ---
 #### reference
 

@@ -226,8 +226,7 @@ We are building a &lt;a href=&quot;&#x2F;library&#x2F;cim&quot;&gt;Composable In
 		<link rel="alternate" href="/library/applied-category-theory/" type="text/html"/>
 		<id>/library/applied-category-theory/</id>
 		<content type="html">&lt;p&gt;This book is an invitation to discover advanced topics in category theory through concrete, real-world examples. It aims to give a tour: a gentle, quick introduction to guide later exploration. The tour takes place over seven sketches, each pairing an evocative application, such as databases, electric circuits, or dynamical systems, with the exploration of a categorical structure, such as adjoint functors, enriched categories, or toposes.&lt;&#x2F;p&gt;
-&lt;p&gt;No prior knowledge of category theory is assumed.&lt;&#x2F;p&gt;
-&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;applied-category-theory&quot;&gt;&lt;img src=&quot;&#x2F;img&#x2F;applied-category-theory.png&quot; alt=&quot;Applied Category Theory&quot; &#x2F;&gt;&lt;&#x2F;h2&gt;
 &lt;h4 id=&quot;reference&quot;&gt;reference&lt;&#x2F;h4&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;1803.05316&quot;&gt;Applied Category Theory - PDF&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
@@ -1131,6 +1130,18 @@ A &lt;a href=&quot;https:&#x2F;&#x2F;doc.rust-lang.org&#x2F;reference&#x2F;items
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;doc.rust-lang.org&#x2F;reference&#x2F;types&#x2F;trait-object.html&quot;&gt;Trait object&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;doc.rust-lang.org&#x2F;reference&#x2F;types&#x2F;impl-trait.html&quot;&gt;Impl trait&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Ubiquitous Language</title>
+		<published>2022-08-03T00:00:00+00:00</published>
+		<updated>2022-08-03T00:00:00+00:00</updated>
+		<link rel="alternate" href="/library/ubiquitous-language/" type="text/html"/>
+		<id>/library/ubiquitous-language/</id>
+		<content type="html">&lt;p&gt;The practice of building up a common, rigorous language between unique sets of people.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;reference&quot;&gt;reference&lt;&#x2F;h4&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.martinfowler.com&#x2F;bliki&#x2F;UbiquitousLanguage.html&quot;&gt;Martin Fowler&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
 	</entry>
 	<entry xml:lang="en">

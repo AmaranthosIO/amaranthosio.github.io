@@ -385,6 +385,10 @@
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
+        <loc>/library/ubiquitous-language/</loc>
+        <lastmod>2022-08-03</lastmod>
+    </url>
+    <url>
         <loc>/library/uefi/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
@@ -442,6 +446,9 @@
     </url>
     <url>
         <loc>/tags/concept/page/17/</loc>
+    </url>
+    <url>
+        <loc>/tags/concept/page/18/</loc>
     </url>
     <url>
         <loc>/tags/concept/page/2/</loc>
@@ -504,6 +511,9 @@
         <loc>/tags/language/page/17/</loc>
     </url>
     <url>
+        <loc>/tags/language/page/18/</loc>
+    </url>
+    <url>
         <loc>/tags/language/page/2/</loc>
     </url>
     <url>
@@ -556,6 +566,9 @@
     </url>
     <url>
         <loc>/tags/library/page/17/</loc>
+    </url>
+    <url>
+        <loc>/tags/library/page/18/</loc>
     </url>
     <url>
         <loc>/tags/library/page/2/</loc>
