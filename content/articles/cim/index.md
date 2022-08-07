@@ -61,10 +61,7 @@ image = "FunctionalProg.png"
 
 ![diagram of a cim](/img/cim.svg)
 
-We have achieved something extraordinary in the [last 50 years of Information Technology](https://www.ithistory.org/). IT became tiny and affordable to everyone. ![Pi Stock](pistock.jpg) I can buy a $5 postage stamp sized computer that can do enough processing to do real work and it's widely available. 
-
-![Starlink dish](/img/starlink-dish.jpg)
-The 'network' is now ubiquitous with providers like [StarLink](https://starlink.com).
+We have achieved something extraordinary in the [last 50 years of Information Technology](https://www.ithistory.org/). IT became tiny and affordable to everyone. ![Pi Stock](pistock.png) I can buy a $5 postage stamp sized computer that can do enough processing to do real work and it's widely available. 
 
 > The universe is made of [events](/library/events) not objects - [Carlo Rovelli](https://www.closertotruth.com/interviews/55727)
 
@@ -76,15 +73,16 @@ We need more knowledge, faster, more often. From 2020 to 2025 it will grow from 
 
 > We want a [Composable Information Machine](/library/cim).
 
-![diagram of a cim](/img/cim.svg)
-
-Expect several [Sources of Truth](/library/sot) connected to several [Systems of Record](/library/sor) with a secure [peer-to-peer](https://www.merriam-webster.com/dictionary/peer-to-peer) network where we control the peers and the channels.
+We connect several [Sources of Truth](/library/sot) to several [Systems of Record](/library/sor) with a secure [peer-to-peer](https://www.merriam-webster.com/dictionary/peer-to-peer) network where we control the peers and the channels. **Everything can suddenly and securely talk.**
 
 ## Incorporate information decisions into our daily lives
 
 Currently we spend far to much time processing information that *[could be fully automated](https://n8n.io)*. We can process information that exists all over the internet and obtain sensor input from all over the universe. Instead of re-centralizing or relocating all that information we can now adapt a new process to utilize it and optimize where it sits. Once we put everything in the cloud, retrieving it all at once becomes an impossible feat, even moving it around can become exceedingly difficult.
 
-We now have much better understanding of our cognitive abilities and how we are built than we did a hundred years ago when they were developing the theories used in our current computing process flows. We didn't know what [DNA](https://medlineplus.gov/genetics/understanding/basics/dna/) was when the [Univac](https://ethw.org/UNIVAC) was built, yet we still use this same fundamental architecture today.
+The 'network' is now ubiquitous with providers like [StarLink](https://starlink.com).
+![Starlink dish](/img/starlink-dish.jpg)
+
+Today, we have much better understanding of our cognitive abilities and how we are built than we did a hundred years ago when they were developing the theories used in our current computing process flows. We didn't know what [DNA](/library/dna) was when the [Univac](https://ethw.org/UNIVAC) was built, yet we still use this same fundamental architecture today.
 
 Self-assembly, replication and identification are key ideas that [DNA](/library/dna) helps to handle in biology. We have the same needs for information. [Information Theory](/library/information-theory) taught us how the math works to communicate information, however, structuring it has led to countless debate.
 
@@ -139,51 +137,11 @@ Changes to NetBox directly can be immediately supported with [n8n](https://n8n.i
 
 Projections from the [Event Store](/library/event-store) cause various actions (frequently modeled and tested in [n8n](https://n8n.io) to be performed based on the nature of the Event. Events are Strongly Typed and form a [Type System](https://typedefs.com) used throughout the [Composable Information Machine](/library/cim).
 
-Let's recap so far what we are doing.
-We are building a [Composable Information Machine](/library/cim)
+And to prove that this all works, we use [Applied Category Theory](/library/applied-category-theory) 
+![Applied Category Theory](/img/applied-category-theory.png) 
 
-We require the following in order to do so:
 
-   1. Definition and Design
-      * Structure - [Type System](https://typedefs.com)
-      * Mapping and flow - [n8n](https://n8n.io)
-      * documentation - [NetBox](https://docs.netbox.dev/en/stable/) and [git](https://git-scm.com)
-      * Content-Addressing - [IPLD](https://ipld.io)
-   2. Software Defined Network
-      * relationships of compute resources
-      * [IPAM](https://www.infoblox.com/glossary/ipam-ip-address-management/), [VLAN](https://www.guru99.com/vlan-definition-types-advantages.html), [DNS](https://www.cloudflare.com/learning/dns/what-is-dns/), [DHCP](https://www.lifewire.com/what-is-dhcp-2625848), [VPN](https://www.cisco.com/c/en/us/products/security/vpn-endpoint-security-clients/what-is-vpn.html)
-      * Inventory - [NetBox](https://docs.netbox.dev/en/stable/)
-   3. Power
-      * Providers
-      * Sources and capabilities
-         * Solar
-         * Wind
-         * Generator
-         * Grid
-   4. Computing Devices
-      * Hardware and identification
-      * Virtual network endpoints  
-   5. Definition of components
-      * What makes up a device
-      * Setting limits and boundaries for spaces
-      * Continuous integration and deployment
-   6. Secure communication capability
-      * Channel between nodes
-      * Command and control separation
-      * [Identity and Access Management](https://webofidentity.com/blog/self-sovereign-digital-identity/)
-      * [FRP](http://neilsculthorpe.com/publications/safe-efficient-FRP.pdf)
+## Next
+[Building a Composable Information Machine](/library/building-a-cim)
 
-   7. Persistance
-      * [System of Record](/library/sor) binding multiple [Sources of Truth](/library/sot)
-      * [Command, Query, Response Segregation](https://www.geeksforgeeks.org/what-is-cqrs/) + [Event Sourcing](/library/event-sourcing.md)  
-      * Content-Addressing [IPFS](https://ipfs.io)  
-      * addressable blocks [IPLD](https://ipld.io)
-   8. Proofs
-      * Proofs of operations
-        * [How does it work](https://typedefs.com/)
-      * monitoring
-        * [Show me that it works](https://checkmk.com/)
-      * causality
-        * [What made it do that](https://www.amazon.com/Book-Why-Science-Cause-Effect/dp/046509760X)
-      * game theory
-        * [What if it does this](https://arxiv.org/abs/1711.07059v2)
+

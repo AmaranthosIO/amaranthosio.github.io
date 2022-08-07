@@ -31,6 +31,7 @@
     
       <div class="w-100">
         <img src="/img/banner.jpeg" class="w-100" />
+        <img alt="Amaranthos IO" src="/img/amaranthos.png" style="position: absolute; margin-top: 10px; margin-left: 10px;"/>
       </div>
     
     
@@ -46,7 +47,7 @@
         <a class="navbar-brand"
           href="&#x2F;"
           title="We deliver your most important information"
-        ><img alt="Amaranthos IO" src="/img/amaranthos.png"/>Amaranthos IO</a>
+        >Amaranthos IO</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -177,9 +178,7 @@
 <p>A <a href="https://www.splunk.com/en_us/data-insider/what-are-distributed-systems.html">distributed</a> knowledge encapsulation system based on <a href="https://codedocs.org/what-is/functional-reactive-programming">Functional Reactive Programming</a> and <a href="https://www.eventstore.com/blog/what-is-event-sourcing">Event Sourcing</a>.</p>
 </blockquote>
 <p><img src="/img/cim.svg" alt="diagram of a cim" /></p>
-<p>We have achieved something extraordinary in the <a href="https://www.ithistory.org/">last 50 years of Information Technology</a>. IT became tiny and affordable to everyone. <img src="/articles/cim/pistock.jpg" alt="Pi Stock" /> I can buy a $5 postage stamp sized computer that can do enough processing to do real work and it's widely available. </p>
-<p><img src="/img/starlink-dish.jpg" alt="Starlink dish" />
-The 'network' is now ubiquitous with providers like <a href="https://starlink.com">StarLink</a>.</p>
+<p>We have achieved something extraordinary in the <a href="https://www.ithistory.org/">last 50 years of Information Technology</a>. IT became tiny and affordable to everyone. <img src="/articles/cim/pistock.png" alt="Pi Stock" /> I can buy a $5 postage stamp sized computer that can do enough processing to do real work and it's widely available. </p>
 <blockquote>
 <p>The universe is made of <a href="/library/events">events</a> not objects - <a href="https://www.closertotruth.com/interviews/55727">Carlo Rovelli</a></p>
 </blockquote>
@@ -189,11 +188,12 @@ The 'network' is now ubiquitous with providers like <a href="https://starlink.co
 <blockquote>
 <p>We want a <a href="/library/cim">Composable Information Machine</a>.</p>
 </blockquote>
-<p><img src="/img/cim.svg" alt="diagram of a cim" /></p>
-<p>Expect several <a href="/library/sot">Sources of Truth</a> connected to several <a href="/library/sor">Systems of Record</a> with a secure <a href="https://www.merriam-webster.com/dictionary/peer-to-peer">peer-to-peer</a> network where we control the peers and the channels.</p>
+<p>We connect several <a href="/library/sot">Sources of Truth</a> to several <a href="/library/sor">Systems of Record</a> with a secure <a href="https://www.merriam-webster.com/dictionary/peer-to-peer">peer-to-peer</a> network where we control the peers and the channels. <strong>Everything can suddenly and securely talk.</strong></p>
 <h2 id="incorporate-information-decisions-into-our-daily-lives">Incorporate information decisions into our daily lives</h2>
 <p>Currently we spend far to much time processing information that <em><a href="https://n8n.io">could be fully automated</a></em>. We can process information that exists all over the internet and obtain sensor input from all over the universe. Instead of re-centralizing or relocating all that information we can now adapt a new process to utilize it and optimize where it sits. Once we put everything in the cloud, retrieving it all at once becomes an impossible feat, even moving it around can become exceedingly difficult.</p>
-<p>We now have much better understanding of our cognitive abilities and how we are built than we did a hundred years ago when they were developing the theories used in our current computing process flows. We didn't know what <a href="https://medlineplus.gov/genetics/understanding/basics/dna/">DNA</a> was when the <a href="https://ethw.org/UNIVAC">Univac</a> was built, yet we still use this same fundamental architecture today.</p>
+<p>The 'network' is now ubiquitous with providers like <a href="https://starlink.com">StarLink</a>.
+<img src="/img/starlink-dish.jpg" alt="Starlink dish" /></p>
+<p>Today, we have much better understanding of our cognitive abilities and how we are built than we did a hundred years ago when they were developing the theories used in our current computing process flows. We didn't know what <a href="/library/dna">DNA</a> was when the <a href="https://ethw.org/UNIVAC">Univac</a> was built, yet we still use this same fundamental architecture today.</p>
 <p>Self-assembly, replication and identification are key ideas that <a href="/library/dna">DNA</a> helps to handle in biology. We have the same needs for information. <a href="/library/information-theory">Information Theory</a> taught us how the math works to communicate information, however, structuring it has led to countless debate.</p>
 <p>We will be using a style of structuring based on <a href="https://proto.school/merkle-dags">Merkle DAGs</a> and accessing them as <a href="https://docs.ipfs.tech/how-to/work-with-blocks/">Block Storage</a> in a <a href="https://ncatlab.org/nlab/show/metric+space">Metric Space</a>.</p>
 <p><img src="/img/hashTree.svg" alt="hash tree" /></p>
@@ -231,100 +231,10 @@ The 'network' is now ubiquitous with providers like <a href="https://starlink.co
 <p>We will use the current NetBox data model as a READ Model for <a href="/library/irm">IRM</a>. The Write Model is an abstraction we will create. We could <a href="https://openapi-generator.tech/docs/generators/rust/">abstract an API in Rust</a> for our use with the Read Model, but there is one already built we can start from: <a href="https://github.com/AmaranthosLabs/rust-netbox">rust-netbox</a>.</p>
 <p>Changes to NetBox directly can be immediately supported with <a href="https://n8n.io">n8n</a>. Writes will be sent to an <a href="/library/event-store">Event Store</a> with the API of NetBox and our <a href="https://typedefs.com">Type System</a>.</p>
 <p>Projections from the <a href="/library/event-store">Event Store</a> cause various actions (frequently modeled and tested in <a href="https://n8n.io">n8n</a> to be performed based on the nature of the Event. Events are Strongly Typed and form a <a href="https://typedefs.com">Type System</a> used throughout the <a href="/library/cim">Composable Information Machine</a>.</p>
-<p>Let's recap so far what we are doing.
-We are building a <a href="/library/cim">Composable Information Machine</a></p>
-<p>We require the following in order to do so:</p>
-<ol>
-<li>
-<p>Definition and Design</p>
-<ul>
-<li>Structure - <a href="https://typedefs.com">Type System</a></li>
-<li>Mapping and flow - <a href="https://n8n.io">n8n</a></li>
-<li>documentation - <a href="https://docs.netbox.dev/en/stable/">NetBox</a> and <a href="https://git-scm.com">git</a></li>
-<li>Content-Addressing - <a href="https://ipld.io">IPLD</a></li>
-</ul>
-</li>
-<li>
-<p>Software Defined Network</p>
-<ul>
-<li>relationships of compute resources</li>
-<li><a href="https://www.infoblox.com/glossary/ipam-ip-address-management/">IPAM</a>, <a href="https://www.guru99.com/vlan-definition-types-advantages.html">VLAN</a>, <a href="https://www.cloudflare.com/learning/dns/what-is-dns/">DNS</a>, <a href="https://www.lifewire.com/what-is-dhcp-2625848">DHCP</a>, <a href="https://www.cisco.com/c/en/us/products/security/vpn-endpoint-security-clients/what-is-vpn.html">VPN</a></li>
-<li>Inventory - <a href="https://docs.netbox.dev/en/stable/">NetBox</a></li>
-</ul>
-</li>
-<li>
-<p>Power</p>
-<ul>
-<li>Providers</li>
-<li>Sources and capabilities
-<ul>
-<li>Solar</li>
-<li>Wind</li>
-<li>Generator</li>
-<li>Grid</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<p>Computing Devices</p>
-<ul>
-<li>Hardware and identification</li>
-<li>Virtual network endpoints</li>
-</ul>
-</li>
-<li>
-<p>Definition of components</p>
-<ul>
-<li>What makes up a device</li>
-<li>Setting limits and boundaries for spaces</li>
-<li>Continuous integration and deployment</li>
-</ul>
-</li>
-<li>
-<p>Secure communication capability</p>
-<ul>
-<li>Channel between nodes</li>
-<li>Command and control separation</li>
-<li><a href="https://webofidentity.com/blog/self-sovereign-digital-identity/">Identity and Access Management</a></li>
-<li><a href="http://neilsculthorpe.com/publications/safe-efficient-FRP.pdf">FRP</a></li>
-</ul>
-</li>
-<li>
-<p>Persistance</p>
-<ul>
-<li><a href="/library/sor">System of Record</a> binding multiple <a href="/library/sot">Sources of Truth</a></li>
-<li><a href="https://www.geeksforgeeks.org/what-is-cqrs/">Command, Query, Response Segregation</a> + <a href="/library/event-sourcing.md">Event Sourcing</a></li>
-<li>Content-Addressing <a href="https://ipfs.io">IPFS</a></li>
-<li>addressable blocks <a href="https://ipld.io">IPLD</a></li>
-</ul>
-</li>
-<li>
-<p>Proofs</p>
-<ul>
-<li>Proofs of operations
-<ul>
-<li><a href="https://typedefs.com/">How does it work</a></li>
-</ul>
-</li>
-<li>monitoring
-<ul>
-<li><a href="https://checkmk.com/">Show me that it works</a></li>
-</ul>
-</li>
-<li>causality
-<ul>
-<li><a href="https://www.amazon.com/Book-Why-Science-Cause-Effect/dp/046509760X">What made it do that</a></li>
-</ul>
-</li>
-<li>game theory
-<ul>
-<li><a href="https://arxiv.org/abs/1711.07059v2">What if it does this</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ol>
+<p>And to prove that this all works, we use <a href="/library/applied-category-theory">Applied Category Theory</a> 
+<img src="/img/applied-category-theory.png" alt="Applied Category Theory" /> </p>
+<h2 id="next">Next</h2>
+<p><a href="/library/building-a-cim">Building a Composable Information Machine</a></p>
 
   </div>
   

@@ -8,6 +8,101 @@
 	<updated>2022-08-03T00:00:00+00:00</updated>
 	<id>/atom.xml</id>
 	<entry xml:lang="en">
+		<title>Building a Composable Information Machine</title>
+		<published>2022-08-03T00:00:00+00:00</published>
+		<updated>2022-08-03T00:00:00+00:00</updated>
+		<link rel="alternate" href="/articles/building-a-cim/" type="text/html"/>
+		<id>/articles/building-a-cim/</id>
+		<content type="html">&lt;div class=&quot;sidenav&quot;&gt;
+&lt;h2 id=&quot;building-a-composable&quot;&gt;Building a Composable&lt;&#x2F;h2&gt;
+&lt;p&gt;Information Machine&lt;&#x2F;p&gt;
+&lt;p&gt;This is the outline we will follow:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;h2 id=&quot;definition-and-design&quot;&gt;Definition and Design&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Structure - &lt;a href=&quot;https:&#x2F;&#x2F;typedefs.com&quot;&gt;Type System&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Mapping and flow - &lt;a href=&quot;https:&#x2F;&#x2F;n8n.io&quot;&gt;n8n&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;documentation - &lt;a href=&quot;https:&#x2F;&#x2F;docs.netbox.dev&#x2F;en&#x2F;stable&#x2F;&quot;&gt;NetBox&lt;&#x2F;a&gt; and &lt;a href=&quot;https:&#x2F;&#x2F;git-scm.com&quot;&gt;git&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Content-Addressing - &lt;a href=&quot;https:&#x2F;&#x2F;ipld.io&quot;&gt;IPLD&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;h2 id=&quot;software-defined-network&quot;&gt;Software Defined Network&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;library&#x2F;conceptual-spaces&quot;&gt;relationships&lt;&#x2F;a&gt; of compute resources&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.infoblox.com&#x2F;glossary&#x2F;ipam-ip-address-management&#x2F;&quot;&gt;IPAM&lt;&#x2F;a&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;www.guru99.com&#x2F;vlan-definition-types-advantages.html&quot;&gt;VLAN&lt;&#x2F;a&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;www.cloudflare.com&#x2F;learning&#x2F;dns&#x2F;what-is-dns&#x2F;&quot;&gt;DNS&lt;&#x2F;a&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;www.lifewire.com&#x2F;what-is-dhcp-2625848&quot;&gt;DHCP&lt;&#x2F;a&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;www.cisco.com&#x2F;c&#x2F;en&#x2F;us&#x2F;products&#x2F;security&#x2F;vpn-endpoint-security-clients&#x2F;what-is-vpn.html&quot;&gt;VPN&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Inventory - &lt;a href=&quot;https:&#x2F;&#x2F;docs.netbox.dev&#x2F;en&#x2F;stable&#x2F;&quot;&gt;NetBox&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;h2 id=&quot;power&quot;&gt;Power&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Sources and capabilities
+&lt;ul&gt;
+&lt;li&gt;Solar&lt;&#x2F;li&gt;
+&lt;li&gt;Wind&lt;&#x2F;li&gt;
+&lt;li&gt;Generator&lt;&#x2F;li&gt;
+&lt;li&gt;Grid&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;h2 id=&quot;computing-devices&quot;&gt;Computing Devices&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Hardware and identification&lt;&#x2F;li&gt;
+&lt;li&gt;Virtual network endpoints&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;h2 id=&quot;definition-of-components&quot;&gt;Definition of components&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;docs.netbox.dev&#x2F;en&#x2F;stable&#x2F;core-functionality&#x2F;device-types&#x2F;&quot;&gt;What makes up a device&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Setting &lt;a href=&quot;&#x2F;library&#x2F;limits&quot;&gt;limits&lt;&#x2F;a&gt; and &lt;a href=&quot;&#x2F;library&#x2F;boundaries&quot;&gt;boundaries&lt;&#x2F;a&gt; for spaces&lt;&#x2F;li&gt;
+&lt;li&gt;Continuous integration and deployment&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;h2 id=&quot;secure-communication&quot;&gt;Secure communication&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Private, queued, bus channel between nodes&lt;&#x2F;li&gt;
+&lt;li&gt;Command and control separation (different private channels)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;webofidentity.com&#x2F;blog&#x2F;self-sovereign-digital-identity&#x2F;&quot;&gt;Identity and Access Management&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;http:&#x2F;&#x2F;neilsculthorpe.com&#x2F;publications&#x2F;safe-efficient-FRP.pdf&quot;&gt;FRP&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;h2 id=&quot;persistance&quot;&gt;Persistance&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;library&#x2F;sor&quot;&gt;System of Record&lt;&#x2F;a&gt; binding multiple &lt;a href=&quot;&#x2F;library&#x2F;sot&quot;&gt;Sources of Truth&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.geeksforgeeks.org&#x2F;what-is-cqrs&#x2F;&quot;&gt;Command, Query, Response Segregation&lt;&#x2F;a&gt; + &lt;a href=&quot;&#x2F;library&#x2F;event-sourcing.md&quot;&gt;Event Sourcing&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Content-Addressing &lt;a href=&quot;https:&#x2F;&#x2F;ipfs.io&quot;&gt;IPFS&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;addressable blocks &lt;a href=&quot;https:&#x2F;&#x2F;ipld.io&quot;&gt;IPLD&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;h2 id=&quot;proofs&quot;&gt;Proofs&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Proofs of operations
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;typedefs.com&#x2F;&quot;&gt;How does it work&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;monitoring
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;checkmk.com&#x2F;&quot;&gt;Show me that it works&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;causality
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.amazon.com&#x2F;Book-Why-Science-Cause-Effect&#x2F;dp&#x2F;046509760X&quot;&gt;What made it do that&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;game theory
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;1711.07059v2&quot;&gt;What if it does this&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;&#x2F;div&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
 		<title>Composable Information Machine</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
@@ -17,9 +112,7 @@
 &lt;p&gt;A &lt;a href=&quot;https:&#x2F;&#x2F;www.splunk.com&#x2F;en_us&#x2F;data-insider&#x2F;what-are-distributed-systems.html&quot;&gt;distributed&lt;&#x2F;a&gt; knowledge encapsulation system based on &lt;a href=&quot;https:&#x2F;&#x2F;codedocs.org&#x2F;what-is&#x2F;functional-reactive-programming&quot;&gt;Functional Reactive Programming&lt;&#x2F;a&gt; and &lt;a href=&quot;https:&#x2F;&#x2F;www.eventstore.com&#x2F;blog&#x2F;what-is-event-sourcing&quot;&gt;Event Sourcing&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;img&#x2F;cim.svg&quot; alt=&quot;diagram of a cim&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;We have achieved something extraordinary in the &lt;a href=&quot;https:&#x2F;&#x2F;www.ithistory.org&#x2F;&quot;&gt;last 50 years of Information Technology&lt;&#x2F;a&gt;. IT became tiny and affordable to everyone. &lt;img src=&quot;&#x2F;articles&#x2F;cim&#x2F;pistock.jpg&quot; alt=&quot;Pi Stock&quot; &#x2F;&gt; I can buy a $5 postage stamp sized computer that can do enough processing to do real work and it&#x27;s widely available. &lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;img&#x2F;starlink-dish.jpg&quot; alt=&quot;Starlink dish&quot; &#x2F;&gt;
-The &#x27;network&#x27; is now ubiquitous with providers like &lt;a href=&quot;https:&#x2F;&#x2F;starlink.com&quot;&gt;StarLink&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;We have achieved something extraordinary in the &lt;a href=&quot;https:&#x2F;&#x2F;www.ithistory.org&#x2F;&quot;&gt;last 50 years of Information Technology&lt;&#x2F;a&gt;. IT became tiny and affordable to everyone. &lt;img src=&quot;&#x2F;articles&#x2F;cim&#x2F;pistock.png&quot; alt=&quot;Pi Stock&quot; &#x2F;&gt; I can buy a $5 postage stamp sized computer that can do enough processing to do real work and it&#x27;s widely available. &lt;&#x2F;p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;The universe is made of &lt;a href=&quot;&#x2F;library&#x2F;events&quot;&gt;events&lt;&#x2F;a&gt; not objects - &lt;a href=&quot;https:&#x2F;&#x2F;www.closertotruth.com&#x2F;interviews&#x2F;55727&quot;&gt;Carlo Rovelli&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
@@ -29,11 +122,12 @@ The &#x27;network&#x27; is now ubiquitous with providers like &lt;a href=&quot;h
 &lt;blockquote&gt;
 &lt;p&gt;We want a &lt;a href=&quot;&#x2F;library&#x2F;cim&quot;&gt;Composable Information Machine&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;img&#x2F;cim.svg&quot; alt=&quot;diagram of a cim&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;Expect several &lt;a href=&quot;&#x2F;library&#x2F;sot&quot;&gt;Sources of Truth&lt;&#x2F;a&gt; connected to several &lt;a href=&quot;&#x2F;library&#x2F;sor&quot;&gt;Systems of Record&lt;&#x2F;a&gt; with a secure &lt;a href=&quot;https:&#x2F;&#x2F;www.merriam-webster.com&#x2F;dictionary&#x2F;peer-to-peer&quot;&gt;peer-to-peer&lt;&#x2F;a&gt; network where we control the peers and the channels.&lt;&#x2F;p&gt;
+&lt;p&gt;We connect several &lt;a href=&quot;&#x2F;library&#x2F;sot&quot;&gt;Sources of Truth&lt;&#x2F;a&gt; to several &lt;a href=&quot;&#x2F;library&#x2F;sor&quot;&gt;Systems of Record&lt;&#x2F;a&gt; with a secure &lt;a href=&quot;https:&#x2F;&#x2F;www.merriam-webster.com&#x2F;dictionary&#x2F;peer-to-peer&quot;&gt;peer-to-peer&lt;&#x2F;a&gt; network where we control the peers and the channels. &lt;strong&gt;Everything can suddenly and securely talk.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;incorporate-information-decisions-into-our-daily-lives&quot;&gt;Incorporate information decisions into our daily lives&lt;&#x2F;h2&gt;
 &lt;p&gt;Currently we spend far to much time processing information that &lt;em&gt;&lt;a href=&quot;https:&#x2F;&#x2F;n8n.io&quot;&gt;could be fully automated&lt;&#x2F;a&gt;&lt;&#x2F;em&gt;. We can process information that exists all over the internet and obtain sensor input from all over the universe. Instead of re-centralizing or relocating all that information we can now adapt a new process to utilize it and optimize where it sits. Once we put everything in the cloud, retrieving it all at once becomes an impossible feat, even moving it around can become exceedingly difficult.&lt;&#x2F;p&gt;
-&lt;p&gt;We now have much better understanding of our cognitive abilities and how we are built than we did a hundred years ago when they were developing the theories used in our current computing process flows. We didn&#x27;t know what &lt;a href=&quot;https:&#x2F;&#x2F;medlineplus.gov&#x2F;genetics&#x2F;understanding&#x2F;basics&#x2F;dna&#x2F;&quot;&gt;DNA&lt;&#x2F;a&gt; was when the &lt;a href=&quot;https:&#x2F;&#x2F;ethw.org&#x2F;UNIVAC&quot;&gt;Univac&lt;&#x2F;a&gt; was built, yet we still use this same fundamental architecture today.&lt;&#x2F;p&gt;
+&lt;p&gt;The &#x27;network&#x27; is now ubiquitous with providers like &lt;a href=&quot;https:&#x2F;&#x2F;starlink.com&quot;&gt;StarLink&lt;&#x2F;a&gt;.
+&lt;img src=&quot;&#x2F;img&#x2F;starlink-dish.jpg&quot; alt=&quot;Starlink dish&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Today, we have much better understanding of our cognitive abilities and how we are built than we did a hundred years ago when they were developing the theories used in our current computing process flows. We didn&#x27;t know what &lt;a href=&quot;&#x2F;library&#x2F;dna&quot;&gt;DNA&lt;&#x2F;a&gt; was when the &lt;a href=&quot;https:&#x2F;&#x2F;ethw.org&#x2F;UNIVAC&quot;&gt;Univac&lt;&#x2F;a&gt; was built, yet we still use this same fundamental architecture today.&lt;&#x2F;p&gt;
 &lt;p&gt;Self-assembly, replication and identification are key ideas that &lt;a href=&quot;&#x2F;library&#x2F;dna&quot;&gt;DNA&lt;&#x2F;a&gt; helps to handle in biology. We have the same needs for information. &lt;a href=&quot;&#x2F;library&#x2F;information-theory&quot;&gt;Information Theory&lt;&#x2F;a&gt; taught us how the math works to communicate information, however, structuring it has led to countless debate.&lt;&#x2F;p&gt;
 &lt;p&gt;We will be using a style of structuring based on &lt;a href=&quot;https:&#x2F;&#x2F;proto.school&#x2F;merkle-dags&quot;&gt;Merkle DAGs&lt;&#x2F;a&gt; and accessing them as &lt;a href=&quot;https:&#x2F;&#x2F;docs.ipfs.tech&#x2F;how-to&#x2F;work-with-blocks&#x2F;&quot;&gt;Block Storage&lt;&#x2F;a&gt; in a &lt;a href=&quot;https:&#x2F;&#x2F;ncatlab.org&#x2F;nlab&#x2F;show&#x2F;metric+space&quot;&gt;Metric Space&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;img&#x2F;hashTree.svg&quot; alt=&quot;hash tree&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
@@ -71,100 +165,10 @@ The &#x27;network&#x27; is now ubiquitous with providers like &lt;a href=&quot;h
 &lt;p&gt;We will use the current NetBox data model as a READ Model for &lt;a href=&quot;&#x2F;library&#x2F;irm&quot;&gt;IRM&lt;&#x2F;a&gt;. The Write Model is an abstraction we will create. We could &lt;a href=&quot;https:&#x2F;&#x2F;openapi-generator.tech&#x2F;docs&#x2F;generators&#x2F;rust&#x2F;&quot;&gt;abstract an API in Rust&lt;&#x2F;a&gt; for our use with the Read Model, but there is one already built we can start from: &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;AmaranthosLabs&#x2F;rust-netbox&quot;&gt;rust-netbox&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;Changes to NetBox directly can be immediately supported with &lt;a href=&quot;https:&#x2F;&#x2F;n8n.io&quot;&gt;n8n&lt;&#x2F;a&gt;. Writes will be sent to an &lt;a href=&quot;&#x2F;library&#x2F;event-store&quot;&gt;Event Store&lt;&#x2F;a&gt; with the API of NetBox and our &lt;a href=&quot;https:&#x2F;&#x2F;typedefs.com&quot;&gt;Type System&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;Projections from the &lt;a href=&quot;&#x2F;library&#x2F;event-store&quot;&gt;Event Store&lt;&#x2F;a&gt; cause various actions (frequently modeled and tested in &lt;a href=&quot;https:&#x2F;&#x2F;n8n.io&quot;&gt;n8n&lt;&#x2F;a&gt; to be performed based on the nature of the Event. Events are Strongly Typed and form a &lt;a href=&quot;https:&#x2F;&#x2F;typedefs.com&quot;&gt;Type System&lt;&#x2F;a&gt; used throughout the &lt;a href=&quot;&#x2F;library&#x2F;cim&quot;&gt;Composable Information Machine&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
-&lt;p&gt;Let&#x27;s recap so far what we are doing.
-We are building a &lt;a href=&quot;&#x2F;library&#x2F;cim&quot;&gt;Composable Information Machine&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;We require the following in order to do so:&lt;&#x2F;p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Definition and Design&lt;&#x2F;p&gt;
-&lt;ul&gt;
-&lt;li&gt;Structure - &lt;a href=&quot;https:&#x2F;&#x2F;typedefs.com&quot;&gt;Type System&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;Mapping and flow - &lt;a href=&quot;https:&#x2F;&#x2F;n8n.io&quot;&gt;n8n&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;documentation - &lt;a href=&quot;https:&#x2F;&#x2F;docs.netbox.dev&#x2F;en&#x2F;stable&#x2F;&quot;&gt;NetBox&lt;&#x2F;a&gt; and &lt;a href=&quot;https:&#x2F;&#x2F;git-scm.com&quot;&gt;git&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;Content-Addressing - &lt;a href=&quot;https:&#x2F;&#x2F;ipld.io&quot;&gt;IPLD&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;&#x2F;li&gt;
-&lt;li&gt;
-&lt;p&gt;Software Defined Network&lt;&#x2F;p&gt;
-&lt;ul&gt;
-&lt;li&gt;relationships of compute resources&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.infoblox.com&#x2F;glossary&#x2F;ipam-ip-address-management&#x2F;&quot;&gt;IPAM&lt;&#x2F;a&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;www.guru99.com&#x2F;vlan-definition-types-advantages.html&quot;&gt;VLAN&lt;&#x2F;a&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;www.cloudflare.com&#x2F;learning&#x2F;dns&#x2F;what-is-dns&#x2F;&quot;&gt;DNS&lt;&#x2F;a&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;www.lifewire.com&#x2F;what-is-dhcp-2625848&quot;&gt;DHCP&lt;&#x2F;a&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;www.cisco.com&#x2F;c&#x2F;en&#x2F;us&#x2F;products&#x2F;security&#x2F;vpn-endpoint-security-clients&#x2F;what-is-vpn.html&quot;&gt;VPN&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;Inventory - &lt;a href=&quot;https:&#x2F;&#x2F;docs.netbox.dev&#x2F;en&#x2F;stable&#x2F;&quot;&gt;NetBox&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;&#x2F;li&gt;
-&lt;li&gt;
-&lt;p&gt;Power&lt;&#x2F;p&gt;
-&lt;ul&gt;
-&lt;li&gt;Providers&lt;&#x2F;li&gt;
-&lt;li&gt;Sources and capabilities
-&lt;ul&gt;
-&lt;li&gt;Solar&lt;&#x2F;li&gt;
-&lt;li&gt;Wind&lt;&#x2F;li&gt;
-&lt;li&gt;Generator&lt;&#x2F;li&gt;
-&lt;li&gt;Grid&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;&#x2F;li&gt;
-&lt;li&gt;
-&lt;p&gt;Computing Devices&lt;&#x2F;p&gt;
-&lt;ul&gt;
-&lt;li&gt;Hardware and identification&lt;&#x2F;li&gt;
-&lt;li&gt;Virtual network endpoints&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;&#x2F;li&gt;
-&lt;li&gt;
-&lt;p&gt;Definition of components&lt;&#x2F;p&gt;
-&lt;ul&gt;
-&lt;li&gt;What makes up a device&lt;&#x2F;li&gt;
-&lt;li&gt;Setting limits and boundaries for spaces&lt;&#x2F;li&gt;
-&lt;li&gt;Continuous integration and deployment&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;&#x2F;li&gt;
-&lt;li&gt;
-&lt;p&gt;Secure communication capability&lt;&#x2F;p&gt;
-&lt;ul&gt;
-&lt;li&gt;Channel between nodes&lt;&#x2F;li&gt;
-&lt;li&gt;Command and control separation&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;webofidentity.com&#x2F;blog&#x2F;self-sovereign-digital-identity&#x2F;&quot;&gt;Identity and Access Management&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;http:&#x2F;&#x2F;neilsculthorpe.com&#x2F;publications&#x2F;safe-efficient-FRP.pdf&quot;&gt;FRP&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;&#x2F;li&gt;
-&lt;li&gt;
-&lt;p&gt;Persistance&lt;&#x2F;p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;&#x2F;library&#x2F;sor&quot;&gt;System of Record&lt;&#x2F;a&gt; binding multiple &lt;a href=&quot;&#x2F;library&#x2F;sot&quot;&gt;Sources of Truth&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.geeksforgeeks.org&#x2F;what-is-cqrs&#x2F;&quot;&gt;Command, Query, Response Segregation&lt;&#x2F;a&gt; + &lt;a href=&quot;&#x2F;library&#x2F;event-sourcing.md&quot;&gt;Event Sourcing&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;Content-Addressing &lt;a href=&quot;https:&#x2F;&#x2F;ipfs.io&quot;&gt;IPFS&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;li&gt;addressable blocks &lt;a href=&quot;https:&#x2F;&#x2F;ipld.io&quot;&gt;IPLD&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;&#x2F;li&gt;
-&lt;li&gt;
-&lt;p&gt;Proofs&lt;&#x2F;p&gt;
-&lt;ul&gt;
-&lt;li&gt;Proofs of operations
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;typedefs.com&#x2F;&quot;&gt;How does it work&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;&#x2F;li&gt;
-&lt;li&gt;monitoring
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;checkmk.com&#x2F;&quot;&gt;Show me that it works&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;&#x2F;li&gt;
-&lt;li&gt;causality
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.amazon.com&#x2F;Book-Why-Science-Cause-Effect&#x2F;dp&#x2F;046509760X&quot;&gt;What made it do that&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;&#x2F;li&gt;
-&lt;li&gt;game theory
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;1711.07059v2&quot;&gt;What if it does this&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;&#x2F;li&gt;
-&lt;&#x2F;ul&gt;
-&lt;&#x2F;li&gt;
-&lt;&#x2F;ol&gt;
+&lt;p&gt;And to prove that this all works, we use &lt;a href=&quot;&#x2F;library&#x2F;applied-category-theory&quot;&gt;Applied Category Theory&lt;&#x2F;a&gt; 
+&lt;img src=&quot;&#x2F;img&#x2F;applied-category-theory.png&quot; alt=&quot;Applied Category Theory&quot; &#x2F;&gt; &lt;&#x2F;p&gt;
+&lt;h2 id=&quot;next&quot;&gt;Next&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;a href=&quot;&#x2F;library&#x2F;building-a-cim&quot;&gt;Building a Composable Information Machine&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
 	</entry>
 	<entry xml:lang="en">
@@ -298,12 +302,40 @@ We are building a &lt;a href=&quot;&#x2F;library&#x2F;cim&quot;&gt;Composable In
 </content>
 	</entry>
 	<entry xml:lang="en">
+		<title>Continuous Delivery</title>
+		<published>2022-08-03T00:00:00+00:00</published>
+		<updated>2022-08-03T00:00:00+00:00</updated>
+		<link rel="alternate" href="/library/cd/" type="text/html"/>
+		<id>/library/cd/</id>
+		<content type="html">&lt;p&gt;Continuous delivery (CD) is the ability to push new software into production multiple times per day, automating the delivery of applications to infrastructure environments. CD is part of DevOps, which helps shorten the software development lifecycle.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;reference&quot;&gt;reference&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.cisco.com&#x2F;c&#x2F;en&#x2F;us&#x2F;solutions&#x2F;data-center&#x2F;data-center-networking&#x2F;what-is-ci-cd.html&quot;&gt;What is CI&#x2F;CD?&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
 		<title>Chainable</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
 		<link rel="alternate" href="/library/chainable/" type="text/html"/>
 		<id>/library/chainable/</id>
 		<content type="html">&lt;p&gt;Things that can be chained together and composed&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Continuous Integration</title>
+		<published>2022-08-03T00:00:00+00:00</published>
+		<updated>2022-08-03T00:00:00+00:00</updated>
+		<link rel="alternate" href="/library/ci/" type="text/html"/>
+		<id>/library/ci/</id>
+		<content type="html">&lt;p&gt;The process of automating and integrating code changes and updates from many team members during software development. In CI, automated tools confirm that software code is valid and error-free before it&#x27;s integrated, which helps detect bugs and speed up new releases.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;reference&quot;&gt;reference&lt;&#x2F;h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.cisco.com&#x2F;c&#x2F;en&#x2F;us&#x2F;solutions&#x2F;data-center&#x2F;data-center-networking&#x2F;what-is-ci-cd.html&quot;&gt;What is CI&#x2F;CD?&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
 </content>
 	</entry>
 	<entry xml:lang="en">
@@ -496,6 +528,9 @@ for production level IT Environments. &lt;a href=&quot;https:&#x2F;&#x2F;github.
 		<id>/library/dna/</id>
 		<content type="html">&lt;p&gt;From Biology = dioxyribonucleic acid, the hereditary material in humans and almost all other organisms.&lt;&#x2F;p&gt;
 &lt;p&gt;Nearly every cell in the human body has the same DNA. Most DNA is located in the cell nucleus. It can replicate, or make copies of itself. Each strand of DNA in the double helix can serve as a pattern for duplicating the sequence of bases. This is critical when cells divide because each new cell needs to have an exact copy of the DNA present in the old cell. &lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;reference&quot;&gt;reference&lt;&#x2F;h4&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;medlineplus.gov&#x2F;genetics&#x2F;understanding&#x2F;basics&#x2F;dna&#x2F;&quot;&gt;What is DNA?&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
 	</entry>
 	<entry xml:lang="en">
