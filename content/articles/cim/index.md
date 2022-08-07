@@ -59,13 +59,22 @@ image = "FunctionalProg.png"
 
 > A [distributed](https://www.splunk.com/en_us/data-insider/what-are-distributed-systems.html) knowledge encapsulation system based on [Functional Reactive Programming](https://codedocs.org/what-is/functional-reactive-programming) and [Event Sourcing](https://www.eventstore.com/blog/what-is-event-sourcing).
 
+![diagram of a cim](/img/cim.svg)
+
+We have achieved something extraordinary in the [last 50 years of Information Technology](https://www.ithistory.org/). IT became tiny and affordable to everyone. ![Pi Stock](pistock.jpg) I can buy a $5 postage stamp sized computer that can do enough processing to do real work and it's widely available. 
+
+![Starlink dish](/img/starlink-dish.jpg)
+The 'network' is now ubiquitous with providers like [StarLink](https://starlink.com).
+
 > The universe is made of [events](/library/events) not objects - [Carlo Rovelli](https://www.closertotruth.com/interviews/55727)
 
 In less than a few centuries, our information devices have exploded from 1, our brain, to a few in books and physical objects, to thousands of digital and analog sources over our lifetimes. We need to participate in a world that is demanding more and more from us in order just to participate. 
 
-We need more knowledge, faster, more often, just to interact with our already stored and processed information. And it just keeps growing. From 2020 to 2025 it will grow from [64 to 180 zettabytes](https://www.statista.com/statistics/871513/worldwide-data-created/). Computing today requires lots of information and a way to interchange it effectively, lest *you* will be the interchange. We need a standard way to connect it, relate it and query it.
+Computing today requires lots of information and a way to interchange it effectively, lest *you* will be the interchange. We need a standard way to connect it, relate it and query it. 
 
-We want a [Composable Information Machine](/library/cim).
+We need more knowledge, faster, more often. From 2020 to 2025 it will grow from [64 to 180 zettabytes](https://www.statista.com/statistics/871513/worldwide-data-created/). 
+
+> We want a [Composable Information Machine](/library/cim).
 
 ![diagram of a cim](/img/cim.svg)
 
@@ -83,13 +92,13 @@ We will be using a style of structuring based on [Merkle DAGs](https://proto.sch
 
 ![hash tree](/img/hashTree.svg)
 
-Several current theories take us from the single machine to the connected network, on to a truly distributed machine.  Most of us aren't interested in becoming theoretical mathematicians or computer scientists, let alone linquists and statisticians just to understand our budget. We need an easier way to connect everything, without being subject to vendorization or great cost. Those interested may dive deeply into the theories that make up a [Composable Information Machine](/library/cim) we offer a wealth of connected understanding for the theories presented in [Docs](/doc).
+Several current theories take us from the single machine to the connected network, on to a truly distributed machine.  Most of us aren't interested in becoming theoretical mathematicians or computer scientists, let alone linquists and statisticians just to understand our budget. We need an easier way to connect everything, without being subject to vendorization or great cost. Those interested may dive deeply into the theories that make up a [Composable Information Machine](/library/cim) we offer a wealth of connected understanding for the theories presented in the [Library](/library).
 
 > ## I want to own, understand, process and protect my information
 
 Personal computers were supposed to be a tool for personal liberation, we achieved that. I now have dozens of computers in every room, data all over the internet and programming that goes back decades. Even though we have been talking about [convergence](/library/convergence) for 30 years, we never achieved it.
 
-It is now critical that we become able to understand our information and how it interacts with us and our environment.  We have achieved something extraordinary in the last 50 years of Information Technology. It became tiny and affordable to everyone. I can buy a $5 postage stamp sized computer that can do quite a bit of processing and it is widely available. The `network` is now ubiquitous with [StarLink](https://starlink.com).
+It is now critical that we become able to understand our information and how it interacts with us and our environment. 
 
 With some initial planning as to how we present and work with information we can come to an achievable whole greater than the sum of it's parts. 
    * It needs to be made from readily accessible and available components which can all be identified, encapsulated and connected. 
