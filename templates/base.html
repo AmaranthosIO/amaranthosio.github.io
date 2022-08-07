@@ -52,7 +52,7 @@
     {% if config.extra.banner %}
       <div class="w-100">
         <img src="{{get_url(path=config.extra.banner)}}" class="w-100" />
-        <img alt="{{config.title}}" src="{{get_url(path=config.extra.site_logo)}}" style="position: absolute; margin-top: 10px; margin-left: 10px;"/>
+        <img alt="{{config.title}}" src="{{get_url(path=config.extra.site_logo)}}" style="position: absolute; margin-top: 10px; margin-left: 10px; z-index: 9999;"/>
       </div>
     {% endif %}
     {% if config.extra.inverted and config.extra.bg == 'light' %}

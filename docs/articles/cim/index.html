@@ -31,7 +31,7 @@
     
       <div class="w-100">
         <img src="/img/banner.jpeg" class="w-100" />
-        <img alt="Amaranthos IO" src="/img/amaranthos.png" style="position: absolute; margin-top: 10px; margin-left: 10px;"/>
+        <img alt="Amaranthos IO" src="/img/amaranthos.png" style="position: absolute; margin-top: 10px; margin-left: 10px; z-index: 9999;"/>
       </div>
     
     
@@ -178,7 +178,7 @@
 <p>A <a href="https://www.splunk.com/en_us/data-insider/what-are-distributed-systems.html">distributed</a> knowledge encapsulation system based on <a href="https://codedocs.org/what-is/functional-reactive-programming">Functional Reactive Programming</a> and <a href="https://www.eventstore.com/blog/what-is-event-sourcing">Event Sourcing</a>.</p>
 </blockquote>
 <p><img src="/img/cim.svg" alt="diagram of a cim" /></p>
-<p>We have achieved something extraordinary in the <a href="https://www.ithistory.org/">last 50 years of Information Technology</a>. IT became tiny and affordable to everyone. <img src="/articles/cim/pistock.png" alt="Pi Stock" /> I can buy a $5 postage stamp sized computer that can do enough processing to do real work and it's widely available. </p>
+<p>We have achieved something extraordinary in the <a href="https://www.ithistory.org/">last 50 years of Information Technology</a>. IT became tiny and affordable to everyone. <img alt="pistock" src="pistock.png" style="width: 25%;"/> I can buy a $5 postage stamp sized computer that can do enough processing to do real work and it's widely available. </p>
 <blockquote>
 <p>The universe is made of <a href="/library/events">events</a> not objects - <a href="https://www.closertotruth.com/interviews/55727">Carlo Rovelli</a></p>
 </blockquote>
@@ -192,7 +192,7 @@
 <h2 id="incorporate-information-decisions-into-our-daily-lives">Incorporate information decisions into our daily lives</h2>
 <p>Currently we spend far to much time processing information that <em><a href="https://n8n.io">could be fully automated</a></em>. We can process information that exists all over the internet and obtain sensor input from all over the universe. Instead of re-centralizing or relocating all that information we can now adapt a new process to utilize it and optimize where it sits. Once we put everything in the cloud, retrieving it all at once becomes an impossible feat, even moving it around can become exceedingly difficult.</p>
 <p>The 'network' is now ubiquitous with providers like <a href="https://starlink.com">StarLink</a>.
-<img src="/img/starlink-dish.jpg" alt="Starlink dish" /></p>
+<img alt="StarLink Dish" src="/img/starlink-dish.jpg" style="width: 75%;"/></p>
 <p>Today, we have much better understanding of our cognitive abilities and how we are built than we did a hundred years ago when they were developing the theories used in our current computing process flows. We didn't know what <a href="/library/dna">DNA</a> was when the <a href="https://ethw.org/UNIVAC">Univac</a> was built, yet we still use this same fundamental architecture today.</p>
 <p>Self-assembly, replication and identification are key ideas that <a href="/library/dna">DNA</a> helps to handle in biology. We have the same needs for information. <a href="/library/information-theory">Information Theory</a> taught us how the math works to communicate information, however, structuring it has led to countless debate.</p>
 <p>We will be using a style of structuring based on <a href="https://proto.school/merkle-dags">Merkle DAGs</a> and accessing them as <a href="https://docs.ipfs.tech/how-to/work-with-blocks/">Block Storage</a> in a <a href="https://ncatlab.org/nlab/show/metric+space">Metric Space</a>.</p>
@@ -231,8 +231,8 @@
 <p>We will use the current NetBox data model as a READ Model for <a href="/library/irm">IRM</a>. The Write Model is an abstraction we will create. We could <a href="https://openapi-generator.tech/docs/generators/rust/">abstract an API in Rust</a> for our use with the Read Model, but there is one already built we can start from: <a href="https://github.com/AmaranthosLabs/rust-netbox">rust-netbox</a>.</p>
 <p>Changes to NetBox directly can be immediately supported with <a href="https://n8n.io">n8n</a>. Writes will be sent to an <a href="/library/event-store">Event Store</a> with the API of NetBox and our <a href="https://typedefs.com">Type System</a>.</p>
 <p>Projections from the <a href="/library/event-store">Event Store</a> cause various actions (frequently modeled and tested in <a href="https://n8n.io">n8n</a> to be performed based on the nature of the Event. Events are Strongly Typed and form a <a href="https://typedefs.com">Type System</a> used throughout the <a href="/library/cim">Composable Information Machine</a>.</p>
-<p>And to prove that this all works, we use <a href="/library/applied-category-theory">Applied Category Theory</a> 
-<img src="/img/applied-category-theory.png" alt="Applied Category Theory" /> </p>
+<p>And to prove that this all works, we use <a href="/library/applied-category-theory">Applied Category Theory</a> </p>
+<img alt="Applied Category Theory" src="/img/applied-category-theory.png" style="width: 75%;"/>
 <h2 id="next">Next</h2>
 <p><a href="/library/building-a-cim">Building a Composable Information Machine</a></p>
 

@@ -61,7 +61,7 @@ image = "FunctionalProg.png"
 
 ![diagram of a cim](/img/cim.svg)
 
-We have achieved something extraordinary in the [last 50 years of Information Technology](https://www.ithistory.org/). IT became tiny and affordable to everyone. ![Pi Stock](pistock.png) I can buy a $5 postage stamp sized computer that can do enough processing to do real work and it's widely available. 
+We have achieved something extraordinary in the [last 50 years of Information Technology](https://www.ithistory.org/). IT became tiny and affordable to everyone. <img alt="pistock" src="pistock.png" style="width: 25%;"/> I can buy a $5 postage stamp sized computer that can do enough processing to do real work and it's widely available. 
 
 > The universe is made of [events](/library/events) not objects - [Carlo Rovelli](https://www.closertotruth.com/interviews/55727)
 
@@ -80,7 +80,7 @@ We connect several [Sources of Truth](/library/sot) to several [Systems of Recor
 Currently we spend far to much time processing information that *[could be fully automated](https://n8n.io)*. We can process information that exists all over the internet and obtain sensor input from all over the universe. Instead of re-centralizing or relocating all that information we can now adapt a new process to utilize it and optimize where it sits. Once we put everything in the cloud, retrieving it all at once becomes an impossible feat, even moving it around can become exceedingly difficult.
 
 The 'network' is now ubiquitous with providers like [StarLink](https://starlink.com).
-![Starlink dish](/img/starlink-dish.jpg)
+<img alt="StarLink Dish" src="/img/starlink-dish.jpg" style="width: 50%;"/>
 
 Today, we have much better understanding of our cognitive abilities and how we are built than we did a hundred years ago when they were developing the theories used in our current computing process flows. We didn't know what [DNA](/library/dna) was when the [Univac](https://ethw.org/UNIVAC) was built, yet we still use this same fundamental architecture today.
 
@@ -138,7 +138,8 @@ Changes to NetBox directly can be immediately supported with [n8n](https://n8n.i
 Projections from the [Event Store](/library/event-store) cause various actions (frequently modeled and tested in [n8n](https://n8n.io) to be performed based on the nature of the Event. Events are Strongly Typed and form a [Type System](https://typedefs.com) used throughout the [Composable Information Machine](/library/cim).
 
 And to prove that this all works, we use [Applied Category Theory](/library/applied-category-theory) 
-![Applied Category Theory](/img/applied-category-theory.png) 
+
+<img alt="Applied Category Theory" src="/img/applied-category-theory.png" style="width: 75%;"/>
 
 
 ## Next
