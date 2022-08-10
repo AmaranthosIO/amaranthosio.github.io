@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+{% block title %}{{page.title}} | {{config.title}}{% endblock %}
+{% block image %}
+<div class="w-100">
+  <img src="{{get_url(path=config.extra.banner)}}" class="w-100" />
+</div>
+{% endblock %}
+{% block content %}
+  <h1>{{page.title}}</h1>
+  {% if page.taxonomies.tags %}
+  <p>
+    {% for tag in page.taxonomies.tags %}
+      <a
+        href="{{get_taxonomy_url(kind="tags", name=tag)}}"
+        class="badge bg-dark text-decoration-none link-light me-1"
+      >
+        {{tag}}
+      </a>
+    {% endfor %}
+  </p>
+  {% endif %}
+
+  {# master detail for chapters #}
+
+  <div class="container-fluid">
+    <div class="row">
+       <div id="master" class="col-sm-4">  
+        {% if page.extra.chapters %}
+
+        {% set chapters = load_data(path=page.extra.chapters, format="json") %}
+        {% endif %}
+        {% if chapters %}
+        {{chapters | safe}}
+        <ul>
+          {% for chapter in chapters %}
+          <li>
+            <div class="row">
+            <div class="col-sm-2">
+              <img src="{{get_url(path=chapter.image)}}" />
+            </div>
+            <div class="col-fluid offset-sm-2">
+              <h3>{{chapter.title}}</h3>
+            </div>
+            <dl>
+              <dt><a href="{{chapter.url | safe}}" target="detail-frame">{{chapter.name | safe}}</a></dt>
+              <dd>{{chapter.description | safe}}</dd>
+              {% if chapter.links %}
+                <dl>
+                  {% for link in chapter.links %}
+                  <dt><a href="{{link.url | safe}}" target="detail-frame">{{link.name | safe}}</a></dt>
+                  <dd>{{link.description | safe}}</dd>
+                  {% endfor %}
+                  </dl>
+              {% endif %}        
+          </li>
+          {% endfor %}
+        </ul>
+        {% else %}
+          <h4>No Chapters Found</h4>
+          <p>
+            {{page.extra.chapters}}
+          </p>
+          <div>
+            {{ __tera_context }}
+          </div>
+        {% endif %}
+      </div>
+      <div id="detail" class="col-xxl offset-sm-4">
+        <iframe name="detail-frame" href=""></iframe>
+      </div>
+    </div>
+ </div>
+{% endblock %}
+
+{% block scripts %}
+{% endblock %}

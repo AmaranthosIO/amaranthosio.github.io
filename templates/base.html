@@ -52,7 +52,11 @@
     {% if config.extra.banner %}
       <div class="w-100">
         <img src="{{get_url(path=config.extra.banner)}}" class="w-100" />
-        <img alt="{{config.title}}" src="{{get_url(path=config.extra.site_logo)}}" style="position: absolute; margin-top: 10px; margin-left: 10px; z-index: 9999;"/>
+      </div>
+      <div style="position: absolute; margin-top: 5px; margin-left: 5px; z-index: 9999;">
+        <a href="{{config.base_url}}" title="{{config.description}}">
+          <img alt="{{config.title}}" src="{{get_url(path=config.extra.site_logo)}}" />
+        </a>
       </div>
     {% endif %}
     {% if config.extra.inverted and config.extra.bg == 'light' %}
@@ -174,7 +178,7 @@
       text-center
       text-{% if nav_type == "dark" %}white{% else %}black{% endif %}
     ">
-      {% if config.copyright %}
+      {% if config.extra.copyright %}
       <h4 class="border-bottom border-primary border-2 text-uppercase mt-5 fw-bold">
         {{config.copyright}}
       </h4>

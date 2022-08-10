@@ -7,7 +7,7 @@ description = "We deliver your most important information"
 copyright = "Copyright %copy; Amaranthos IO, LLC. 2022-2022"
 generate_feed = true
 output_dir = "docs"
-theme = "zolastrap"
+theme = ""
 
 taxonomies = [
   {name = "tags", paginate_by = 5},
@@ -51,10 +51,10 @@ tags = 'Posts by Topics'
 
 links = [
 	{title = 'Articles', url = 'articles'},
-  {title = 'Authors', url = 'authors'},
   {title = 'Tooling', url = 'tools'},
   {title = 'Library', url = 'library'},
 	{title = 'Topics', url = 'tags'},
+  {title = 'People', url = 'authors'},
 	{title = 'About', url = 'about'}
 ]
 email = "info@amaranthos.io"

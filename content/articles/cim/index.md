@@ -143,6 +143,6 @@ And to prove that this all works, we use [Applied Category Theory](/library/appl
 
 
 ## Next
-[Building a Composable Information Machine](/library/building-a-cim)
+[Building a Composable Information Machine](/articles/building-a-cim)
 
 
