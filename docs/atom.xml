@@ -3,7 +3,7 @@
 	<title>Amaranthos IO</title>
 	<subtitle>We deliver your most important information</subtitle>
 	<link href="https://amaranthos.io/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="https://amaranthos.io"/>
+  <link href="https://amaranthos.io/"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
 	<updated>2022-08-09T00:00:00+00:00</updated>
 	<id>https://amaranthos.io/atom.xml</id>
