@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://amaranthos.io"
+base_url = "https://amaranthos.io/"
 
 title = "Amaranthos IO"
 description = "We deliver your most important information"
