@@ -9,8 +9,11 @@ template = "library.html"
 +++
 Formalizes mathematical structure and its concepts in terms of a labeled directed graph called a category - [wikipedia](https://en.wikipedia.org/wiki/Category_theory)
 
-+++
-#### reference
+---
+
+#### References
+
+---
 
 [Category Theory](https://ncatlab.org/nlab/show/category+theory)
 

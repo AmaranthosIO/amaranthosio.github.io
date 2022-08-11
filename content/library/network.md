@@ -9,7 +9,10 @@ template = "library.html"
 +++
 A structured collection of computing devices.
 
-+++
-#### references
+---
+
+#### References
+
+---s
 
 [What is a Network?](https://fcit.usf.edu/network/chap1/chap1.htm)

@@ -30,7 +30,7 @@
          "name": "Chapter 2",
          "title": "System of Record",
          "description": "Defining the Machine - What do we keep?",
-         "image":"/img/cimTruth.svg",
+         "image":"/img/cimTruth.png",
          "links": [{
             "name": "APIs",
             "url": "/library/api",
@@ -40,7 +40,7 @@
          "name": "Chapter 3",
          "title": "Chapter 3",
          "description": "chapter 3",
-         "image":"/img/amaranthos.img",
+         "image":"/img/amaranthos.png",
          "links": [{
             "name": "link1",
             "url": "/library/cim",
@@ -50,7 +50,7 @@
          "name": "Chapter 4",
          "title": "Chapter 4",
          "description": "chapter 4",
-         "image":"/img/amaranthos.img",
+         "image":"/img/amaranthos.png",
          "links": [{
             "name": "link1",
             "url": "/library/cim",
@@ -60,7 +60,7 @@
          "name": "Chapter 5",
          "title": "Chapter 5",
          "description": "chapter 5",
-         "image":"/img/amaranthos.img",
+         "image":"/img/amaranthos.png",
          "links": [{
             "name": "link1",
             "url": "/library/cim",
@@ -70,7 +70,7 @@
          "name": "Chapter 6",
          "title": "Chapter 6",
          "description": "chapter 6",
-         "image":"/img/amaranthos.img",
+         "image":"/img/amaranthos.png",
          "links": [{
             "name": "link1",
             "url": "/library/cim",
@@ -80,7 +80,7 @@
          "name": "Chapter 7",
          "title": "Chapter 7",
          "description": "chapter 7",
-         "image":"/img/amaranthos.img",
+         "image":"/img/amaranthos.png",
          "links": [{
             "name": "link1",
             "url": "/library/cim",
@@ -90,7 +90,7 @@
          "name": "Chapter 8",
          "title": "Chapter 8",
          "description": "chapter 8",
-         "image":"/img/amaranthos.img",
+         "image":"/img/amaranthos.png",
          "links": [{
             "name": "link1",
             "url": "/library/cim",

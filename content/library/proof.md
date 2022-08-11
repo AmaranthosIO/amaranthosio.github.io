@@ -9,6 +9,9 @@ template = "library.html"
 +++
 A collection of valid arguments
 
-+++
-#### reference
+---
+
+#### References
+
+---
 [semantic demonstrations of validity](https://milnepublishing.geneseo.edu/concise-introduction-to-logic/chapter/4-proofs/)

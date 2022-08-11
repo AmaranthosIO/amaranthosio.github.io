@@ -10,6 +10,9 @@ template = "library.html"
 A command is an instruction, a directive to perform a specific task. It is an intention to change something. 
 The commands make up the write model, and the write model should be as close as possible to the business processes.
 
-+++
-#### reference
+---
+
+#### References
+
+---
 [Commands in CQRS](https://www.eventstore.com/cqrs-pattern)

@@ -15,8 +15,11 @@ I intend to start with a most basic system, a stock [Raspberry Pi 4B](raspberry-
 
 The idea is that we are building an infrastructure and we plan to store and maintain it for a long time.
 
-+++
-#### reference
+---
+
+#### References
+
+---
 
 Alternatives:
 [Maas](https://maas.io) and [Juju](https://juju.is) and [OpenStack](https://www.openstack.org/) work together to form [infrastructure resource management](irm). 

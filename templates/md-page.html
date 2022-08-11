@@ -1,6 +1,7 @@
 {% extends "base.html" %}
+{% import "macros/image.html" as image %}
 {% block title %}{{page.title}} | {{config.title}}{% endblock %}
-{% block image %}
+{% block banner %}
 <div class="w-100">
   <img src="{{get_url(path=config.extra.banner)}}" class="w-100" />
 </div>
@@ -27,46 +28,44 @@
        <div id="master" class="col-sm-4">  
         {% if page.extra.chapters %}
 
-        {% set chapters = load_data(path=page.extra.chapters, format="json") %}
-        {% endif %}
-        {% if chapters %}
-        {{chapters | safe}}
+        {% set_global chapter_data = load_data(path=page.extra.chapters) %}
+
+        {% if chapter_data.chapters %}
         <ul>
-          {% for chapter in chapters %}
+          {% for chapter in chapter_data.chapters %}
           <li>
-            <div class="row">
-            <div class="col-sm-2">
-              <img src="{{get_url(path=chapter.image)}}" />
-            </div>
-            <div class="col-fluid offset-sm-2">
-              <h3>{{chapter.title}}</h3>
+            <div>
+              <div class="row">
+                <div class="col-md-2">
+                  {{ image::render(src=chapter.image, alt=chapter.title) }}
+                </div>
+                <div class="col-fluid offset-md-2">
+                  <h3>{{chapter.title}}</h3>
+                </div>
+              </div>
             </div>
             <dl>
-              <dt><a href="{{chapter.url | safe}}" target="detail-frame">{{chapter.name | safe}}</a></dt>
-              <dd>{{chapter.description | safe}}</dd>
+              <dt>{{chapter.name | safe}}</dt>
+              <dd><h3>{{chapter.description | safe}}</h3>
               {% if chapter.links %}
                 <dl>
                   {% for link in chapter.links %}
                   <dt><a href="{{link.url | safe}}" target="detail-frame">{{link.name | safe}}</a></dt>
                   <dd>{{link.description | safe}}</dd>
                   {% endfor %}
-                  </dl>
+                </dl>
               {% endif %}        
+            </dd>
           </li>
           {% endfor %}
         </ul>
         {% else %}
           <h4>No Chapters Found</h4>
-          <p>
-            {{page.extra.chapters}}
-          </p>
-          <div>
-            {{ __tera_context }}
-          </div>
+        {% endif %}
         {% endif %}
       </div>
       <div id="detail" class="col-xxl offset-sm-4">
-        <iframe name="detail-frame" href=""></iframe>
+        <iframe name="detail-frame" href="{{get_url(path=chapter_data.chapters[0].links[0].url)}}"></iframe>
       </div>
     </div>
  </div>

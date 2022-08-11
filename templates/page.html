@@ -1,13 +1,13 @@
 {% extends "base.html" %}
-{% import "macros/authors.html" as authors %}
-{% import "macros/authorbox.html" as authorbox %}
+{% import "macros/people.html" as people %}
+{% import "macros/personbox.html" as personbox %}
 
 {% block title %}{{page.title}} | {{config.title}}{% endblock %}
 
 {% block content %}
   <h1>{{page.title}}</h1>
   <p class="text-muted">
-    {{authors::render(page=page)}}
+    {{people::render(page=page)}}
   </p>
   {% if page.taxonomies.tags %}
   <p>
@@ -24,21 +24,11 @@
   <div class="content">
     {{page.content | safe}}
   </div>
-  {% for author_slug in page.taxonomies.authors | default(value=[]) %}
-    {{authorbox::render(author_slug=author_slug)}}
+  {% for person_slug in page.taxonomies.people | default(value=[]) %}
+    {{personbox::render(person_slug=person_slug)}}
   {% endfor %}
 {% endblock %}
 
 {% block scripts %}
-  {% if config.extra.utterances %}
-  <script
-    src="https://utteranc.es/client.js"
-    repo="{{config.extra.utterances}}"
-    issue-term="{{config.extra.utterances_issue_term}}"
-    label="{{config.extra.utterances_label}}"
-    theme="{{config.extra.utterances_theme}}"
-    crossorigin="anonymous"
-    async
-  ></script>
-  {% endif %}
+
 {% endblock %}

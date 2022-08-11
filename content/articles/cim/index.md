@@ -49,7 +49,7 @@ template = "page.html"
 # tags = ["rust", "web"].
 [taxonomies]
   tags = ["cim", "composable", "act", "game theory"]
-  authors = ["steele"]
+  people = ["steele"]
 
 # Your own data.
 [extra]

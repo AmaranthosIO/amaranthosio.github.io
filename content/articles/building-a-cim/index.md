@@ -10,7 +10,7 @@ template = "md-page.html"
 
 [taxonomies]
   tags = ["cim", "composable", "act", "game theory", "devops"]
-  authors = ["steele"]
+  people = ["steele"]
 
 [extra]
    image = "limits-and-boundaries.webp"

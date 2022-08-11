@@ -11,7 +11,10 @@ template = "library.html"
 # Pattern Matching
 A defined sequence of [events](/library/events)
 
-+++
-#### reference
+---
+
+#### References
+
+---
 
 ["...when you experience anything in life, then your brain tries to make sense of it by matching it to something similar in the past, to give you the right emotional response."](https://www.unk.com/blog/most-important-psychological-insight-ever-learnt/) - Mark Tyrell

@@ -10,7 +10,10 @@ template = "library.html"
 
 The practice of building up a common, rigorous language between unique sets of people.
 
-+++
-#### reference
+---
+
+#### References
+
+---
 
 [Martin Fowler](https://www.martinfowler.com/bliki/UbiquitousLanguage.html)
