@@ -1,0 +1,7 @@
+{% macro render(src, alt, extra_classes="") %}
+  <img
+    src="{{src}}"
+    class="img-fluid m-auto d-block {{extra_classes}}"
+    alt="{{alt}}"
+  />
+{% endmacro %}

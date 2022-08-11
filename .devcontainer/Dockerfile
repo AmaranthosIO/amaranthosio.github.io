@@ -20,5 +20,5 @@ RUN mkdir -p /workspaces \
 
     #git clone https://github.com/amaranthosio/zolastrap.git
 
-
+EXPOSE 1024:1111
 

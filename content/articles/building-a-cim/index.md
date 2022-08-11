@@ -6,19 +6,18 @@ weight = 0
 draft = false
 in_search_index = true
 # Template to use to render this page.
-template = "page.html"
+template = "md-page.html"
+
 [taxonomies]
   tags = ["cim", "composable", "act", "game theory", "devops"]
-  authors = ["steele"]
+  people = ["steele"]
 
 [extra]
-image = "limits-and-boundaries.webp"
-
+   image = "limits-and-boundaries.webp"
+   chapters = "/articles/building-a-cim/chapters.json"
 +++
-<div class="sidenav">
 
-## Building a Composable 
-   Information Machine
+## Building a Composable Information Machine
 
 This is the outline we will follow:
 
@@ -63,5 +62,3 @@ This is the outline we will follow:
         * [What made it do that](https://www.amazon.com/Book-Why-Science-Cause-Effect/dp/046509760X)
       * game theory
         * [What if it does this](https://arxiv.org/abs/1711.07059v2)
-</div>
-

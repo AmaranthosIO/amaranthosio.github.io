@@ -9,7 +9,10 @@ template = "library.html"
 +++
 Objects in the category can be mapped.
 
-+++
-#### reference
+---
+
+#### References
+
+---
 
 Mathematical [Functor](/library/functor)

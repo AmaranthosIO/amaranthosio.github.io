@@ -3,17 +3,18 @@ title = "Applied Category Theory"
 date = 2022-08-03
 template = "library.html"
 [extra]
-#  image = cim.svg
+  image = "/img/applied-category-theory.png"
 [taxonomies]
-   tags = ["ubiquitous-language", "library", "concept"]
+   tags = ["ubiquitous-language", "library", "concept", "category theory"]
 +++
+Category theory is a branch of mathematics originally developed to transport ideas from one branch of mathematics to another, e.g. from topology to algebra. Applied category theory refers to efforts to transport the ideas of category theory from mathematics to other disciplines in science, engineering, and industry.
 
+---
 
-This book is an invitation to discover advanced topics in category theory through concrete, real-world examples. It aims to give a tour = a gentle, quick introduction to guide later exploration. The tour takes place over seven sketches, each pairing an evocative application, such as databases, electric circuits, or dynamical systems, with the exploration of a categorical structure, such as adjoint functors, enriched categories, or toposes.
+#### References
 
-
-![Applied Category Theory](/img/applied-category-theory.png)
-+++
-#### reference
+---
 
 [Applied Category Theory - PDF](https://arxiv.org/abs/1803.05316)
+
+[AppliedCategotyTheory.Org](https://www.appliedcategorytheory.org/)

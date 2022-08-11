@@ -9,7 +9,10 @@ template = "library.html"
 +++
 A result created by transforming [aggregates](aggregate) and aggregated information into a specific format. 
 
-+++
-#### reference
+---
+
+#### References
+
+---
 
 Usually modeled in [n8n](https://n8n.io)

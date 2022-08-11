@@ -9,7 +9,10 @@ template = "library.html"
 +++
 the ability to be collected in specified time and space.
 
-+++
-#### reference
+---
 
-a.k.a. [Monad](/library/monad)
+#### References
+
+---
+
+* a.k.a. [Monad](/library/monad)

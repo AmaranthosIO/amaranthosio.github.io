@@ -2,20 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 	<title>Amaranthos IO</title>
 	<subtitle>We deliver your most important information</subtitle>
-	<link href="/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="/"/>
+	<link href="https://amaranthos.io/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://amaranthos.io"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2022-08-03T00:00:00+00:00</updated>
-	<id>/atom.xml</id>
+	<updated>2022-08-09T00:00:00+00:00</updated>
+	<id>https://amaranthos.io/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Anti-Corruption Layer</title>
+		<published>2022-08-09T00:00:00+00:00</published>
+		<updated>2022-08-09T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://amaranthos.io/library/anti-corruption/" type="text/html"/>
+		<id>https://amaranthos.io/library/anti-corruption/</id>
+		<content type="html">&lt;p&gt;An external service will interact with an anti-corruption layer so we can translate from their semantics to ours. This means that if you have many different integrations, you may also have more than just one anti-corruption layer. Each anti-corruption layer will be responsible for handling the transaction for each specific 3rd party. - &lt;a href=&quot;https:&#x2F;&#x2F;codeopinion.com&#x2F;anti-corruption-layer-for-mapping-between-boundaries&#x2F;&quot;&gt;Derek Comartin&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;reference&quot;&gt;reference&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;From &lt;a href=&quot;https:&#x2F;&#x2F;thedomaindrivendesign.io&#x2F;what-is-ddd&#x2F;&quot;&gt;DDD&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>API</title>
+		<published>2022-08-09T00:00:00+00:00</published>
+		<updated>2022-08-09T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://amaranthos.io/library/api/" type="text/html"/>
+		<id>https://amaranthos.io/library/api/</id>
+		<content type="html">&lt;h2 id=&quot;application-programming-interface&quot;&gt;Application Programming Interface&lt;&#x2F;h2&gt;
+&lt;p&gt;Enables applications data and functionality to be exchanged with external entities. This enables communication between systems to share each other’s data and functionality in a documented way. Usually accompanied by an &lt;a href=&quot;&#x2F;library&#x2F;acl&quot;&gt;anti-corruption layer&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.geeksforgeeks.org&#x2F;introduction-to-apis&#x2F;&quot;&gt;Introduction to APIs&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+	</entry>
 	<entry xml:lang="en">
 		<title>Building a Composable Information Machine</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/articles/building-a-cim/" type="text/html"/>
-		<id>/articles/building-a-cim/</id>
-		<content type="html">&lt;div class=&quot;sidenav&quot;&gt;
-&lt;h2 id=&quot;building-a-composable&quot;&gt;Building a Composable&lt;&#x2F;h2&gt;
-&lt;p&gt;Information Machine&lt;&#x2F;p&gt;
+		<link rel="alternate" href="https://amaranthos.io/articles/building-a-cim/" type="text/html"/>
+		<id>https://amaranthos.io/articles/building-a-cim/</id>
+		<content type="html">&lt;h2 id=&quot;building-a-composable-information-machine&quot;&gt;Building a Composable Information Machine&lt;&#x2F;h2&gt;
 &lt;p&gt;This is the outline we will follow:&lt;&#x2F;p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;h2 id=&quot;definition-and-design&quot;&gt;Definition and Design&lt;&#x2F;h2&gt;
@@ -99,15 +124,14 @@
 &lt;&#x2F;ul&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
-&lt;&#x2F;div&gt;
 </content>
 	</entry>
 	<entry xml:lang="en">
 		<title>Composable Information Machine</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/articles/cim/" type="text/html"/>
-		<id>/articles/cim/</id>
+		<link rel="alternate" href="https://amaranthos.io/articles/cim/" type="text/html"/>
+		<id>https://amaranthos.io/articles/cim/</id>
 		<content type="html">&lt;blockquote&gt;
 &lt;p&gt;A &lt;a href=&quot;https:&#x2F;&#x2F;www.splunk.com&#x2F;en_us&#x2F;data-insider&#x2F;what-are-distributed-systems.html&quot;&gt;distributed&lt;&#x2F;a&gt; knowledge encapsulation system based on &lt;a href=&quot;https:&#x2F;&#x2F;codedocs.org&#x2F;what-is&#x2F;functional-reactive-programming&quot;&gt;Functional Reactive Programming&lt;&#x2F;a&gt; and &lt;a href=&quot;https:&#x2F;&#x2F;www.eventstore.com&#x2F;blog&#x2F;what-is-event-sourcing&quot;&gt;Event Sourcing&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
@@ -126,7 +150,7 @@
 &lt;h2 id=&quot;incorporate-information-decisions-into-our-daily-lives&quot;&gt;Incorporate information decisions into our daily lives&lt;&#x2F;h2&gt;
 &lt;p&gt;Currently we spend far to much time processing information that &lt;em&gt;&lt;a href=&quot;https:&#x2F;&#x2F;n8n.io&quot;&gt;could be fully automated&lt;&#x2F;a&gt;&lt;&#x2F;em&gt;. We can process information that exists all over the internet and obtain sensor input from all over the universe. Instead of re-centralizing or relocating all that information we can now adapt a new process to utilize it and optimize where it sits. Once we put everything in the cloud, retrieving it all at once becomes an impossible feat, even moving it around can become exceedingly difficult.&lt;&#x2F;p&gt;
 &lt;p&gt;The &#x27;network&#x27; is now ubiquitous with providers like &lt;a href=&quot;https:&#x2F;&#x2F;starlink.com&quot;&gt;StarLink&lt;&#x2F;a&gt;.
-&lt;img alt=&quot;StarLink Dish&quot; src=&quot;&#x2F;img&#x2F;starlink-dish.jpg&quot; style=&quot;width: 75%;&quot;&#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;img alt=&quot;StarLink Dish&quot; src=&quot;&#x2F;img&#x2F;starlink-dish.jpg&quot; style=&quot;width: 50%;&quot;&#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Today, we have much better understanding of our cognitive abilities and how we are built than we did a hundred years ago when they were developing the theories used in our current computing process flows. We didn&#x27;t know what &lt;a href=&quot;&#x2F;library&#x2F;dna&quot;&gt;DNA&lt;&#x2F;a&gt; was when the &lt;a href=&quot;https:&#x2F;&#x2F;ethw.org&#x2F;UNIVAC&quot;&gt;Univac&lt;&#x2F;a&gt; was built, yet we still use this same fundamental architecture today.&lt;&#x2F;p&gt;
 &lt;p&gt;Self-assembly, replication and identification are key ideas that &lt;a href=&quot;&#x2F;library&#x2F;dna&quot;&gt;DNA&lt;&#x2F;a&gt; helps to handle in biology. We have the same needs for information. &lt;a href=&quot;&#x2F;library&#x2F;information-theory&quot;&gt;Information Theory&lt;&#x2F;a&gt; taught us how the math works to communicate information, however, structuring it has led to countless debate.&lt;&#x2F;p&gt;
 &lt;p&gt;We will be using a style of structuring based on &lt;a href=&quot;https:&#x2F;&#x2F;proto.school&#x2F;merkle-dags&quot;&gt;Merkle DAGs&lt;&#x2F;a&gt; and accessing them as &lt;a href=&quot;https:&#x2F;&#x2F;docs.ipfs.tech&#x2F;how-to&#x2F;work-with-blocks&#x2F;&quot;&gt;Block Storage&lt;&#x2F;a&gt; in a &lt;a href=&quot;https:&#x2F;&#x2F;ncatlab.org&#x2F;nlab&#x2F;show&#x2F;metric+space&quot;&gt;Metric Space&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
@@ -168,15 +192,15 @@
 &lt;p&gt;And to prove that this all works, we use &lt;a href=&quot;&#x2F;library&#x2F;applied-category-theory&quot;&gt;Applied Category Theory&lt;&#x2F;a&gt; &lt;&#x2F;p&gt;
 &lt;img alt=&quot;Applied Category Theory&quot; src=&quot;&#x2F;img&#x2F;applied-category-theory.png&quot; style=&quot;width: 75%;&quot;&#x2F;&gt;
 &lt;h2 id=&quot;next&quot;&gt;Next&lt;&#x2F;h2&gt;
-&lt;p&gt;&lt;a href=&quot;&#x2F;library&#x2F;building-a-cim&quot;&gt;Building a Composable Information Machine&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;&#x2F;articles&#x2F;building-a-cim&quot;&gt;Building a Composable Information Machine&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
 	</entry>
 	<entry xml:lang="en">
 		<title>Abstraction</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/abstraction/" type="text/html"/>
-		<id>/library/abstraction/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/abstraction/" type="text/html"/>
+		<id>https://amaranthos.io/library/abstraction/</id>
 		<content type="html">&lt;p&gt;A collection of related conceptual ideas placed into a group.&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -184,20 +208,23 @@
 		<title>Aggregatable</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/aggregatable/" type="text/html"/>
-		<id>/library/aggregatable/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/aggregatable/" type="text/html"/>
+		<id>https://amaranthos.io/library/aggregatable/</id>
 		<content type="html">&lt;p&gt;the ability to be collected in specified time and space.&lt;&#x2F;p&gt;
-&lt;p&gt;+++&lt;&#x2F;p&gt;
-&lt;h4 id=&quot;reference&quot;&gt;reference&lt;&#x2F;h4&gt;
-&lt;p&gt;a.k.a. &lt;a href=&quot;&#x2F;library&#x2F;monad&quot;&gt;Monad&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
+&lt;ul&gt;
+&lt;li&gt;a.k.a. &lt;a href=&quot;&#x2F;library&#x2F;monad&quot;&gt;Monad&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
 </content>
 	</entry>
 	<entry xml:lang="en">
 		<title>Aggregate</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/aggregate/" type="text/html"/>
-		<id>/library/aggregate/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/aggregate/" type="text/html"/>
+		<id>https://amaranthos.io/library/aggregate/</id>
 		<content type="html">&lt;p&gt;A collection of things at the same place and time with no other pertinent association. i.e. things in a shopping cart.&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -205,8 +232,8 @@
 		<title>Algebraic Data Types</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/algebraic-data-types/" type="text/html"/>
-		<id>/library/algebraic-data-types/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/algebraic-data-types/" type="text/html"/>
+		<id>https://amaranthos.io/library/algebraic-data-types/</id>
 		<content type="html">&lt;h1 id=&quot;algebraic-data-types&quot;&gt;Algebraic Data Types&lt;&#x2F;h1&gt;
 &lt;p&gt;From &lt;a href=&quot;&#x2F;library&#x2F;algebraic-structures&quot;&gt;Algebraic Structures&lt;&#x2F;a&gt; we can create Algebraic Data Types. These will be use in programming languages to determine the exact abilities of our programming and how it fits together.&lt;&#x2F;p&gt;
 </content>
@@ -215,8 +242,8 @@
 		<title>Algebraic Structures</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/algebraic-structures/" type="text/html"/>
-		<id>/library/algebraic-structures/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/algebraic-structures/" type="text/html"/>
+		<id>https://amaranthos.io/library/algebraic-structures/</id>
 		<content type="html">&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;jrsinclair.com&#x2F;articles&#x2F;2019&#x2F;algebraic-structures-what-i-wish-someone-had-explained-about-functional-programming&#x2F;&quot;&gt;Algebraic Structures&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;In functional programming we have specific terms:&lt;&#x2F;p&gt;
 &lt;ul&gt;
@@ -234,21 +261,22 @@
 		<title>Applied Category Theory</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/applied-category-theory/" type="text/html"/>
-		<id>/library/applied-category-theory/</id>
-		<content type="html">&lt;p&gt;This book is an invitation to discover advanced topics in category theory through concrete, real-world examples. It aims to give a tour = a gentle, quick introduction to guide later exploration. The tour takes place over seven sketches, each pairing an evocative application, such as databases, electric circuits, or dynamical systems, with the exploration of a categorical structure, such as adjoint functors, enriched categories, or toposes.&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;img src=&quot;&#x2F;img&#x2F;applied-category-theory.png&quot; alt=&quot;Applied Category Theory&quot; &#x2F;&gt;
-+++&lt;&#x2F;p&gt;
-&lt;h4 id=&quot;reference&quot;&gt;reference&lt;&#x2F;h4&gt;
+		<link rel="alternate" href="https://amaranthos.io/library/applied-category-theory/" type="text/html"/>
+		<id>https://amaranthos.io/library/applied-category-theory/</id>
+		<content type="html">&lt;p&gt;Category theory is a branch of mathematics originally developed to transport ideas from one branch of mathematics to another, e.g. from topology to algebra. Applied category theory refers to efforts to transport the ideas of category theory from mathematics to other disciplines in science, engineering, and industry.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;1803.05316&quot;&gt;Applied Category Theory - PDF&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.appliedcategorytheory.org&#x2F;&quot;&gt;AppliedCategotyTheory.Org&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
 	</entry>
 	<entry xml:lang="en">
 		<title>Behaviors</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/behaviors/" type="text/html"/>
-		<id>/library/behaviors/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/behaviors/" type="text/html"/>
+		<id>https://amaranthos.io/library/behaviors/</id>
 		<content type="html">&lt;p&gt;A sequence of events that the machine should, could or shouldn&#x27;t carry out, under certain conditions or following certain sequences of events. The threads can be anywhere between being independent or highly dependent on others. And all the threads are interwoven at run-time, yielding an integrated system behavior.&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -256,8 +284,8 @@
 		<title>Boundaries</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/boundaries/" type="text/html"/>
-		<id>/library/boundaries/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/boundaries/" type="text/html"/>
+		<id>https://amaranthos.io/library/boundaries/</id>
 		<content type="html">&lt;p&gt;External borders which define the shape of information.&lt;&#x2F;p&gt;
 &lt;p&gt;This is an emergent process derived from &lt;a href=&quot;&#x2F;library&#x2F;limits&quot;&gt;limits&lt;&#x2F;a&gt;, &lt;a href=&quot;&#x2F;library&#x2F;context&quot;&gt;contexts&lt;&#x2F;a&gt; and &lt;a href=&quot;&#x2F;library&#x2F;behaviors&quot;&gt;behaviors&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
@@ -266,8 +294,8 @@
 		<title>Boundary</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/boundary/" type="text/html"/>
-		<id>/library/boundary/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/boundary/" type="text/html"/>
+		<id>https://amaranthos.io/library/boundary/</id>
 		<content type="html">&lt;p&gt;The limit or extent of something&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -275,8 +303,8 @@
 		<title>Bounded Context</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/bounded-context/" type="text/html"/>
-		<id>/library/bounded-context/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/bounded-context/" type="text/html"/>
+		<id>https://amaranthos.io/library/bounded-context/</id>
 		<content type="html">&lt;p&gt;A boundary surrounding traits from different &lt;a href=&quot;&#x2F;library&#x2F;domain&quot;&gt;Domains&lt;&#x2F;a&gt; used together in the same &lt;a href=&quot;&#x2F;library&#x2F;context&quot;&gt;context&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -284,8 +312,8 @@
 		<title>Category</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/categories/" type="text/html"/>
-		<id>/library/categories/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/categories/" type="text/html"/>
+		<id>https://amaranthos.io/library/categories/</id>
 		<content type="html">&lt;p&gt;A collection of things that share a specific &lt;a href=&quot;&#x2F;library&#x2F;traits&quot;&gt;trait&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -293,11 +321,12 @@
 		<title>Category Theory</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/category-theory/" type="text/html"/>
-		<id>/library/category-theory/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/category-theory/" type="text/html"/>
+		<id>https://amaranthos.io/library/category-theory/</id>
 		<content type="html">&lt;p&gt;Formalizes mathematical structure and its concepts in terms of a labeled directed graph called a category - &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Category_theory&quot;&gt;wikipedia&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;+++&lt;&#x2F;p&gt;
-&lt;h4 id=&quot;reference&quot;&gt;reference&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ncatlab.org&#x2F;nlab&#x2F;show&#x2F;category+theory&quot;&gt;Category Theory&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -305,8 +334,8 @@
 		<title>Continuous Delivery</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/cd/" type="text/html"/>
-		<id>/library/cd/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/cd/" type="text/html"/>
+		<id>https://amaranthos.io/library/cd/</id>
 		<content type="html">&lt;p&gt;Continuous delivery (CD) is the ability to push new software into production multiple times per day, automating the delivery of applications to infrastructure environments. CD is part of DevOps, which helps shorten the software development lifecycle.&lt;&#x2F;p&gt;
 &lt;hr &#x2F;&gt;
 &lt;h4 id=&quot;reference&quot;&gt;reference&lt;&#x2F;h4&gt;
@@ -319,8 +348,8 @@
 		<title>Chainable</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/chainable/" type="text/html"/>
-		<id>/library/chainable/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/chainable/" type="text/html"/>
+		<id>https://amaranthos.io/library/chainable/</id>
 		<content type="html">&lt;p&gt;Things that can be chained together and composed&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -328,8 +357,8 @@
 		<title>Continuous Integration</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/ci/" type="text/html"/>
-		<id>/library/ci/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/ci/" type="text/html"/>
+		<id>https://amaranthos.io/library/ci/</id>
 		<content type="html">&lt;p&gt;The process of automating and integrating code changes and updates from many team members during software development. In CI, automated tools confirm that software code is valid and error-free before it&#x27;s integrated, which helps detect bugs and speed up new releases.&lt;&#x2F;p&gt;
 &lt;hr &#x2F;&gt;
 &lt;h4 id=&quot;reference&quot;&gt;reference&lt;&#x2F;h4&gt;
@@ -342,8 +371,8 @@
 		<title>Composable Information Machine</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/cim/" type="text/html"/>
-		<id>/library/cim/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/cim/" type="text/html"/>
+		<id>https://amaranthos.io/library/cim/</id>
 		<content type="html">&lt;p&gt;A &lt;code&gt;Composable Information Machine&lt;&#x2F;code&gt; encapsulates information in such a way that we can see the shape of the concepts we are thinking about, we will create a 3 Dimensional universe of shapes these relationships form through &lt;a href=&quot;http:&#x2F;&#x2F;emergence.co.uk&#x2F;the-science&#x2F;what-is-emergence-theory&#x2F;&quot;&gt;Emergence Theory&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;code&gt;Composable Information Machine&lt;&#x2F;code&gt; are based on &lt;a href=&quot;https:&#x2F;&#x2F;ncatlab.org&#x2F;nlab&#x2F;show&#x2F;category+theory#section_Idea&quot;&gt;Category Theory&lt;&#x2F;a&gt;, where &lt;em&gt;&lt;code&gt;objects&lt;&#x2F;code&gt;&lt;&#x2F;em&gt; are all &lt;a href=&quot;https:&#x2F;&#x2F;mathworld.wolfram.com&#x2F;TopologicalSpace.html&quot;&gt;Topological Spaces&lt;&#x2F;a&gt; and &lt;em&gt;&lt;code&gt;arrows&lt;&#x2F;code&gt;&lt;&#x2F;em&gt; are &lt;a href=&quot;https:&#x2F;&#x2F;ncatlab.org&#x2F;nlab&#x2F;show&#x2F;morphism&quot;&gt;morphisms&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;Absolutely everything looks like a variation of:&lt;&#x2F;p&gt;
@@ -382,8 +411,8 @@ There is always a feedback and identity mechanism&lt;&#x2F;p&gt;
 		<title>Classify</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/classify/" type="text/html"/>
-		<id>/library/classify/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/classify/" type="text/html"/>
+		<id>https://amaranthos.io/library/classify/</id>
 		<content type="html">&lt;p&gt;To consider something as belonging to a &lt;a href=&quot;&#x2F;library&#x2F;groups&quot;&gt;group&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -391,8 +420,8 @@ There is always a feedback and identity mechanism&lt;&#x2F;p&gt;
 		<title>Composable</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/composable/" type="text/html"/>
-		<id>/library/composable/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/composable/" type="text/html"/>
+		<id>https://amaranthos.io/library/composable/</id>
 		<content type="html">&lt;p&gt;Something that can be &lt;a href=&quot;https:&#x2F;&#x2F;www.merriam-webster.com&#x2F;dictionary&#x2F;compose&quot;&gt;composed&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -400,11 +429,12 @@ There is always a feedback and identity mechanism&lt;&#x2F;p&gt;
 		<title>Compositional Game Theory</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/compositional-game-theory/" type="text/html"/>
-		<id>/library/compositional-game-theory/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/compositional-game-theory/" type="text/html"/>
+		<id>https://amaranthos.io/library/compositional-game-theory/</id>
 		<content type="html">&lt;p&gt;We introduce open games as a compositional foundation of economic game theory. A compositional approach potentially allows methods of game theory and theoretical computer science to be applied to large-scale economic models for which standard economic tools are not practical. An open game represents a game played relative to an arbitrary environment and to this end we introduce the concept of coutility, which is the utility generated by an open game and returned to its environment. Open games are the morphisms of a symmetric monoidal category and can therefore be composed by categorical composition into sequential move games and by monoidal products into simultaneous move games. Open games can be represented by string diagrams which provide an intuitive but formal visualisation of the information flows. We show that a variety of games can be faithfully represented as open games in the sense of having the same Nash equilibria and off-equilibrium best responses.&lt;&#x2F;p&gt;
-&lt;p&gt;+++&lt;&#x2F;p&gt;
-&lt;h4 id=&quot;reference&quot;&gt;reference&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
 &lt;p&gt;Compositional Game Theory - &lt;a href=&quot;https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;1603.04641&quot;&gt;PDF&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -412,22 +442,27 @@ There is always a feedback and identity mechanism&lt;&#x2F;p&gt;
 		<title>Conceptual Space</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/conceptual-space/" type="text/html"/>
-		<id>/library/conceptual-space/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/conceptual-space/" type="text/html"/>
+		<id>https://amaranthos.io/library/conceptual-space/</id>
 		<content type="html">&lt;p&gt;A high level collection of concepts and relations, used for organizing and comparing sensory, memory or imaginative experiences.&lt;&#x2F;p&gt;
-&lt;p&gt;+++ reference
-&lt;a href=&quot;http:&#x2F;&#x2F;www.shirandudy.com&#x2F;post&#x2F;categories-in-conceptual-spaces&quot;&gt;Categories in Conceptual Spaces&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http:&#x2F;&#x2F;www.shirandudy.com&#x2F;post&#x2F;categories-in-conceptual-spaces&quot;&gt;Categories in Conceptual Spaces&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
 </content>
 	</entry>
 	<entry xml:lang="en">
 		<title>Conceptual Spaces</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/conceptual-spaces/" type="text/html"/>
-		<id>/library/conceptual-spaces/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/conceptual-spaces/" type="text/html"/>
+		<id>https://amaranthos.io/library/conceptual-spaces/</id>
 		<content type="html">&lt;p&gt;Within cognitive science, two approaches currently dominate the problem of modeling representations. The symbolic approach views cognition as computation involving symbolic manipulation. Connectionism, a special case of associationism, models associations using artificial neuron networks. Peter Gärdenfors offers his theory of conceptual representations as a bridge between the symbolic and connectionist approaches.&lt;&#x2F;p&gt;
-&lt;p&gt;+++&lt;&#x2F;p&gt;
-&lt;h4 id=&quot;reference&quot;&gt;reference&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;mitpress.mit.edu&#x2F;books&#x2F;conceptual-spaces&quot;&gt;Conceptual Spaces Book&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -435,8 +470,8 @@ There is always a feedback and identity mechanism&lt;&#x2F;p&gt;
 		<title>Configuration</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/configuration/" type="text/html"/>
-		<id>/library/configuration/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/configuration/" type="text/html"/>
+		<id>https://amaranthos.io/library/configuration/</id>
 		<content type="html">&lt;p&gt;Configuration is a description of the state we wish a collection of information processing to achieve.&lt;&#x2F;p&gt;
 &lt;p&gt;How we do this has been a very manual process. With the advent of the cloud, it has become an industry tactic to deploy configurations to &lt;code&gt;virtual&lt;&#x2F;code&gt; systems.&lt;&#x2F;p&gt;
 &lt;p&gt;we will first build the thing that will hold our configurations. We only need something reliable and inexpensive to hold information securely.&lt;&#x2F;p&gt;
@@ -446,8 +481,8 @@ There is always a feedback and identity mechanism&lt;&#x2F;p&gt;
 		<title>Content-Addressing</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/content-addressing/" type="text/html"/>
-		<id>/library/content-addressing/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/content-addressing/" type="text/html"/>
+		<id>https://amaranthos.io/library/content-addressing/</id>
 		<content type="html">&lt;h2 id=&quot;content-addressable-storage&quot;&gt;Content-Addressable Storage&lt;&#x2F;h2&gt;
 &lt;p&gt;Content-addressable storage (CAS), also referred to as content-addressed storage or fixed-content storage, is a way to store information so it can be retrieved based on its content, not its name or location. It has been used for high-speed storage and retrieval of fixed content, such as documents stored for compliance with government regulations. Content-addressable storage is similar to content-addressable memory.&lt;&#x2F;p&gt;
 &lt;p&gt;CAS systems work by passing the content of the file through a cryptographic hash function to generate a unique key, the &amp;quot;content address&amp;quot;. The file system&#x27;s directory stores these addresses and a pointer to the physical storage of the content. Because an attempt to store the same file will generate the same key, CAS systems ensure that the files within them are unique, and because changing the file will result in a new key, CAS systems provide assurance that the file is unchanged.&lt;&#x2F;p&gt;
@@ -473,8 +508,8 @@ There is always a feedback and identity mechanism&lt;&#x2F;p&gt;
 		<title>Context</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/context/" type="text/html"/>
-		<id>/library/context/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/context/" type="text/html"/>
+		<id>https://amaranthos.io/library/context/</id>
 		<content type="html">&lt;p&gt;The situation within which something exists or happens.&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -482,8 +517,8 @@ There is always a feedback and identity mechanism&lt;&#x2F;p&gt;
 		<title>Conventions</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/conventions/" type="text/html"/>
-		<id>/library/conventions/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/conventions/" type="text/html"/>
+		<id>https://amaranthos.io/library/conventions/</id>
 		<content type="html">&lt;p&gt;Methodologies use for a specified topic.&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -491,8 +526,8 @@ There is always a feedback and identity mechanism&lt;&#x2F;p&gt;
 		<title>Convergence</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/convergence/" type="text/html"/>
-		<id>/library/convergence/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/convergence/" type="text/html"/>
+		<id>https://amaranthos.io/library/convergence/</id>
 		<content type="html">&lt;p&gt;Different systems that move towards performing similar tasks. This concept moves tasks previously performed by separate systems into a single system that performs them all. Voice, video, and data were previously transmitted by different systems but now are transmitted over the same communication protocols. We have moved mostly from analog to digital and digital information is now converging into something distinct.&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -500,8 +535,8 @@ There is always a feedback and identity mechanism&lt;&#x2F;p&gt;
 		<title>Devcontainer</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/devcontainer/" type="text/html"/>
-		<id>/library/devcontainer/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/devcontainer/" type="text/html"/>
+		<id>https://amaranthos.io/library/devcontainer/</id>
 		<content type="html">&lt;h1 id=&quot;devcontainer&quot;&gt;devcontainer&lt;&#x2F;h1&gt;
 &lt;p&gt;This is a term &lt;a href=&quot;https:&#x2F;&#x2F;microsoft.github.io&#x2F;code-with-engineering-playbook&#x2F;developer-experience&#x2F;devcontainers&#x2F;&quot;&gt;coined by Microsoft&lt;&#x2F;a&gt; 
 for running development environments inside &lt;a href=&quot;https:&#x2F;&#x2F;code.visualstudio.com&#x2F;docs&#x2F;remote&#x2F;containers&quot;&gt;VSCode&lt;&#x2F;a&gt; and &lt;a href=&quot;https:&#x2F;&#x2F;docs.microsoft.com&#x2F;en-us&#x2F;visualstudio&#x2F;containers&#x2F;overview&quot;&gt;Visual Studio&lt;&#x2F;a&gt;. 
@@ -510,8 +545,9 @@ used widely to contain the &lt;a href=&quot;&#x2F;library&#x2F;limits&quot;&gt;l
 and &lt;a href=&quot;&#x2F;library&#x2F;initial-state&quot;&gt;initial state&lt;&#x2F;a&gt; of a development system. &lt;&#x2F;p&gt;
 &lt;p&gt;There are thousands of &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;Microsoft&#x2F;vscode-dev-containers&quot;&gt;premade containers&lt;&#x2F;a&gt;, ready for use and testing and most 
 for production level IT Environments. &lt;a href=&quot;https:&#x2F;&#x2F;github.com&quot;&gt;Github&lt;&#x2F;a&gt; has the ability to run them as &lt;a href=&quot;https:&#x2F;&#x2F;docs.github.com&#x2F;en&#x2F;codespaces&#x2F;setting-up-your-project-for-codespaces&#x2F;introduction-to-dev-containers&quot;&gt;Codespaces&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;+++&lt;&#x2F;p&gt;
-&lt;h4 id=&quot;reference&quot;&gt;reference&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;devcontainers&#x2F;&quot;&gt;Devcontainer Standard&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;devcontainers&#x2F;cli&quot;&gt;Dev Container CLI&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
@@ -524,8 +560,8 @@ for production level IT Environments. &lt;a href=&quot;https:&#x2F;&#x2F;github.
 		<title>DNA</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/dna/" type="text/html"/>
-		<id>/library/dna/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/dna/" type="text/html"/>
+		<id>https://amaranthos.io/library/dna/</id>
 		<content type="html">&lt;p&gt;From Biology = dioxyribonucleic acid, the hereditary material in humans and almost all other organisms.&lt;&#x2F;p&gt;
 &lt;p&gt;Nearly every cell in the human body has the same DNA. Most DNA is located in the cell nucleus. It can replicate, or make copies of itself. Each strand of DNA in the double helix can serve as a pattern for duplicating the sequence of bases. This is critical when cells divide because each new cell needs to have an exact copy of the DNA present in the old cell. &lt;&#x2F;p&gt;
 &lt;hr &#x2F;&gt;
@@ -537,16 +573,16 @@ for production level IT Environments. &lt;a href=&quot;https:&#x2F;&#x2F;github.
 		<title>Domain Object</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/domain-object/" type="text/html"/>
-		<id>/library/domain-object/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/domain-object/" type="text/html"/>
+		<id>https://amaranthos.io/library/domain-object/</id>
 		<content type="html"></content>
 	</entry>
 	<entry xml:lang="en">
 		<title>Effect</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/effect/" type="text/html"/>
-		<id>/library/effect/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/effect/" type="text/html"/>
+		<id>https://amaranthos.io/library/effect/</id>
 		<content type="html">&lt;p&gt;Or side-effect, an idea that something outside my direct control could change.&lt;&#x2F;p&gt;
 &lt;p&gt;+++
 create something, (input&#x2F;output)
@@ -557,8 +593,8 @@ state change&lt;&#x2F;p&gt;
 		<title>Either</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/either/" type="text/html"/>
-		<id>/library/either/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/either/" type="text/html"/>
+		<id>https://amaranthos.io/library/either/</id>
 		<content type="html">&lt;p&gt;A choice requiring an answer selected only from the given set.&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -566,8 +602,8 @@ state change&lt;&#x2F;p&gt;
 		<title>Event Sourcing</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/event-sourcing/" type="text/html"/>
-		<id>/library/event-sourcing/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/event-sourcing/" type="text/html"/>
+		<id>https://amaranthos.io/library/event-sourcing/</id>
 		<content type="html">&lt;p&gt;An alternative way to persist data. In contrast with state-oriented persistence that only keeps the latest version of the entity state, Event Sourcing stores each state mutation as a separate record called an event.&lt;&#x2F;p&gt;
 &lt;p&gt;+++
 reference&lt;&#x2F;p&gt;
@@ -580,8 +616,8 @@ reference&lt;&#x2F;p&gt;
 		<title>Event Store</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/event-store/" type="text/html"/>
-		<id>/library/event-store/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/event-store/" type="text/html"/>
+		<id>https://amaranthos.io/library/event-store/</id>
 		<content type="html">&lt;p&gt;Stores changes to your data as a sequential series of immutable events. These events may be played back in order to recreate any state at any point in the sequence. It also allow divergence from previous points to be explored easily and for projections to other systems as events occur.&lt;&#x2F;p&gt;
 &lt;p&gt;Event Stores can be distributed in nature using a secure communications protocol, projections, and eventual consistency to provide robust distributed hash tables that point to other large datasets.&lt;&#x2F;p&gt;
 </content>
@@ -590,8 +626,8 @@ reference&lt;&#x2F;p&gt;
 		<title>Events</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/events/" type="text/html"/>
-		<id>/library/events/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/events/" type="text/html"/>
+		<id>https://amaranthos.io/library/events/</id>
 		<content type="html">&lt;p&gt;An encapsulation of something that has already happened.&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -599,8 +635,8 @@ reference&lt;&#x2F;p&gt;
 		<title>Eventual Consistency</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/eventual-consistency/" type="text/html"/>
-		<id>/library/eventual-consistency/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/eventual-consistency/" type="text/html"/>
+		<id>https://amaranthos.io/library/eventual-consistency/</id>
 		<content type="html">&lt;p&gt;A consistency model used in distributed computing to achieve high availability that informally guarantees that, if no new updates are made to a given data item, eventually all accesses to that item will return the last updated value. &lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -608,10 +644,11 @@ reference&lt;&#x2F;p&gt;
 		<title>Functional Reactive Programming</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/frp/" type="text/html"/>
-		<id>/library/frp/</id>
-		<content type="html">&lt;p&gt;+++&lt;&#x2F;p&gt;
-&lt;h4 id=&quot;reference&quot;&gt;reference&lt;&#x2F;h4&gt;
+		<link rel="alternate" href="https://amaranthos.io/library/frp/" type="text/html"/>
+		<id>https://amaranthos.io/library/frp/</id>
+		<content type="html">&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
 &lt;p&gt;&lt;a href=&quot;http:&#x2F;&#x2F;www.neilsculthorpe.com&#x2F;publications&#x2F;safe-efficient-FRP.pdf&quot;&gt;Towards Safe and Efficient Functional Reactive Programming - Neil Sculthorpe&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -619,8 +656,8 @@ reference&lt;&#x2F;p&gt;
 		<title>Functor</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/functor/" type="text/html"/>
-		<id>/library/functor/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/functor/" type="text/html"/>
+		<id>https://amaranthos.io/library/functor/</id>
 		<content type="html">&lt;p&gt;A &lt;a href=&quot;&#x2F;library&#x2F;mapping&quot;&gt;mapping&lt;&#x2F;a&gt; between &lt;a href=&quot;&#x2F;library&#x2F;categories&quot;&gt;categories&lt;&#x2F;a&gt; in the context of &lt;a href=&quot;&#x2F;library&#x2F;category-theory&quot;&gt;category theory&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;Call this &lt;a href=&quot;&#x2F;library&#x2F;mappable&quot;&gt;Mappable&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
@@ -629,16 +666,17 @@ reference&lt;&#x2F;p&gt;
 		<title>Geometric Algebra</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/geometric-algebra/" type="text/html"/>
-		<id>/library/geometric-algebra/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/geometric-algebra/" type="text/html"/>
+		<id>https://amaranthos.io/library/geometric-algebra/</id>
 		<content type="html">&lt;p&gt;This is an introduction to geometric algebra, an alternative to traditional vector algebra that expands on it in two ways:&lt;&#x2F;p&gt;
 &lt;ol&gt;
 &lt;li&gt;In addition to scalars and vectors, it defines new objects representing subspaces of any dimension.&lt;&#x2F;li&gt;
 &lt;li&gt;It defines a product that&#x27;s strongly motivated by geometry and can be taken between any two objects. For example, the product of two vectors taken in a certain way represents their common plane.&lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
 &lt;p&gt;This system was invented by William Clifford and is more commonly known as Clifford algebra. It&#x27;s actually older than the vector algebra that we use today (due to Gibbs) and includes it as a subset. Over the years, various parts of Clifford algebra have been reinvented independently by many people who found they needed it, often not realizing that all those parts belonged in one system. This suggests that Clifford had the right idea, and that geometric algebra, not the reduced version we use today, deserves to be the standard &amp;quot;vector algebra.&amp;quot;&lt;&#x2F;p&gt;
-&lt;p&gt;+++&lt;&#x2F;p&gt;
-&lt;h4 id=&quot;reference&quot;&gt;reference&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;arxiv.org&#x2F;pdf&#x2F;1205.5935.pdf&quot;&gt;Geometric Algebra&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -646,8 +684,8 @@ reference&lt;&#x2F;p&gt;
 		<title>Group</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/groups/" type="text/html"/>
-		<id>/library/groups/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/groups/" type="text/html"/>
+		<id>https://amaranthos.io/library/groups/</id>
 		<content type="html">&lt;p&gt;Two or more things which are distinct by:&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;interaction 
@@ -672,11 +710,12 @@ reference&lt;&#x2F;p&gt;
 		<title>Information Theory</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/information-theory/" type="text/html"/>
-		<id>/library/information-theory/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/information-theory/" type="text/html"/>
+		<id>https://amaranthos.io/library/information-theory/</id>
 		<content type="html">&lt;p&gt;The mathematical treatment of the concepts, parameters and rules governing the transmission of messages through communication systems. It has evolved into a vigorous branch of mathematics fostering the development of other scientific fields, such as statistics, biology, behavioral science, neuroscience, and statistical mechanics.&lt;&#x2F;p&gt;
-&lt;p&gt;+++&lt;&#x2F;p&gt;
-&lt;h4 id=&quot;references&quot;&gt;references&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;p&gt;---s&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.sciencedirect.com&#x2F;topics&#x2F;neuroscience&#x2F;information-theory&quot;&gt;Information Theory&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.scientificamerican.com&#x2F;article&#x2F;claude-e-shannon-founder&#x2F;&quot;&gt;Claude E. Shannon: Founder of Information Theory&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
@@ -687,8 +726,8 @@ reference&lt;&#x2F;p&gt;
 		<title>Initial State</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/initial-state/" type="text/html"/>
-		<id>/library/initial-state/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/initial-state/" type="text/html"/>
+		<id>https://amaranthos.io/library/initial-state/</id>
 		<content type="html">&lt;p&gt;The starting position for a &lt;a href=&quot;&#x2F;library&#x2F;cim&quot;&gt;Composable Information Machine&lt;&#x2F;a&gt;. This state may take running scripts or doing setup manually, then the machine become self-regulatory.&lt;&#x2F;p&gt;
 &lt;p&gt;A known state of our environment from which all changes are tracked. The &lt;code&gt;initial state&lt;&#x2F;code&gt; must be constructed from and be reproducable with a known methodology. After such initial state is achieved, the [[Event Store]] may be used to recreate any state at any given position in the sequence of the machine.&lt;&#x2F;p&gt;
 </content>
@@ -697,8 +736,8 @@ reference&lt;&#x2F;p&gt;
 		<title>Interaction</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/interacting/" type="text/html"/>
-		<id>/library/interacting/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/interacting/" type="text/html"/>
+		<id>https://amaranthos.io/library/interacting/</id>
 		<content type="html">&lt;p&gt;Decide how to interact with information. While there is no advance knowledge needed, we use:&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;&#x2F;library&#x2F;information-theory&quot;&gt;Information Theory&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
@@ -718,8 +757,8 @@ reference&lt;&#x2F;p&gt;
 		<title>IPFS</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/ipfs/" type="text/html"/>
-		<id>/library/ipfs/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/ipfs/" type="text/html"/>
+		<id>https://amaranthos.io/library/ipfs/</id>
 		<content type="html">&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ipfs.io&quot;&gt;IPFS, the Interplanetary File System&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -727,8 +766,8 @@ reference&lt;&#x2F;p&gt;
 		<title>IPLD</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/ipld/" type="text/html"/>
-		<id>/library/ipld/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/ipld/" type="text/html"/>
+		<id>https://amaranthos.io/library/ipld/</id>
 		<content type="html">&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ipld.io&quot;&gt;IPLD - Interplanetary Linked Data&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -736,10 +775,12 @@ reference&lt;&#x2F;p&gt;
 		<title>Infrastructure Resource Management</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/irm/" type="text/html"/>
-		<id>/library/irm/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/irm/" type="text/html"/>
+		<id>https://amaranthos.io/library/irm/</id>
 		<content type="html">&lt;p&gt;Addresses the needs of network and infrastructure engineers. It is intended to function as a domain-specific source of truth for network operations.&lt;&#x2F;p&gt;
-&lt;p&gt;+++ reference&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;netbox-community&#x2F;netbox&quot;&gt;NetBox&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -747,16 +788,16 @@ reference&lt;&#x2F;p&gt;
 		<title>JavaScript</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/javascript/" type="text/html"/>
-		<id>/library/javascript/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/javascript/" type="text/html"/>
+		<id>https://amaranthos.io/library/javascript/</id>
 		<content type="html"></content>
 	</entry>
 	<entry xml:lang="en">
 		<title>Limits</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/limits/" type="text/html"/>
-		<id>/library/limits/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/limits/" type="text/html"/>
+		<id>https://amaranthos.io/library/limits/</id>
 		<content type="html">&lt;p&gt;Limits are minimums and maximums for known things. They help us to shape &lt;a href=&quot;&#x2F;library&#x2F;boundaries&quot;&gt;boundaries&lt;&#x2F;a&gt; and establish the metrics of a &lt;a href=&quot;&#x2F;library&#x2F;metric-space&quot;&gt;metric-space&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -764,11 +805,12 @@ reference&lt;&#x2F;p&gt;
 		<title>Mappable</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/mappable/" type="text/html"/>
-		<id>/library/mappable/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/mappable/" type="text/html"/>
+		<id>https://amaranthos.io/library/mappable/</id>
 		<content type="html">&lt;p&gt;Objects in the category can be mapped.&lt;&#x2F;p&gt;
-&lt;p&gt;+++&lt;&#x2F;p&gt;
-&lt;h4 id=&quot;reference&quot;&gt;reference&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
 &lt;p&gt;Mathematical &lt;a href=&quot;&#x2F;library&#x2F;functor&quot;&gt;Functor&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -776,8 +818,8 @@ reference&lt;&#x2F;p&gt;
 		<title>mapping</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/mapping/" type="text/html"/>
-		<id>/library/mapping/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/mapping/" type="text/html"/>
+		<id>https://amaranthos.io/library/mapping/</id>
 		<content type="html">&lt;p&gt;an operation that associates each element of a &lt;a href=&quot;&#x2F;library&#x2F;categories&quot;&gt;category&lt;&#x2F;a&gt; with one or more elements of a second.&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -785,8 +827,8 @@ reference&lt;&#x2F;p&gt;
 		<title>Maybe</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/maybe/" type="text/html"/>
-		<id>/library/maybe/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/maybe/" type="text/html"/>
+		<id>https://amaranthos.io/library/maybe/</id>
 		<content type="html">&lt;p&gt;An idea determining the result may be empty.&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -794,8 +836,8 @@ reference&lt;&#x2F;p&gt;
 		<title>Me</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/me/" type="text/html"/>
-		<id>/library/me/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/me/" type="text/html"/>
+		<id>https://amaranthos.io/library/me/</id>
 		<content type="html">&lt;p&gt;The idea of self. A personal interaction and description.&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -803,8 +845,8 @@ reference&lt;&#x2F;p&gt;
 		<title>Metric Space</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/metric-space/" type="text/html"/>
-		<id>/library/metric-space/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/metric-space/" type="text/html"/>
+		<id>https://amaranthos.io/library/metric-space/</id>
 		<content type="html">&lt;p&gt;a set equipped with a distance function, which provides a measure of distance between any two points in the set. The distance function, known as a metric, must satisfy a collection of axioms.&lt;&#x2F;p&gt;
 &lt;p&gt;+++&lt;&#x2F;p&gt;
 &lt;h4 id=&quot;reference&quot;&gt;reference&lt;&#x2F;h4&gt;
@@ -815,8 +857,8 @@ reference&lt;&#x2F;p&gt;
 		<title>Monad</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/monad/" type="text/html"/>
-		<id>/library/monad/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/monad/" type="text/html"/>
+		<id>https://amaranthos.io/library/monad/</id>
 		<content type="html">&lt;p&gt;Describes computations as sequences of steps, handling side effects such as state and IO.&lt;&#x2F;p&gt;
 &lt;p&gt;a.k.a. &lt;a href=&quot;&#x2F;library&#x2F;chainable&quot;&gt;Chainable&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
@@ -825,8 +867,8 @@ reference&lt;&#x2F;p&gt;
 		<title>Monoid</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/monoid/" type="text/html"/>
-		<id>/library/monoid/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/monoid/" type="text/html"/>
+		<id>https://amaranthos.io/library/monoid/</id>
 		<content type="html">&lt;p&gt;A group where every element has an inverse.&lt;&#x2F;p&gt;
 &lt;p&gt;Call this &lt;a href=&quot;&#x2F;library&#x2F;aggregatable&quot;&gt;Aggregatable&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
@@ -835,8 +877,8 @@ reference&lt;&#x2F;p&gt;
 		<title>Multiverse of Information</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/multiverse-of-information/" type="text/html"/>
-		<id>/library/multiverse-of-information/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/multiverse-of-information/" type="text/html"/>
+		<id>https://amaranthos.io/library/multiverse-of-information/</id>
 		<content type="html">&lt;p&gt;The idea that information lives in multiple defined &lt;a href=&quot;&#x2F;library&#x2F;universe&quot;&gt;universes&lt;&#x2F;a&gt; and has an ability to communicate and choose between them.&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -844,11 +886,12 @@ reference&lt;&#x2F;p&gt;
 		<title>Network</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/network/" type="text/html"/>
-		<id>/library/network/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/network/" type="text/html"/>
+		<id>https://amaranthos.io/library/network/</id>
 		<content type="html">&lt;p&gt;A structured collection of computing devices.&lt;&#x2F;p&gt;
-&lt;p&gt;+++&lt;&#x2F;p&gt;
-&lt;h4 id=&quot;references&quot;&gt;references&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;p&gt;---s&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;fcit.usf.edu&#x2F;network&#x2F;chap1&#x2F;chap1.htm&quot;&gt;What is a Network?&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -856,8 +899,8 @@ reference&lt;&#x2F;p&gt;
 		<title>Organic Growth</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/organic-growth/" type="text/html"/>
-		<id>/library/organic-growth/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/organic-growth/" type="text/html"/>
+		<id>https://amaranthos.io/library/organic-growth/</id>
 		<content type="html">&lt;p&gt;Organic growth is the process by which an object expands on its own capacity. In an organic growth strategy, an object utilizes all of its resources – without the need to borrow – to expand its operations and grow.&lt;&#x2F;p&gt;
 &lt;p&gt;This also relates to scalability and how the growth of parallelization occurs.&lt;&#x2F;p&gt;
 </content>
@@ -866,8 +909,8 @@ reference&lt;&#x2F;p&gt;
 		<title>Organization</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/organization/" type="text/html"/>
-		<id>/library/organization/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/organization/" type="text/html"/>
+		<id>https://amaranthos.io/library/organization/</id>
 		<content type="html">&lt;p&gt;A collection of items, and&#x2F;or persons to make a named thing.&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -875,12 +918,13 @@ reference&lt;&#x2F;p&gt;
 		<title>Pattern Matching</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/pattern-matching/" type="text/html"/>
-		<id>/library/pattern-matching/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/pattern-matching/" type="text/html"/>
+		<id>https://amaranthos.io/library/pattern-matching/</id>
 		<content type="html">&lt;h1 id=&quot;pattern-matching&quot;&gt;Pattern Matching&lt;&#x2F;h1&gt;
 &lt;p&gt;A defined sequence of &lt;a href=&quot;&#x2F;library&#x2F;events&quot;&gt;events&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;+++&lt;&#x2F;p&gt;
-&lt;h4 id=&quot;reference&quot;&gt;reference&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.unk.com&#x2F;blog&#x2F;most-important-psychological-insight-ever-learnt&#x2F;&quot;&gt;&amp;quot;...when you experience anything in life, then your brain tries to make sense of it by matching it to something similar in the past, to give you the right emotional response.&amp;quot;&lt;&#x2F;a&gt; - Mark Tyrell&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -888,8 +932,8 @@ reference&lt;&#x2F;p&gt;
 		<title>Person Type</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/person-type/" type="text/html"/>
-		<id>/library/person-type/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/person-type/" type="text/html"/>
+		<id>https://amaranthos.io/library/person-type/</id>
 		<content type="html">&lt;p&gt;A person is defined by a Name and ID pair of strings.&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -897,8 +941,8 @@ reference&lt;&#x2F;p&gt;
 		<title>Person</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/person/" type="text/html"/>
-		<id>/library/person/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/person/" type="text/html"/>
+		<id>https://amaranthos.io/library/person/</id>
 		<content type="html">&lt;p&gt;A Human Being.&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -906,8 +950,8 @@ reference&lt;&#x2F;p&gt;
 		<title>Programming Language</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/programming-language/" type="text/html"/>
-		<id>/library/programming-language/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/programming-language/" type="text/html"/>
+		<id>https://amaranthos.io/library/programming-language/</id>
 		<content type="html">&lt;p&gt;Language specifically designed to write algorithms for computing.&lt;&#x2F;p&gt;
 &lt;p&gt;Consider these paths:&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;open-source&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;opensource.org&#x2F;&quot;&gt;Open Source&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
@@ -935,11 +979,12 @@ reference&lt;&#x2F;p&gt;
 		<title>Projections</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/projections/" type="text/html"/>
-		<id>/library/projections/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/projections/" type="text/html"/>
+		<id>https://amaranthos.io/library/projections/</id>
 		<content type="html">&lt;p&gt;A result created by transforming &lt;a href=&quot;aggregate&quot;&gt;aggregates&lt;&#x2F;a&gt; and aggregated information into a specific format. &lt;&#x2F;p&gt;
-&lt;p&gt;+++&lt;&#x2F;p&gt;
-&lt;h4 id=&quot;reference&quot;&gt;reference&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
 &lt;p&gt;Usually modeled in &lt;a href=&quot;https:&#x2F;&#x2F;n8n.io&quot;&gt;n8n&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -947,11 +992,12 @@ reference&lt;&#x2F;p&gt;
 		<title>Proof</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/proof/" type="text/html"/>
-		<id>/library/proof/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/proof/" type="text/html"/>
+		<id>https://amaranthos.io/library/proof/</id>
 		<content type="html">&lt;p&gt;A collection of valid arguments&lt;&#x2F;p&gt;
-&lt;p&gt;+++&lt;&#x2F;p&gt;
-&lt;h4 id=&quot;reference&quot;&gt;reference&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;milnepublishing.geneseo.edu&#x2F;concise-introduction-to-logic&#x2F;chapter&#x2F;4-proofs&#x2F;&quot;&gt;semantic demonstrations of validity&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -959,15 +1005,16 @@ reference&lt;&#x2F;p&gt;
 		<title>Protocol Buffers</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/protocol-buffers/" type="text/html"/>
-		<id>/library/protocol-buffers/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/protocol-buffers/" type="text/html"/>
+		<id>https://amaranthos.io/library/protocol-buffers/</id>
 		<content type="html">&lt;p&gt;A language-neutral, platform-neutral extensible mechanism for serializing structured data.&lt;&#x2F;p&gt;
 &lt;p&gt;We begin with 3 fundamental &lt;a href=&quot;&#x2F;library&#x2F;things&quot;&gt;things&lt;&#x2F;a&gt;:
 &lt;a href=&quot;&#x2F;library&#x2F;thing&quot;&gt;Thing&lt;&#x2F;a&gt;
 &lt;a href=&quot;&#x2F;library&#x2F;person&quot;&gt;Person&lt;&#x2F;a&gt;
 &lt;a href=&quot;&#x2F;library&#x2F;organization&quot;&gt;Organization&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;+++&lt;&#x2F;p&gt;
-&lt;h4 id=&quot;reference&quot;&gt;reference&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;developers.google.com&#x2F;protocol-buffers&quot;&gt;Protocol Buffers&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -975,8 +1022,8 @@ reference&lt;&#x2F;p&gt;
 		<title>Purescript</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/purescript/" type="text/html"/>
-		<id>/library/purescript/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/purescript/" type="text/html"/>
+		<id>https://amaranthos.io/library/purescript/</id>
 		<content type="html">&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.purescript.org&#x2F;&quot;&gt;Purescript&lt;&#x2F;a&gt; is a functional language that compiles to Javascript.&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -984,8 +1031,8 @@ reference&lt;&#x2F;p&gt;
 		<title>Python</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/python/" type="text/html"/>
-		<id>/library/python/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/python/" type="text/html"/>
+		<id>https://amaranthos.io/library/python/</id>
 		<content type="html">&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.python.org&#x2F;&quot;&gt;Python&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -993,14 +1040,15 @@ reference&lt;&#x2F;p&gt;
 		<title>Raspberry Pi</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/raspberry-pi/" type="text/html"/>
-		<id>/library/raspberry-pi/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/raspberry-pi/" type="text/html"/>
+		<id>https://amaranthos.io/library/raspberry-pi/</id>
 		<content type="html">&lt;p&gt;&lt;a href=&quot;raspberry-pi&quot;&gt;Raspberry Pi&lt;&#x2F;a&gt;, a.k.a. SoC or System on a chip. This is a minimal computing device frequently used for experimentation.&lt;&#x2F;p&gt;
 &lt;p&gt;We can start our system on one of these, and scale it to bigger and better machinery as we go.&lt;&#x2F;p&gt;
 &lt;p&gt;I intend to start with a most basic system, a stock &lt;a href=&quot;raspberry-pi&quot;&gt;Raspberry Pi 4B&lt;&#x2F;a&gt;. We will use an &lt;a href=&quot;https:&#x2F;&#x2F;ubuntu.com&#x2F;download&#x2F;raspberry-pi&quot;&gt;Ubuntu&lt;&#x2F;a&gt; image since it is simplest for our initial needs. We will install a very basic operating system and docker to hold one specific program = &lt;a href=&quot;https:&#x2F;&#x2F;docs.netbox.dev&#x2F;en&#x2F;stable&#x2F;&quot;&gt;NetBox&lt;&#x2F;a&gt;. We will also be using &lt;a href=&quot;https:&#x2F;&#x2F;n8n.io&quot;&gt;n8n&lt;&#x2F;a&gt; and have some other choices to make.&lt;&#x2F;p&gt;
 &lt;p&gt;The idea is that we are building an infrastructure and we plan to store and maintain it for a long time.&lt;&#x2F;p&gt;
-&lt;p&gt;+++&lt;&#x2F;p&gt;
-&lt;h4 id=&quot;reference&quot;&gt;reference&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
 &lt;p&gt;Alternatives:
 &lt;a href=&quot;https:&#x2F;&#x2F;maas.io&quot;&gt;Maas&lt;&#x2F;a&gt; and &lt;a href=&quot;https:&#x2F;&#x2F;juju.is&quot;&gt;Juju&lt;&#x2F;a&gt; and &lt;a href=&quot;https:&#x2F;&#x2F;www.openstack.org&#x2F;&quot;&gt;OpenStack&lt;&#x2F;a&gt; work together to form &lt;a href=&quot;irm&quot;&gt;infrastructure resource management&lt;&#x2F;a&gt;. 
 Choose this if you are more comfortable with Ubuntu&lt;&#x2F;p&gt;
@@ -1011,10 +1059,10 @@ Choose this if you are more comfortable with Ubuntu&lt;&#x2F;p&gt;
 		<title>Read Model</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/read-model/" type="text/html"/>
-		<id>/library/read-model/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/read-model/" type="text/html"/>
+		<id>https://amaranthos.io/library/read-model/</id>
 		<content type="html">&lt;p&gt;The domain logic that we built in the previous section accepted commands from the outside world. Sending a command is a void operation; either the command is accepted and life goes on, or the command is rejected and an exception is thrown. So how does the outside world ever ask questions about current state? This is where read models come in.&lt;&#x2F;p&gt;
-&lt;p&gt;+++&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
 &lt;h4 id=&quot;reference&quot;&gt;reference&lt;&#x2F;h4&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.cqrs.nu&#x2F;tutorial&#x2F;cs&#x2F;03-read-models&quot;&gt;Read Models in CQRS&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
@@ -1023,8 +1071,8 @@ Choose this if you are more comfortable with Ubuntu&lt;&#x2F;p&gt;
 		<title>Relationship</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/relationship/" type="text/html"/>
-		<id>/library/relationship/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/relationship/" type="text/html"/>
+		<id>https://amaranthos.io/library/relationship/</id>
 		<content type="html">&lt;p&gt;A common link between two things.&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -1032,8 +1080,8 @@ Choose this if you are more comfortable with Ubuntu&lt;&#x2F;p&gt;
 		<title>Rust</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/rust/" type="text/html"/>
-		<id>/library/rust/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/rust/" type="text/html"/>
+		<id>https://amaranthos.io/library/rust/</id>
 		<content type="html">&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.rust-lang.org&#x2F;&quot;&gt;Rust&lt;&#x2F;a&gt;
 Rust has a rich type system and ownership model to guarantee memory-safety and thread-safety.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.rust-lang.org&#x2F;learn&#x2F;get-started&quot;&gt;Getting started&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
@@ -1043,8 +1091,8 @@ Rust has a rich type system and ownership model to guarantee memory-safety and t
 		<title>System of Record</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/sor/" type="text/html"/>
-		<id>/library/sor/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/sor/" type="text/html"/>
+		<id>https://amaranthos.io/library/sor/</id>
 		<content type="html">&lt;p&gt;The authoritative data source for a given piece of information.&lt;&#x2F;p&gt;
 &lt;p&gt;The repository where the objects as a whole are maintained. This maintenance includes creation, updating, modifying and deleting, a.k.a. the &lt;a href=&quot;&#x2F;library&#x2F;write-model&quot;&gt;Write Model&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;The &lt;code&gt;SOR&lt;&#x2F;code&gt; is the source that is used for audit or regulatory reporting purposes.&lt;&#x2F;p&gt;
@@ -1054,8 +1102,8 @@ Rust has a rich type system and ownership model to guarantee memory-safety and t
 		<title>Source of Truth</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/sot/" type="text/html"/>
-		<id>/library/sot/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/sot/" type="text/html"/>
+		<id>https://amaranthos.io/library/sot/</id>
 		<content type="html">&lt;p&gt;The trusted source with a complete picture of the defined object as a whole. &lt;a href=&quot;&#x2F;library&#x2F;read-model&quot;&gt;a.k.a. Read Model&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;library&#x2F;read-model&quot;&gt;Read Models&lt;&#x2F;a&gt; are specific &lt;a href=&quot;&#x2F;library&#x2F;aggregate&quot;&gt;aggregates&lt;&#x2F;a&gt; of information designed to envelope the &lt;a href=&quot;&#x2F;library&#x2F;limits&quot;&gt;Limits&lt;&#x2F;a&gt; and &lt;a href=&quot;&#x2F;library&#x2F;boundaries&quot;&gt;boundaries&lt;&#x2F;a&gt; and &lt;a href=&quot;&#x2F;library&#x2F;behaviors&quot;&gt;behaviors&lt;&#x2F;a&gt; of a defined space.&lt;&#x2F;p&gt;
 </content>
@@ -1064,8 +1112,8 @@ Rust has a rich type system and ownership model to guarantee memory-safety and t
 		<title>Structure</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/structure/" type="text/html"/>
-		<id>/library/structure/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/structure/" type="text/html"/>
+		<id>https://amaranthos.io/library/structure/</id>
 		<content type="html">&lt;p&gt;The way that something is built, arranged, or organized.&lt;&#x2F;p&gt;
 &lt;p&gt;Structure information with the intent to make a &lt;a href=&quot;type-system&quot;&gt;Type System&lt;&#x2F;a&gt;. This means defining Limits and Boundaries.&lt;&#x2F;p&gt;
 </content>
@@ -1074,8 +1122,8 @@ Rust has a rich type system and ownership model to guarantee memory-safety and t
 		<title>Thing (Type)</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/thing-type/" type="text/html"/>
-		<id>/library/thing-type/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/thing-type/" type="text/html"/>
+		<id>https://amaranthos.io/library/thing-type/</id>
 		<content type="html">&lt;p&gt;A thing is a generic object (not a &lt;a href=&quot;person&quot;&gt;person&lt;&#x2F;a&gt; or &lt;a href=&quot;organization&quot;&gt;organization&lt;&#x2F;a&gt;) that can interact. &lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -1083,8 +1131,8 @@ Rust has a rich type system and ownership model to guarantee memory-safety and t
 		<title>Thing</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/thing/" type="text/html"/>
-		<id>/library/thing/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/thing/" type="text/html"/>
+		<id>https://amaranthos.io/library/thing/</id>
 		<content type="html">&lt;p&gt;Used to refer in an object that is not a &lt;a href=&quot;person&quot;&gt;person&lt;&#x2F;a&gt; or &lt;a href=&quot;organization&quot;&gt;organization&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;thing-type&quot;&gt;Thing Type&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
@@ -1093,8 +1141,8 @@ Rust has a rich type system and ownership model to guarantee memory-safety and t
 		<title>Things</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/things/" type="text/html"/>
-		<id>/library/things/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/things/" type="text/html"/>
+		<id>https://amaranthos.io/library/things/</id>
 		<content type="html">&lt;p&gt;Things are a term for any definable collection, physical, mental, or imaginary.&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -1102,16 +1150,16 @@ Rust has a rich type system and ownership model to guarantee memory-safety and t
 		<title>Topologies</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/topologies/" type="text/html"/>
-		<id>/library/topologies/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/topologies/" type="text/html"/>
+		<id>https://amaranthos.io/library/topologies/</id>
 		<content type="html"></content>
 	</entry>
 	<entry xml:lang="en">
 		<title>Trait</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/traits/" type="text/html"/>
-		<id>/library/traits/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/traits/" type="text/html"/>
+		<id>https://amaranthos.io/library/traits/</id>
 		<content type="html">&lt;p&gt;A quality that makes one thing different from another&lt;&#x2F;p&gt;
 &lt;p&gt;in &lt;a href=&quot;rust&quot;&gt;Rust&lt;&#x2F;a&gt;:
 A &lt;a href=&quot;https:&#x2F;&#x2F;doc.rust-lang.org&#x2F;reference&#x2F;items&#x2F;traits.html&quot;&gt;trait&lt;&#x2F;a&gt; describes an abstract interface that types can implement. This interface consists of associated items, which come in three varieties:&lt;&#x2F;p&gt;
@@ -1126,8 +1174,8 @@ A &lt;a href=&quot;https:&#x2F;&#x2F;doc.rust-lang.org&#x2F;reference&#x2F;items
 		<title>Type System</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/type-system/" type="text/html"/>
-		<id>/library/type-system/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/type-system/" type="text/html"/>
+		<id>https://amaranthos.io/library/type-system/</id>
 		<content type="html">&lt;blockquote&gt;
 &lt;p&gt;In programming languages, a type system is a logical system comprising a set of rules that assigns a property called a type to the various constructs of a computer program, such as variables, expressions, functions or modules. - &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Type_system&quot;&gt;wikipedia&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
@@ -1142,11 +1190,12 @@ A &lt;a href=&quot;https:&#x2F;&#x2F;doc.rust-lang.org&#x2F;reference&#x2F;items
 		<title>Typedefs</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/typedefs/" type="text/html"/>
-		<id>/library/typedefs/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/typedefs/" type="text/html"/>
+		<id>https://amaranthos.io/library/typedefs/</id>
 		<content type="html">&lt;p&gt;A programming language agnostic, algebraic data type definition language, written in Idris.&lt;&#x2F;p&gt;
-&lt;p&gt;+++&lt;&#x2F;p&gt;
-&lt;h4 id=&quot;reference&quot;&gt;reference&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;typedefs.com&#x2F;&quot;&gt;Typedefs&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -1154,8 +1203,8 @@ A &lt;a href=&quot;https:&#x2F;&#x2F;doc.rust-lang.org&#x2F;reference&#x2F;items
 		<title>Types</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/types/" type="text/html"/>
-		<id>/library/types/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/types/" type="text/html"/>
+		<id>https://amaranthos.io/library/types/</id>
 		<content type="html">&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;doc.rust-lang.org&#x2F;reference&#x2F;types.html&quot;&gt;Rust Types&lt;&#x2F;a&gt; are already available to us and provide a rich basis from which to expand the &lt;a href=&quot;type-system&quot;&gt;Type System&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;doc.rust-lang.org&#x2F;reference&#x2F;types&#x2F;boolean.html&quot;&gt;Boolean&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
@@ -1181,11 +1230,12 @@ A &lt;a href=&quot;https:&#x2F;&#x2F;doc.rust-lang.org&#x2F;reference&#x2F;items
 		<title>Ubiquitous Language</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/ubiquitous-language/" type="text/html"/>
-		<id>/library/ubiquitous-language/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/ubiquitous-language/" type="text/html"/>
+		<id>https://amaranthos.io/library/ubiquitous-language/</id>
 		<content type="html">&lt;p&gt;The practice of building up a common, rigorous language between unique sets of people.&lt;&#x2F;p&gt;
-&lt;p&gt;+++&lt;&#x2F;p&gt;
-&lt;h4 id=&quot;reference&quot;&gt;reference&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.martinfowler.com&#x2F;bliki&#x2F;UbiquitousLanguage.html&quot;&gt;Martin Fowler&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -1193,11 +1243,12 @@ A &lt;a href=&quot;https:&#x2F;&#x2F;doc.rust-lang.org&#x2F;reference&#x2F;items
 		<title>UEFI</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/uefi/" type="text/html"/>
-		<id>/library/uefi/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/uefi/" type="text/html"/>
+		<id>https://amaranthos.io/library/uefi/</id>
 		<content type="html">&lt;p&gt;&lt;code&gt;UEFI&lt;&#x2F;code&gt; stands for &amp;quot;Unified Extensible Firmware Interface.&amp;quot; The UEFI Specification defines a new model for the interface between personal-computer operating systems and platform firmware. The interface consists of data tables that contain platform-related information, plus boot and runtime service calls that are available to the operating system and its loader. Together, these provide a standard environment for booting an operating system and running pre-boot applications.&lt;&#x2F;p&gt;
-&lt;p&gt;+++&lt;&#x2F;p&gt;
-&lt;h4 id=&quot;reference&quot;&gt;reference&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;uefi.org&quot;&gt;UEFI.org&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -1205,8 +1256,8 @@ A &lt;a href=&quot;https:&#x2F;&#x2F;doc.rust-lang.org&#x2F;reference&#x2F;items
 		<title>User Interface</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/ui/" type="text/html"/>
-		<id>/library/ui/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/ui/" type="text/html"/>
+		<id>https://amaranthos.io/library/ui/</id>
 		<content type="html">&lt;p&gt;The thing comes between you and the thing processing your information.&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -1214,8 +1265,8 @@ A &lt;a href=&quot;https:&#x2F;&#x2F;doc.rust-lang.org&#x2F;reference&#x2F;items
 		<title>Universe</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/universe/" type="text/html"/>
-		<id>/library/universe/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/universe/" type="text/html"/>
+		<id>https://amaranthos.io/library/universe/</id>
 		<content type="html">&lt;p&gt;All of space and time and their contents.&lt;&#x2F;p&gt;
 &lt;p&gt;This is used as a metaphor for information where all aspects we have determined in a model environment reside within a defined space we call a universe.&lt;&#x2F;p&gt;
 </content>
@@ -1224,8 +1275,8 @@ A &lt;a href=&quot;https:&#x2F;&#x2F;doc.rust-lang.org&#x2F;reference&#x2F;items
 		<title>User</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/user/" type="text/html"/>
-		<id>/library/user/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/user/" type="text/html"/>
+		<id>https://amaranthos.io/library/user/</id>
 		<content type="html">&lt;p&gt;A user is a person who utilizes a computer or network service. - &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;User_(computing)&quot;&gt;wikipedia&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;There are several problems with this definition. Specifically, it&#x27;s not always a &lt;a href=&quot;&#x2F;library&#x2F;person&quot;&gt;person&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;I will denote this as a &lt;code&gt;classic definition&lt;&#x2F;code&gt; meaning, that is what the industry calls it, but for it is not a definition I want to carry forward.&lt;&#x2F;p&gt;
@@ -1235,12 +1286,13 @@ A &lt;a href=&quot;https:&#x2F;&#x2F;doc.rust-lang.org&#x2F;reference&#x2F;items
 		<title>Write Model</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
-		<link rel="alternate" href="/library/write-model/" type="text/html"/>
-		<id>/library/write-model/</id>
+		<link rel="alternate" href="https://amaranthos.io/library/write-model/" type="text/html"/>
+		<id>https://amaranthos.io/library/write-model/</id>
 		<content type="html">&lt;p&gt;A command is an instruction, a directive to perform a specific task. It is an intention to change something. 
 The commands make up the write model, and the write model should be as close as possible to the business processes.&lt;&#x2F;p&gt;
-&lt;p&gt;+++&lt;&#x2F;p&gt;
-&lt;h4 id=&quot;reference&quot;&gt;reference&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.eventstore.com&#x2F;cqrs-pattern&quot;&gt;Commands in CQRS&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
 	</entry>

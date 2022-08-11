@@ -9,6 +9,9 @@ template = "library.html"
 +++
 
 
-+++
-#### reference
+---
+
+#### References
+
+---
 [Towards Safe and Efficient Functional Reactive Programming - Neil Sculthorpe](http://www.neilsculthorpe.com/publications/safe-efficient-FRP.pdf)

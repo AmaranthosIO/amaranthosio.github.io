@@ -10,11 +10,13 @@ To obtain the things we want requires resources, and the process of transforming
 is often an intricate one.
 
 ## Consider the following three questions you might ask yourself:
-  • Given what I have, is it possible to get what I want?
-  • Given what I have, what is the minimum cost to get what I want?
-  • Given what I have, what is the set of ways to get what I want?
 
-We have a formalism for expressing recipes—methods for transforming one set of resources into another—and for deriving new recipes from old. These fill a role or ingrdient in the recipe and are often replaceable.
+  * **Given what I have:**
+    * Is it possible to get what I want?
+    * What is the cost to get what I want?
+    * What is the set of ways to get what I want?
+
+We have a formalism for expressing recipes—methods for transforming one set of resources into another—and for deriving new recipes from old. These fill a role or ingredient in the recipe and are often replaceable.
 
   * [Event Store](https://eventstore.com/)
     An Event Store acts as the [System of Record](/library/sor)  

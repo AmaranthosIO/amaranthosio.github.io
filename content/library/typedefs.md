@@ -10,6 +10,9 @@ template = "library.html"
 
 A programming language agnostic, algebraic data type definition language, written in Idris.
 
-+++
-#### reference
+---
+
+#### References
+
+---
 [Typedefs](https://typedefs.com/)
