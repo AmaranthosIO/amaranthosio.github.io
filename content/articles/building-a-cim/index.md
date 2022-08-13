@@ -4,7 +4,7 @@ description = "A distributed knowledge encapsulation system based on Functional 
 date = 2022-08-03
 weight = 0
 draft = true
-in_search_index = true
+in_search_index = false
 # Template to use to render this page.
 #template = "page.html"
 
