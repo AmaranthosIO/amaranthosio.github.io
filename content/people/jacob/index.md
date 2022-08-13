@@ -1,6 +1,6 @@
 +++
 title = "Jacob Kapilovitch"
-template = "about.html"
+template = "empty.html"
 [extra]
   image = "team_jacob.jpg"
 +++

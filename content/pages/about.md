@@ -1,7 +1,7 @@
 +++
 title = "About"
 path = "about"
-template = "about.html"
+template = "empty.html"
 +++
 
 Amaranthos IO delivers your most important information.

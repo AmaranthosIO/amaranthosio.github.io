@@ -3,10 +3,16 @@
 {% import "macros/info.html" as info %}
 
 {% macro render(page, type="default") %}
+  {% set img = page.extra.image | default(value="") %}
+  {% if img %}
+  {% if img is not starting_with("/") %}
+    {% set img = page.path~img %}
+  {% endif %}
+  {% endif %}
   {% if type == "overlay" %}
     <div class="card border-0 text-white">
       {{image::render(
-        src=get_url(path=page.path~page.extra.image),
+        src=get_url(path=img),
         alt=page.title,
         extra="card-img"
       )}}
@@ -16,8 +22,8 @@
     </div>
   {% elif type == "vertical" %}
     <div class="card p-3 border-0">
-      {% if page.extra.image %}{{image::render(
-        src=get_url(path=page.path~page.extra.image),
+      {% if img %}{{image::render(
+        src=get_url(path=img),
         alt=page.title,
         extra="card-img-top"
       )}}{% endif %}
@@ -28,13 +34,13 @@
   {% elif type == "carousel" %}
     <div class="carousel-item">
       <img
-        src="{{get_url(path=page.path~page.extra.image)}}"
+        src="{{get_url(path=img)}}"
         class="d-block w-100"
         alt="{{page.title}}"
       >
       <div class="carousel-caption d-none d-md-block">
         <h5>{{page.title}}</h5>
-        <p>{{people::render(page=page)}}</p>
+        <p>{{authors::render(page=page)}}</p>
       </div>
     </div>
   {% else %}
@@ -44,7 +50,7 @@
         {% if img %}
         <div class="col-md-4 d-flex align-items-center">
           {{image::render(
-            src=get_url(path=page.path~img),
+            src=get_url(path=img),
             alt=page.title
           )}}
         </div>

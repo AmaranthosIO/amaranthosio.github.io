@@ -4,7 +4,7 @@
 {% block title %}{{config.title}} - People{% endblock %}
 
 {% block content %}
-  <h1>people</h1>
+  <h1>People</h1>
   {% for term in terms %}
     {{personbox::render(person_slug=term.name)}}
   {% endfor %}

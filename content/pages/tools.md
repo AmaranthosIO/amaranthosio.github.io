@@ -1,7 +1,7 @@
 +++
 title = "Tooling"
 path = "tools"
-template = "about.html"
+template = "empty.html"
 +++
 Everything we use here is [Open Source](https://opensource.com/resources/what-open-source), 
 we have specific places where each of these fit into a [Composable Information Machine](/library/cim).
