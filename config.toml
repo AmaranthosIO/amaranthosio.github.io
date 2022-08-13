@@ -27,7 +27,7 @@ output_dir = "docs"
 highlight_code = true
 
 [extra]
-copyright = "Copyright &copy; Amaranthos IO, LLC. 2020-2022"
+copyright = "Copyright(c) 2020-2022 - Amaranthos IO, LLC."
 banner = "img/banner.jpeg"
 site_logo = "img/amaranthos.png"
 date_format = '%Y-%m-%d'
