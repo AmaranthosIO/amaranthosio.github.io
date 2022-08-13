@@ -3,7 +3,7 @@ title = "Building a Composable Information Machine"
 description = "A distributed knowledge encapsulation system based on Functional Reactive Programming and Event Sourcing"
 date = 2022-08-03
 weight = 0
-draft = false
+draft = true
 in_search_index = true
 # Template to use to render this page.
 #template = "page.html"
