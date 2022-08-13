@@ -53,15 +53,16 @@ template = "page.html"
 
 # Your own data.
 [extra]
-image = "FunctionalProg.png"
+image = "/img/FunctionalProg.png"
 
 +++
 
 > A [distributed](https://www.splunk.com/en_us/data-insider/what-are-distributed-systems.html) knowledge encapsulation system based on [Functional Reactive Programming](https://codedocs.org/what-is/functional-reactive-programming) and [Event Sourcing](https://www.eventstore.com/blog/what-is-event-sourcing).
 
+## Composable Information Machine
 ![diagram of a cim](/img/cim.svg)
 
-We have achieved something extraordinary in the [last 50 years of Information Technology](https://www.ithistory.org/). IT became tiny and affordable to everyone. <img alt="pistock" src="pistock.png" style="width: 25%;"/> I can buy a $5 postage stamp sized computer that can do enough processing to do real work and it's widely available. 
+We have achieved something extraordinary in the [last 50 years of Information Technology](https://www.ithistory.org/). IT became tiny and affordable to everyone. <img class="w-25" alt="pistock" src="pistock.png"/> I can buy a $5 postage stamp sized computer that can do enough processing to do real work and it's widely available. 
 
 > The universe is made of [events](/library/events) not objects - [Carlo Rovelli](https://www.closertotruth.com/interviews/55727)
 

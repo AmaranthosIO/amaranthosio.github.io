@@ -1,7 +1,7 @@
 +++
 title = "Applied Category Theory"
 date = 2022-08-03
-template = "library.html"
+
 [extra]
   image = "/img/applied-category-theory.png"
 [taxonomies]

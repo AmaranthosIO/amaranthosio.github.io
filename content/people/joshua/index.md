@@ -1,6 +1,6 @@
 +++
 title = "Joshua Denne"
-template = "about.html"
+template = "empty.html"
 [extra]
   image = "joshuadenne.webp"
 +++

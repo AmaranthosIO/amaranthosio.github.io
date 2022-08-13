@@ -1,9 +1,9 @@
 +++
 title = "Anti-Corruption Layer"
 date = 2022-08-09
-template = "library.html"
+
 [extra]
-  image = "acl.webp"
+  image = "/img/acl.webp"
 [taxonomies]
    tags = ["ubiquitous-language", "library", "concept", "ddd", "hexagonal", "integration", "boundaries", "security"]
 +++

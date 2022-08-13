@@ -1,6 +1,6 @@
 +++
 title = "Steele Price"
-template = "about.html"
+template = "empty.html"
 [extra]
   image = "steele.jfif"
 +++
