@@ -5,7 +5,7 @@ date = 2022-08-16
 [extra]
   image = "/img/cimState.png"
 [taxonomies]
-   tags = ["ubiquitous-language", "library", "concept", "emmergence", "theory", "tests"]
+   tags = ["ubiquitous-language", "library", "concept", "emergence", "theory", "tests"]
 +++
 One event causes another event to occur. Causation can only be determined from an appropriately designed experiment. These experiments take the form of [acceptance testing](https://www.geeksforgeeks.org/acceptance-testing-software-testing/). 
 
