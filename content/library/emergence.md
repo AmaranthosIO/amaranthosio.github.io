@@ -5,7 +5,7 @@ date = 2022-08-16
 [extra]
   image = "/img/gestalt-laws-of-perceptual-organization.webp"
 [taxonomies]
-   tags = ["ubiquitous-language", "library", "concept", "gestalt"], "theory"
+   tags = ["ubiquitous-language", "library", "concept", "gestalt", "theory", "emergence"]
 +++
 A novel property of a system or an entity that arises when that system or entity has reached a certain level of complexity and that, even though it exists only insofar as the system or entity exists, it is distinct from the properties of the parts of the system from which it emerges.
 

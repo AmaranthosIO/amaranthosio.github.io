@@ -76,6 +76,10 @@
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
+        <loc>https://amaranthos.io/library/causation/</loc>
+        <lastmod>2022-08-16</lastmod>
+    </url>
+    <url>
         <loc>https://amaranthos.io/library/cd/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
@@ -132,6 +136,10 @@
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
+        <loc>https://amaranthos.io/library/correlation/</loc>
+        <lastmod>2022-08-16</lastmod>
+    </url>
+    <url>
         <loc>https://amaranthos.io/library/devcontainer/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
@@ -150,6 +158,10 @@
     <url>
         <loc>https://amaranthos.io/library/either/</loc>
         <lastmod>2022-08-03</lastmod>
+    </url>
+    <url>
+        <loc>https://amaranthos.io/library/emergence/</loc>
+        <lastmod>2022-08-16</lastmod>
     </url>
     <url>
         <loc>https://amaranthos.io/library/event-sourcing/</loc>
@@ -178,6 +190,10 @@
     <url>
         <loc>https://amaranthos.io/library/geometric-algebra/</loc>
         <lastmod>2022-08-03</lastmod>
+    </url>
+    <url>
+        <loc>https://amaranthos.io/library/gestalt/</loc>
+        <lastmod>2022-08-16</lastmod>
     </url>
     <url>
         <loc>https://amaranthos.io/library/groups/</loc>
@@ -261,6 +277,9 @@
     </url>
     <url>
         <loc>https://amaranthos.io/library/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://amaranthos.io/library/page/10/</loc>
     </url>
     <url>
         <loc>https://amaranthos.io/library/page/2/</loc>
@@ -458,6 +477,12 @@
         <loc>https://amaranthos.io/tags/category-theory/page/1/</loc>
     </url>
     <url>
+        <loc>https://amaranthos.io/tags/causation/</loc>
+    </url>
+    <url>
+        <loc>https://amaranthos.io/tags/causation/page/1/</loc>
+    </url>
+    <url>
         <loc>https://amaranthos.io/tags/cim/</loc>
     </url>
     <url>
@@ -503,6 +528,9 @@
         <loc>https://amaranthos.io/tags/concept/page/18/</loc>
     </url>
     <url>
+        <loc>https://amaranthos.io/tags/concept/page/19/</loc>
+    </url>
+    <url>
         <loc>https://amaranthos.io/tags/concept/page/2/</loc>
     </url>
     <url>
@@ -539,10 +567,28 @@
         <loc>https://amaranthos.io/tags/development/page/1/</loc>
     </url>
     <url>
+        <loc>https://amaranthos.io/tags/emergence/</loc>
+    </url>
+    <url>
+        <loc>https://amaranthos.io/tags/emergence/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://amaranthos.io/tags/emmergence/</loc>
+    </url>
+    <url>
+        <loc>https://amaranthos.io/tags/emmergence/page/1/</loc>
+    </url>
+    <url>
         <loc>https://amaranthos.io/tags/game-theory/</loc>
     </url>
     <url>
         <loc>https://amaranthos.io/tags/game-theory/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://amaranthos.io/tags/gestalt/</loc>
+    </url>
+    <url>
+        <loc>https://amaranthos.io/tags/gestalt/page/1/</loc>
     </url>
     <url>
         <loc>https://amaranthos.io/tags/hexagonal/</loc>
@@ -590,6 +636,9 @@
         <loc>https://amaranthos.io/tags/library/page/18/</loc>
     </url>
     <url>
+        <loc>https://amaranthos.io/tags/library/page/19/</loc>
+    </url>
+    <url>
         <loc>https://amaranthos.io/tags/library/page/2/</loc>
     </url>
     <url>
@@ -618,6 +667,18 @@
     </url>
     <url>
         <loc>https://amaranthos.io/tags/security/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://amaranthos.io/tags/tests/</loc>
+    </url>
+    <url>
+        <loc>https://amaranthos.io/tags/tests/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://amaranthos.io/tags/theory/</loc>
+    </url>
+    <url>
+        <loc>https://amaranthos.io/tags/theory/page/1/</loc>
     </url>
     <url>
         <loc>https://amaranthos.io/tags/ubiquitous-language/</loc>
@@ -651,6 +712,9 @@
     </url>
     <url>
         <loc>https://amaranthos.io/tags/ubiquitous-language/page/18/</loc>
+    </url>
+    <url>
+        <loc>https://amaranthos.io/tags/ubiquitous-language/page/19/</loc>
     </url>
     <url>
         <loc>https://amaranthos.io/tags/ubiquitous-language/page/2/</loc>

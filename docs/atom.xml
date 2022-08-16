@@ -5,8 +5,77 @@
 	<link href="https://amaranthos.io/atom.xml" rel="self" type="application/atom+xml"/>
   <link href="https://amaranthos.io/"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2022-08-09T00:00:00+00:00</updated>
+	<updated>2022-08-16T00:00:00+00:00</updated>
 	<id>https://amaranthos.io/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Causation</title>
+		<published>2022-08-16T00:00:00+00:00</published>
+		<updated>2022-08-16T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://amaranthos.io/library/causation/" type="text/html"/>
+		<id>https://amaranthos.io/library/causation/</id>
+		<content type="html">&lt;p&gt;One event causes another event to occur. Causation can only be determined from an appropriately designed experiment. These experiments take the form of &lt;a href=&quot;https:&#x2F;&#x2F;www.geeksforgeeks.org&#x2F;acceptance-testing-software-testing&#x2F;&quot;&gt;acceptance testing&lt;&#x2F;a&gt;. &lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.khanacademy.org&#x2F;test-prep&#x2F;praxis-math&#x2F;praxis-math-lessons&#x2F;gtp--praxis-math--lessons--statistics-and-probability&#x2F;a&#x2F;gtp--praxis-math--article--correlation-and-causation--lesson&quot;&gt;What is the difference between correlation and causation?&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.inference.vc&#x2F;untitled&#x2F;&quot;&gt;An Intro to Causal Inference and do-Calculus&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Correlation</title>
+		<published>2022-08-16T00:00:00+00:00</published>
+		<updated>2022-08-16T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://amaranthos.io/library/correlation/" type="text/html"/>
+		<id>https://amaranthos.io/library/correlation/</id>
+		<content type="html">&lt;p&gt;There is a relationship or pattern between the values of two variables. &lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;mathworld.wolfram.com&#x2F;CorrelationCoefficient.html&quot;&gt;Mathworld Definition&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;library&#x2F;voronoi&quot;&gt;see: voronoi&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Emergence</title>
+		<published>2022-08-16T00:00:00+00:00</published>
+		<updated>2022-08-16T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://amaranthos.io/library/emergence/" type="text/html"/>
+		<id>https://amaranthos.io/library/emergence/</id>
+		<content type="html">&lt;p&gt;A novel property of a system or an entity that arises when that system or entity has reached a certain level of complexity and that, even though it exists only insofar as the system or entity exists, it is distinct from the properties of the parts of the system from which it emerges.&lt;&#x2F;p&gt;
+&lt;p&gt;We want to discover and abstract these as unique and valuable ideas in our &lt;a href=&quot;&#x2F;library&#x2F;cim&quot;&gt;cim&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;In terms of us as individuals, they are the rules we have learned over time to use to make decisions. Some of these rules are beneficial. Others hold us back. We want to see these as processes we control for information and information correlation.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;reference&quot;&gt;Reference&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;iep.utm.edu&#x2F;emergence&#x2F;&quot;&gt;Encyclopedia of Philosophy&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Gestalt</title>
+		<published>2022-08-16T00:00:00+00:00</published>
+		<updated>2022-08-16T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://amaranthos.io/library/gestalt/" type="text/html"/>
+		<id>https://amaranthos.io/library/gestalt/</id>
+		<content type="html">&lt;p&gt;Something that is made of many parts and yet is somehow more than or different from the combination of its parts. - &lt;a href=&quot;https:&#x2F;&#x2F;www.merriam-webster.com&#x2F;dictionary&#x2F;gestalt&quot;&gt;Merriam-Webster&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;This idea is that we build things and patterns emerge that did not forsee.
+It is an analysis of patterns that form through &lt;a href=&quot;&#x2F;library&#x2F;emergence&quot;&gt;emergence&lt;&#x2F;a&gt;. We want to see new ideas emerge from old patterns.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;The Gestalt laws of perceptual organization present a set of principles for understanding some of the ways in which perception works. Research continues to offer insights into perception and how we see the world. These principles of organization play a role in perception, but it is also important to remember that they can sometimes lead to incorrect perceptions of the world.&amp;quot; - &lt;a href=&quot;https:&#x2F;&#x2F;www.verywellmind.com&#x2F;gestalt-laws-of-perceptual-organization-2795835&quot;&gt;Kendra Cherry&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;We consider the process of learning to be ‘gestalt’ – &lt;code&gt;an Organised Whole&lt;&#x2F;code&gt;. The basic idea is that a thing cannot be understood by study of its constituent parts but only by the study of it as a totality or whole. This includes understanding the &lt;a href=&quot;&#x2F;library&#x2F;behaviors&quot;&gt;behaviors&lt;&#x2F;a&gt;, &lt;a href=&quot;&#x2F;library&#x2F;limits&quot;&gt;limits&lt;&#x2F;a&gt;, and &lt;a href=&quot;&#x2F;library&#x2F;boundaries&quot;&gt;boundaries&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Insight is an intelligent search for problem solving. In this type of learning, when faced with a problematic situation, the process of discrimination and generalisation projects into &lt;code&gt;insight&lt;&#x2F;code&gt; or &lt;code&gt;clues&lt;&#x2F;code&gt; to solve the problem, sometimes by simply pointing at the answer.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;reference&quot;&gt;Reference&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.verywellmind.com&#x2F;gestalt-laws-of-perceptual-organization-2795835&quot;&gt;Gestalt Laws of Perceptual Organization&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+	</entry>
 	<entry xml:lang="en">
 		<title>Anti-Corruption Layer</title>
 		<published>2022-08-09T00:00:00+00:00</published>
