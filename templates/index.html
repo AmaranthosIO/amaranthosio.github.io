@@ -32,7 +32,7 @@
             {% for i in item.items %}
               <div class="card m-5">
                 {% if i.img %}
-                <a href="{{i.url}}">
+                <a href="{{i.permalink}}">
                   <img
                     src="{{get_url(path=i.img)}}"
                     class="card-img-top"
