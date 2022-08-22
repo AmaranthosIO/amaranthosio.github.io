@@ -6,8 +6,8 @@
   text-white
 ">
 <div class="row">
-  <div class="col-3 fs-6">{% if config.extra.copyright %}{{config.extra.copyright}}{% endif %}</div>
-  <div class="col-6">
+  <div class="col-4 fs-6">{% if config.extra.copyright %}{{config.extra.copyright}}{% endif %}</div>
+  <div class="col-4">
     {% for icon in config.extra.icons %}
     <a
       class="text-reset mx-1 bg-transparent"
@@ -16,7 +16,7 @@
     ><i class="fab fa-{{icon.icon}}"></i></a>
     {% endfor %}
   </div>
-  <div class="col-3">  {% if config.extra.email %}
+  <div class="col-4">  {% if config.extra.email %}
     <a
       href="mailto:{{config.extra.email}}"
       class="text-reset text-decoration-none"
