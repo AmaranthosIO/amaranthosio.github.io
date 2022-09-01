@@ -52,7 +52,9 @@ We will define some more [Axioms](/library/axiom), meaning a definition, so we u
 
 ## Person
 
-A person is human being. `People` are the plural of person. It can be a lot of other [things](/library/things), but it roots as a human being. Properties are not widely defined in this structure, relying on [traits](/library/traits) and [implementations](/library/implementation) to build utility.
+> A person is human being. 
+
+`People` are the plural of person. It can be a lot of other [things](/library/things), but it roots as a human being. Properties are not widely defined in this structure, relying on [traits](/library/traits) and [implementations](/library/implementation) to build utility.
 
 We will be avoiding definitions [such as this](https://schema.org/Person), though we can project into them and read from them through the use of [ACLs](/library/anti-corruption).
 
@@ -60,13 +62,16 @@ We support things acting as humans, but they are not people, we will talk about 
 
 ## Place
 
-A place in a defined location in the universe. period.
+> A place in a defined location in the universe.
+
 Anything added to that is a [metric](/library/metric), or [topology](/library/topology), or something else which are [traits](/library/traits).
 
 ## Thing
 
-A definable [concept].
+> A definable [concept].
 
 These are the definitions we will use to begin, everything is evolutionary from here.
 
-We have defined these in Rust.
+We have defined these in [Rust](/library/rust).
+
+[Building-the-base](/articles/building-the-base)
