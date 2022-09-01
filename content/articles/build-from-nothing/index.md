@@ -34,7 +34,7 @@ For a data center, we have 3 particular areas of convergence:
   2. Compute
   3. Storage
 
-These 3 areas form the fundamental idea of a `center for information access` and [data center infrastructure management](/library/dcim), they form the [Bounded Contexts](/library/bounded-context) of [infrastructure](/library/infrastructure). While we may have been taught to think of these ideas as `classes`, to the [composable information machine](/library/cim) they are simply [boundaries](/library/boundaries. For us, their definition is also an [Axioms](/library/axiom), something we defined and accept without argument. These end up as [Things](/library/things) as defined below and also lead us later into a [proof](/library/proof) system.
+These 3 areas form the fundamental idea of a `center for information access` and [data center infrastructure management](/library/dcim), they form the [Bounded Contexts](/library/bounded-context) of [infrastructure](/library/infrastructure). While we may have been taught to think of these ideas as `classes`, to the [composable information machine](/library/cim) they are simply [boundaries](/library/boundaries). For us, their definition is also an [axiom](/library/axiom), something we defined and accept without further proof. These end up as [Things](/library/things) as defined below and also lead us later into a [proof](/library/proof) system.
 
 In a [Composable Information Machine](/library/cim), we have 3 base abstractions:
 
@@ -48,13 +48,15 @@ These are not an encapsulation as in Object Oriented Classes. We are defining th
 
 We want to clarify where boundaries lie, not necessarily shove everything into a hierarchy or encapsulation. We will have to get used to this idea if coming from a purely OOP background. Functional Programming is a bit different.
 
-We will define some more [Axioms](/library/axiom), meaning a definition, so we understand exactly what we are working with.
+We will define some more [Axioms](/library/axiom), meaning a definition, so we understand exactly what we are working with. In [DDD](/library/ddd) you might calls these [Aggregate Roots](/library/aggregate).
 
 ## Person
 
-A person is human being. It can be a lot of other [things](/library/things), but for us, it roots as a human being. To assign properties, we will be extraordinarily limited, relying on [traits](/library/traits) and [implementations](/library/implementation) to build utility.
+A person is human being. `People` are the plural of person. It can be a lot of other [things](/library/things), but it roots as a human being. Properties are not widely defined in this structure, relying on [traits](/library/traits) and [implementations](/library/implementation) to build utility.
 
-We will be avoiding definitions [such as this](https://schema.org/Person)
+We will be avoiding definitions [such as this](https://schema.org/Person), though we can project into them and read from them through the use of [ACLs](/library/anti-corruption).
+
+We support things acting as humans, but they are not people, we will talk about this more in identification, authentication, and authorization.
 
 ## Place
 

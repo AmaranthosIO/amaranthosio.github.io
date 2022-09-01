@@ -8,3 +8,5 @@ date = 2022-08-03
    tags = ["ubiquitous-language", "library", "concept"]
 +++
  A collection of things at the same place and time with no other pertinent association. i.e. things in a shopping cart.
+
+Agregate Root is the base Type within the aggregate.
