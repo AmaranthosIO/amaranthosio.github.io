@@ -28,6 +28,8 @@ We will be building this from the ground up.
 
 ceph and ipfs are not typed, it's not their responsibility. We add our own [type systems](/library/type-system) as well as [ipld](/library/ipld), and [several apis](/library/api) to [Ansible Playbooks](/library/ansible), [NetBox]/library/NetBox, [n8n Automation](/library/n8n), [and more](/tools)
 
+We use [hyperconvergence](/library/hyperconvergence) internally to provide a hybrid cloud environment and define within it the structure and relationships of all your information.
+
 ![ceph-arch](ceph-arch.png)    
 
   - IPFS is another CLIENT
@@ -37,12 +39,15 @@ ceph and ipfs are not typed, it's not their responsibility. We add our own [type
   - ceph is how we talk to things inside a rack/datacenter/tenant. It helps us to partition information more wisely. 
   - blocks in `ipfs` are translated as a `block storage device` inside [ceph](/library/ceph)
 
-Excellent companies can tell you how to build a 'storage system'... they refrain from telling you about how to define things about the information within the storage. In fact most of them take great pride in avoiding it.
+Excellent companies can tell you how to build a 'storage system' yet they refrain from telling you about how to define things about the information within the storage. In fact most of them take great pride in avoiding it. We have traditionally modeled all of this after paper processes.
 
-We are the processes sitting on top of this generic abstracted stuff.  Most people don't want to learn this hardware stuff to use it. We just want to know it works. You only need to learn the idea behind [n8n](/library/n8n), how we will be using it, and acceptance tests to create business process.
+We are the processes sitting on top of this generic abstracted stuff. We strive eliminate the hierarchical, location based, paper models and embrace instead a well-define system based on [open games](/library/open-games) and [applied category theory](/library/applied-category-theory). Most people don't want to learn this math and hardware stuff to use it. We just want to know it works. 
 
-We will talk a lot about business process, agile and the 'cone of uncertainty'. 
-> This is what we directly attack, chaos and uncertainty.
+You only need to learn the idea behind [n8n](/library/n8n), how we will be using it, and [acceptance tests](/library/acceptance-test) to create [business process](/library/business-process).
+
+We will talk a lot about [business process](/library/business-process), [agile](/library/agile) and the [cone of uncertainty](library/cone-of-uncertainty). 
+
+> This is what we directly attack: [chaos](/library/chaos) and [uncertainty](/library/uncertainty).
 
 ![science](science.png)
 
