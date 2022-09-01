@@ -25,6 +25,7 @@ We will be building this from the ground up.&lt;&#x2F;p&gt;
 &lt;&#x2F;ul&gt;
 &lt;h3 id=&quot;we-combine-lots-of-different-ideas-to-arrive-at-a-composable-information-machine&quot;&gt;We combine lots of different ideas to arrive at a &lt;a href=&quot;&#x2F;library&#x2F;cim&quot;&gt;composable information machine&lt;&#x2F;a&gt;.&lt;&#x2F;h3&gt;
 &lt;p&gt;ceph and ipfs are not typed, it&#x27;s not their responsibility. We add our own &lt;a href=&quot;&#x2F;library&#x2F;type-system&quot;&gt;type systems&lt;&#x2F;a&gt; as well as &lt;a href=&quot;&#x2F;library&#x2F;ipld&quot;&gt;ipld&lt;&#x2F;a&gt;, and &lt;a href=&quot;&#x2F;library&#x2F;api&quot;&gt;several apis&lt;&#x2F;a&gt; to &lt;a href=&quot;&#x2F;library&#x2F;ansible&quot;&gt;Ansible Playbooks&lt;&#x2F;a&gt;, [NetBox]&#x2F;library&#x2F;NetBox, &lt;a href=&quot;&#x2F;library&#x2F;n8n&quot;&gt;n8n Automation&lt;&#x2F;a&gt;, &lt;a href=&quot;&#x2F;tools&quot;&gt;and more&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;We use &lt;a href=&quot;&#x2F;library&#x2F;hyperconvergence&quot;&gt;hyperconvergence&lt;&#x2F;a&gt; internally to provide a hybrid cloud environment and define within it the structure and relationships of all your information.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;amaranthos.io&#x2F;articles&#x2F;build-a-datacenter&#x2F;ceph-arch.png&quot; alt=&quot;ceph-arch&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;IPFS is another CLIENT&lt;&#x2F;li&gt;
@@ -34,11 +35,12 @@ We will be building this from the ground up.&lt;&#x2F;p&gt;
 &lt;li&gt;ceph is how we talk to things inside a rack&#x2F;datacenter&#x2F;tenant. It helps us to partition information more wisely. &lt;&#x2F;li&gt;
 &lt;li&gt;blocks in &lt;code&gt;ipfs&lt;&#x2F;code&gt; are translated as a &lt;code&gt;block storage device&lt;&#x2F;code&gt; inside &lt;a href=&quot;&#x2F;library&#x2F;ceph&quot;&gt;ceph&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;p&gt;Excellent companies can tell you how to build a &#x27;storage system&#x27;... they refrain from telling you about how to define things about the information within the storage. In fact most of them take great pride in avoiding it.&lt;&#x2F;p&gt;
-&lt;p&gt;We are the processes sitting on top of this generic abstracted stuff.  Most people don&#x27;t want to learn this hardware stuff to use it. We just want to know it works. You only need to learn the idea behind &lt;a href=&quot;&#x2F;library&#x2F;n8n&quot;&gt;n8n&lt;&#x2F;a&gt;, how we will be using it, and acceptance tests to create business process.&lt;&#x2F;p&gt;
-&lt;p&gt;We will talk a lot about business process, agile and the &#x27;cone of uncertainty&#x27;. &lt;&#x2F;p&gt;
+&lt;p&gt;Excellent companies can tell you how to build a &#x27;storage system&#x27; yet they refrain from telling you about how to define things about the information within the storage. In fact most of them take great pride in avoiding it. We have traditionally modeled all of this after paper processes.&lt;&#x2F;p&gt;
+&lt;p&gt;We are the processes sitting on top of this generic abstracted stuff. We strive eliminate the hierarchical, location based, paper models and embrace instead a well-define system based on &lt;a href=&quot;&#x2F;library&#x2F;open-games&quot;&gt;open games&lt;&#x2F;a&gt; and &lt;a href=&quot;&#x2F;library&#x2F;applied-category-theory&quot;&gt;applied category theory&lt;&#x2F;a&gt;. Most people don&#x27;t want to learn this math and hardware stuff to use it. We just want to know it works. &lt;&#x2F;p&gt;
+&lt;p&gt;You only need to learn the idea behind &lt;a href=&quot;&#x2F;library&#x2F;n8n&quot;&gt;n8n&lt;&#x2F;a&gt;, how we will be using it, and &lt;a href=&quot;&#x2F;library&#x2F;acceptance-test&quot;&gt;acceptance tests&lt;&#x2F;a&gt; to create &lt;a href=&quot;&#x2F;library&#x2F;business-process&quot;&gt;business process&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;We will talk a lot about &lt;a href=&quot;&#x2F;library&#x2F;business-process&quot;&gt;business process&lt;&#x2F;a&gt;, &lt;a href=&quot;&#x2F;library&#x2F;agile&quot;&gt;agile&lt;&#x2F;a&gt; and the &lt;a href=&quot;library&#x2F;cone-of-uncertainty&quot;&gt;cone of uncertainty&lt;&#x2F;a&gt;. &lt;&#x2F;p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;This is what we directly attack, chaos and uncertainty.&lt;&#x2F;p&gt;
+&lt;p&gt;This is what we directly attack: &lt;a href=&quot;&#x2F;library&#x2F;chaos&quot;&gt;chaos&lt;&#x2F;a&gt; and &lt;a href=&quot;&#x2F;library&#x2F;uncertainty&quot;&gt;uncertainty&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
 &lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;amaranthos.io&#x2F;articles&#x2F;build-a-datacenter&#x2F;science.png&quot; alt=&quot;science&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;articles&#x2F;build-from-nothing&quot;&gt;Building from Nothing&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
@@ -80,7 +82,7 @@ We need to define the way WE see the universe.&lt;&#x2F;p&gt;
 &lt;li&gt;Compute&lt;&#x2F;li&gt;
 &lt;li&gt;Storage&lt;&#x2F;li&gt;
 &lt;&#x2F;ol&gt;
-&lt;p&gt;These 3 areas form the fundamental idea of a &lt;code&gt;center for information access&lt;&#x2F;code&gt; and &lt;a href=&quot;&#x2F;library&#x2F;dcim&quot;&gt;data center infrastructure management&lt;&#x2F;a&gt;, they form the &lt;a href=&quot;&#x2F;library&#x2F;bounded-context&quot;&gt;Bounded Contexts&lt;&#x2F;a&gt; of &lt;a href=&quot;&#x2F;library&#x2F;infrastructure&quot;&gt;infrastructure&lt;&#x2F;a&gt;. While we may have been taught to think of these ideas as &lt;code&gt;classes&lt;&#x2F;code&gt;, to the &lt;a href=&quot;&#x2F;library&#x2F;cim&quot;&gt;composable information machine&lt;&#x2F;a&gt; they are simply [boundaries](&#x2F;library&#x2F;boundaries. For us, their definition is also an &lt;a href=&quot;&#x2F;library&#x2F;axiom&quot;&gt;Axioms&lt;&#x2F;a&gt;, something we defined and accept without argument. These end up as &lt;a href=&quot;&#x2F;library&#x2F;things&quot;&gt;Things&lt;&#x2F;a&gt; as defined below and also lead us later into a &lt;a href=&quot;&#x2F;library&#x2F;proof&quot;&gt;proof&lt;&#x2F;a&gt; system.&lt;&#x2F;p&gt;
+&lt;p&gt;These 3 areas form the fundamental idea of a &lt;code&gt;center for information access&lt;&#x2F;code&gt; and &lt;a href=&quot;&#x2F;library&#x2F;dcim&quot;&gt;data center infrastructure management&lt;&#x2F;a&gt;, they form the &lt;a href=&quot;&#x2F;library&#x2F;bounded-context&quot;&gt;Bounded Contexts&lt;&#x2F;a&gt; of &lt;a href=&quot;&#x2F;library&#x2F;infrastructure&quot;&gt;infrastructure&lt;&#x2F;a&gt;. While we may have been taught to think of these ideas as &lt;code&gt;classes&lt;&#x2F;code&gt;, to the &lt;a href=&quot;&#x2F;library&#x2F;cim&quot;&gt;composable information machine&lt;&#x2F;a&gt; they are simply &lt;a href=&quot;&#x2F;library&#x2F;boundaries&quot;&gt;boundaries&lt;&#x2F;a&gt;. For us, their definition is also an &lt;a href=&quot;&#x2F;library&#x2F;axiom&quot;&gt;axiom&lt;&#x2F;a&gt;, something we defined and accept without further proof. These end up as &lt;a href=&quot;&#x2F;library&#x2F;things&quot;&gt;Things&lt;&#x2F;a&gt; as defined below and also lead us later into a &lt;a href=&quot;&#x2F;library&#x2F;proof&quot;&gt;proof&lt;&#x2F;a&gt; system.&lt;&#x2F;p&gt;
 &lt;p&gt;In a &lt;a href=&quot;&#x2F;library&#x2F;cim&quot;&gt;Composable Information Machine&lt;&#x2F;a&gt;, we have 3 base abstractions:&lt;&#x2F;p&gt;
 &lt;ol&gt;
 &lt;li&gt;Person&lt;&#x2F;li&gt;
@@ -90,17 +92,26 @@ We need to define the way WE see the universe.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;em&gt;NOTE:&lt;&#x2F;em&gt; this is different than &lt;a href=&quot;&#x2F;library&#x2F;inheritance&quot;&gt;inheritance&lt;&#x2F;a&gt;. In &lt;a href=&quot;&#x2F;library&#x2F;rust&quot;&gt;Rust&lt;&#x2F;a&gt;, we use &lt;a href=&quot;&#x2F;library&#x2F;traits&quot;&gt;Traits&lt;&#x2F;a&gt; and &lt;a href=&quot;&#x2F;library&#x2F;implementations&quot;&gt;Implementations&lt;&#x2F;a&gt; to define constraints, behaviors and relationships.&lt;&#x2F;p&gt;
 &lt;p&gt;These are not an encapsulation as in Object Oriented Classes. We are defining the 3 basic ideas that will permeate the entire system we build. We don&#x27;t derive everything from &lt;code&gt;Object&lt;&#x2F;code&gt; as in &lt;a href=&quot;&#x2F;library&#x2F;oop&quot;&gt;Object Oriented Programing&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;We want to clarify where boundaries lie, not necessarily shove everything into a hierarchy or encapsulation. We will have to get used to this idea if coming from a purely OOP background. Functional Programming is a bit different.&lt;&#x2F;p&gt;
-&lt;p&gt;We will define some more &lt;a href=&quot;&#x2F;library&#x2F;axiom&quot;&gt;Axioms&lt;&#x2F;a&gt;, meaning a definition, so we understand exactly what we are working with.&lt;&#x2F;p&gt;
+&lt;p&gt;We will define some more &lt;a href=&quot;&#x2F;library&#x2F;axiom&quot;&gt;Axioms&lt;&#x2F;a&gt;, meaning a definition, so we understand exactly what we are working with. In &lt;a href=&quot;&#x2F;library&#x2F;ddd&quot;&gt;DDD&lt;&#x2F;a&gt; you might calls these &lt;a href=&quot;&#x2F;library&#x2F;aggregate&quot;&gt;Aggregate Roots&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;person&quot;&gt;Person&lt;&#x2F;h2&gt;
-&lt;p&gt;A person is human being. It can be a lot of other &lt;a href=&quot;&#x2F;library&#x2F;things&quot;&gt;things&lt;&#x2F;a&gt;, but for us, it roots as a human being. To assign properties, we will be extraordinarily limited, relying on &lt;a href=&quot;&#x2F;library&#x2F;traits&quot;&gt;traits&lt;&#x2F;a&gt; and &lt;a href=&quot;&#x2F;library&#x2F;implementation&quot;&gt;implementations&lt;&#x2F;a&gt; to build utility.&lt;&#x2F;p&gt;
-&lt;p&gt;We will be avoiding definitions &lt;a href=&quot;https:&#x2F;&#x2F;schema.org&#x2F;Person&quot;&gt;such as this&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A person is human being. &lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;&lt;code&gt;People&lt;&#x2F;code&gt; are the plural of person. It can be a lot of other &lt;a href=&quot;&#x2F;library&#x2F;things&quot;&gt;things&lt;&#x2F;a&gt;, but it roots as a human being. Properties are not widely defined in this structure, relying on &lt;a href=&quot;&#x2F;library&#x2F;traits&quot;&gt;traits&lt;&#x2F;a&gt; and &lt;a href=&quot;&#x2F;library&#x2F;implementation&quot;&gt;implementations&lt;&#x2F;a&gt; to build utility.&lt;&#x2F;p&gt;
+&lt;p&gt;We will be avoiding definitions &lt;a href=&quot;https:&#x2F;&#x2F;schema.org&#x2F;Person&quot;&gt;such as this&lt;&#x2F;a&gt;, though we can project into them and read from them through the use of &lt;a href=&quot;&#x2F;library&#x2F;anti-corruption&quot;&gt;ACLs&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;We support things acting as humans, but they are not people, we will talk about this more in identification, authentication, and authorization.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;place&quot;&gt;Place&lt;&#x2F;h2&gt;
-&lt;p&gt;A place in a defined location in the universe. period.
-Anything added to that is a &lt;a href=&quot;&#x2F;library&#x2F;metric&quot;&gt;metric&lt;&#x2F;a&gt;, or &lt;a href=&quot;&#x2F;library&#x2F;topology&quot;&gt;topology&lt;&#x2F;a&gt;, or something else which are &lt;a href=&quot;&#x2F;library&#x2F;traits&quot;&gt;traits&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A place in a defined location in the universe.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Anything added to that is a &lt;a href=&quot;&#x2F;library&#x2F;metric&quot;&gt;metric&lt;&#x2F;a&gt;, or &lt;a href=&quot;&#x2F;library&#x2F;topology&quot;&gt;topology&lt;&#x2F;a&gt;, or something else which are &lt;a href=&quot;&#x2F;library&#x2F;traits&quot;&gt;traits&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;thing&quot;&gt;Thing&lt;&#x2F;h2&gt;
+&lt;blockquote&gt;
 &lt;p&gt;A definable [concept].&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
 &lt;p&gt;These are the definitions we will use to begin, everything is evolutionary from here.&lt;&#x2F;p&gt;
-&lt;p&gt;We have defined these in Rust.&lt;&#x2F;p&gt;
+&lt;p&gt;We have defined these in &lt;a href=&quot;&#x2F;library&#x2F;rust&quot;&gt;Rust&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;&#x2F;articles&#x2F;building-the-base&quot;&gt;Building-the-base&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
 	</entry>
 	<entry xml:lang="en">
@@ -124,6 +135,19 @@ Anything added to that is a &lt;a href=&quot;&#x2F;library&#x2F;metric&quot;&gt;
 &lt;hr &#x2F;&gt;
 &lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ceph.com&#x2F;en&#x2F;&quot;&gt;ceph.com&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Hyperconvergence</title>
+		<published>2022-09-01T00:00:00+00:00</published>
+		<updated>2022-09-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://amaranthos.io/library/hyperconvergence/" type="text/html"/>
+		<id>https://amaranthos.io/library/hyperconvergence/</id>
+		<content type="html">&lt;p&gt;A technique combining storage, computing and networking into a single system in an effort to reduce data center complexity and increase scalability.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.networkworld.com&#x2F;article&#x2F;3207567&#x2F;what-is-hyperconvergence.html&quot;&gt;What is Hyperconvergence&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
 </content>
 	</entry>
 	<entry xml:lang="en">
@@ -346,6 +370,7 @@ It is an analysis of patterns that form through &lt;a href=&quot;&#x2F;library&#
 		<link rel="alternate" href="https://amaranthos.io/library/aggregate/" type="text/html"/>
 		<id>https://amaranthos.io/library/aggregate/</id>
 		<content type="html">&lt;p&gt;A collection of things at the same place and time with no other pertinent association. i.e. things in a shopping cart.&lt;&#x2F;p&gt;
+&lt;p&gt;Agregate Root is the base Type within the aggregate.&lt;&#x2F;p&gt;
 </content>
 	</entry>
 	<entry xml:lang="en">

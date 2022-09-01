@@ -146,7 +146,7 @@ We need to define the way WE see the universe.</p>
 <li>Compute</li>
 <li>Storage</li>
 </ol>
-<p>These 3 areas form the fundamental idea of a <code>center for information access</code> and <a href="/library/dcim">data center infrastructure management</a>, they form the <a href="/library/bounded-context">Bounded Contexts</a> of <a href="/library/infrastructure">infrastructure</a>. While we may have been taught to think of these ideas as <code>classes</code>, to the <a href="/library/cim">composable information machine</a> they are simply [boundaries](/library/boundaries. For us, their definition is also an <a href="/library/axiom">Axioms</a>, something we defined and accept without argument. These end up as <a href="/library/things">Things</a> as defined below and also lead us later into a <a href="/library/proof">proof</a> system.</p>
+<p>These 3 areas form the fundamental idea of a <code>center for information access</code> and <a href="/library/dcim">data center infrastructure management</a>, they form the <a href="/library/bounded-context">Bounded Contexts</a> of <a href="/library/infrastructure">infrastructure</a>. While we may have been taught to think of these ideas as <code>classes</code>, to the <a href="/library/cim">composable information machine</a> they are simply <a href="/library/boundaries">boundaries</a>. For us, their definition is also an <a href="/library/axiom">axiom</a>, something we defined and accept without further proof. These end up as <a href="/library/things">Things</a> as defined below and also lead us later into a <a href="/library/proof">proof</a> system.</p>
 <p>In a <a href="/library/cim">Composable Information Machine</a>, we have 3 base abstractions:</p>
 <ol>
 <li>Person</li>
@@ -156,17 +156,26 @@ We need to define the way WE see the universe.</p>
 <p><em>NOTE:</em> this is different than <a href="/library/inheritance">inheritance</a>. In <a href="/library/rust">Rust</a>, we use <a href="/library/traits">Traits</a> and <a href="/library/implementations">Implementations</a> to define constraints, behaviors and relationships.</p>
 <p>These are not an encapsulation as in Object Oriented Classes. We are defining the 3 basic ideas that will permeate the entire system we build. We don't derive everything from <code>Object</code> as in <a href="/library/oop">Object Oriented Programing</a>.</p>
 <p>We want to clarify where boundaries lie, not necessarily shove everything into a hierarchy or encapsulation. We will have to get used to this idea if coming from a purely OOP background. Functional Programming is a bit different.</p>
-<p>We will define some more <a href="/library/axiom">Axioms</a>, meaning a definition, so we understand exactly what we are working with.</p>
+<p>We will define some more <a href="/library/axiom">Axioms</a>, meaning a definition, so we understand exactly what we are working with. In <a href="/library/ddd">DDD</a> you might calls these <a href="/library/aggregate">Aggregate Roots</a>.</p>
 <h2 id="person">Person</h2>
-<p>A person is human being. It can be a lot of other <a href="/library/things">things</a>, but for us, it roots as a human being. To assign properties, we will be extraordinarily limited, relying on <a href="/library/traits">traits</a> and <a href="/library/implementation">implementations</a> to build utility.</p>
-<p>We will be avoiding definitions <a href="https://schema.org/Person">such as this</a></p>
+<blockquote>
+<p>A person is human being. </p>
+</blockquote>
+<p><code>People</code> are the plural of person. It can be a lot of other <a href="/library/things">things</a>, but it roots as a human being. Properties are not widely defined in this structure, relying on <a href="/library/traits">traits</a> and <a href="/library/implementation">implementations</a> to build utility.</p>
+<p>We will be avoiding definitions <a href="https://schema.org/Person">such as this</a>, though we can project into them and read from them through the use of <a href="/library/anti-corruption">ACLs</a>.</p>
+<p>We support things acting as humans, but they are not people, we will talk about this more in identification, authentication, and authorization.</p>
 <h2 id="place">Place</h2>
-<p>A place in a defined location in the universe. period.
-Anything added to that is a <a href="/library/metric">metric</a>, or <a href="/library/topology">topology</a>, or something else which are <a href="/library/traits">traits</a>.</p>
+<blockquote>
+<p>A place in a defined location in the universe.</p>
+</blockquote>
+<p>Anything added to that is a <a href="/library/metric">metric</a>, or <a href="/library/topology">topology</a>, or something else which are <a href="/library/traits">traits</a>.</p>
 <h2 id="thing">Thing</h2>
+<blockquote>
 <p>A definable [concept].</p>
+</blockquote>
 <p>These are the definitions we will use to begin, everything is evolutionary from here.</p>
-<p>We have defined these in Rust.</p>
+<p>We have defined these in <a href="/library/rust">Rust</a>.</p>
+<p><a href="/articles/building-the-base">Building-the-base</a></p>
 
 </div>
 
