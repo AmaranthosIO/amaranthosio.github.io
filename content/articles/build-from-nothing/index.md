@@ -1,7 +1,18 @@
 +++
 title = "Build from nothing"
 path = "build-from-nothing"
-template = "empty.html"
+date = 2022-09-01
+weight = 0
+draft = false
+in_search_index = true
+template = "page.html"
+[taxonomies]
+  tags = ["cim", "composable", "dcim", "rust"]
+  people = ["steele"]
+
+# Your own data.
+[extra]
+image = "/img/cimState.png"
 +++
 # Build from nothing
 

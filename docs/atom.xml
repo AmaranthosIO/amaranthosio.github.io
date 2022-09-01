@@ -60,7 +60,51 @@ Mostly you need to learn the Idea behind &lt;a href=&quot;&#x2F;library&#x2F;n8n
 &lt;p&gt;This is what we directly attack, chaos and uncertainty.&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
 &lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;amaranthos.io&#x2F;articles&#x2F;build-a-datacenter&#x2F;science.png&quot; alt=&quot;science&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;a href=&quot;build-from-nothing.md&quot;&gt;Building from Nothing&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;&#x2F;articles&#x2F;build-from-nothing.md&quot;&gt;Building from Nothing&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Build from nothing</title>
+		<published>2022-09-01T00:00:00+00:00</published>
+		<updated>2022-09-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://amaranthos.io/build-from-nothing/" type="text/html"/>
+		<id>https://amaranthos.io/build-from-nothing/</id>
+		<content type="html">&lt;h1 id=&quot;build-from-nothing&quot;&gt;Build from nothing&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;where-do-i-start&quot;&gt;Where do I start?&lt;&#x2F;h2&gt;
+&lt;p&gt;We must be able to start from nothing. This means no external dependencies.
+We want simplicity of scale, therefore we need to abstract.
+We also want something that can begin as a commodity and develop into more.
+We need to define the way WE see the universe.&lt;&#x2F;p&gt;
+&lt;p&gt;In &lt;a href=&quot;&#x2F;library&#x2F;oop&quot;&gt;OOP&lt;&#x2F;a&gt;, you may start thinking of &lt;a href=&quot;&#x2F;library&#x2F;objects&quot;&gt;Objects&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;In &lt;a href=&quot;&#x2F;library&#x2F;ddd&quot;&gt;DDD&lt;&#x2F;a&gt; you may start looking for &lt;a href=&quot;&#x2F;library&#x2F;aggregates&quot;&gt;Aggregates&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;In &lt;a href=&quot;&#x2F;library&#x2F;event-sourcing.md&quot;&gt;Event Sourcing&lt;&#x2F;a&gt; you may start looking at &lt;a href=&quot;&#x2F;library&#x2F;event-storming&quot;&gt;Events&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;For a data center, we have 3 particular areas of convergence:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Network&lt;&#x2F;li&gt;
+&lt;li&gt;Compute&lt;&#x2F;li&gt;
+&lt;li&gt;Storage&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;These 3 areas form the fundamental idea of a &lt;code&gt;center for information access&lt;&#x2F;code&gt; and &lt;a href=&quot;&#x2F;library&#x2F;dcim&quot;&gt;data center infrastructure management&lt;&#x2F;a&gt;, they form the &lt;a href=&quot;&#x2F;library&#x2F;bounded-context&quot;&gt;Bounded Contexts&lt;&#x2F;a&gt; of &lt;a href=&quot;&#x2F;library&#x2F;infrastructure&quot;&gt;infrastructure&lt;&#x2F;a&gt;. While we may have been taught to think of these ideas as &lt;code&gt;classes&lt;&#x2F;code&gt;, to the &lt;a href=&quot;&#x2F;library&#x2F;cim&quot;&gt;composable information machine&lt;&#x2F;a&gt; they are simply [boundaries](&#x2F;library&#x2F;boundaries. For us, their definition is also an &lt;a href=&quot;&#x2F;library&#x2F;axiom&quot;&gt;Axioms&lt;&#x2F;a&gt;, something we defined and accept without argument. These end up as &lt;a href=&quot;&#x2F;library&#x2F;things&quot;&gt;Things&lt;&#x2F;a&gt; as defined below and also lead us later into a &lt;a href=&quot;&#x2F;library&#x2F;proof&quot;&gt;proof&lt;&#x2F;a&gt; system.&lt;&#x2F;p&gt;
+&lt;p&gt;In a &lt;a href=&quot;&#x2F;library&#x2F;cim&quot;&gt;Composable Information Machine&lt;&#x2F;a&gt;, we have 3 base abstractions:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Person&lt;&#x2F;li&gt;
+&lt;li&gt;Place&lt;&#x2F;li&gt;
+&lt;li&gt;Thing&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;&lt;em&gt;NOTE:&lt;&#x2F;em&gt; this is different than &lt;a href=&quot;&#x2F;library&#x2F;inheritance&quot;&gt;inheritance&lt;&#x2F;a&gt;. In &lt;a href=&quot;&#x2F;library&#x2F;rust&quot;&gt;Rust&lt;&#x2F;a&gt;, we use &lt;a href=&quot;&#x2F;library&#x2F;traits&quot;&gt;Traits&lt;&#x2F;a&gt; and &lt;a href=&quot;&#x2F;library&#x2F;implementations&quot;&gt;Implementations&lt;&#x2F;a&gt; to define constraints, behaviors and relationships.&lt;&#x2F;p&gt;
+&lt;p&gt;These are not an encapsulation as in Object Oriented Classes. We are defining the 3 basic ideas that will permeate the entire system we build. We don&#x27;t derive everything from &lt;code&gt;Object&lt;&#x2F;code&gt; as in &lt;a href=&quot;&#x2F;library&#x2F;oop&quot;&gt;Object Oriented Programing&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;We want to clarify where boundaries lie, not necessarily shove everything into a hierarchy or encapsulation. We will have to get used to this idea if coming from a purely OOP background. Functional Programming is a bit different.&lt;&#x2F;p&gt;
+&lt;p&gt;We will define some more &lt;a href=&quot;&#x2F;library&#x2F;axiom&quot;&gt;Axioms&lt;&#x2F;a&gt;, meaning a definition, so we understand exactly what we are working with.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;person&quot;&gt;Person&lt;&#x2F;h2&gt;
+&lt;p&gt;A person is human being. It can be a lot of other &lt;a href=&quot;&#x2F;library&#x2F;things&quot;&gt;things&lt;&#x2F;a&gt;, but for us, it roots as a human being. To assign properties, we will be extraordinarily limited, relying on &lt;a href=&quot;&#x2F;library&#x2F;traits&quot;&gt;traits&lt;&#x2F;a&gt; and &lt;a href=&quot;&#x2F;library&#x2F;implementation&quot;&gt;implementations&lt;&#x2F;a&gt; to build utility.&lt;&#x2F;p&gt;
+&lt;p&gt;We will be avoiding definitions &lt;a href=&quot;https:&#x2F;&#x2F;schema.org&#x2F;Person&quot;&gt;such as this&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;place&quot;&gt;Place&lt;&#x2F;h2&gt;
+&lt;p&gt;A place in a defined location in the universe. period.
+Anything added to that is a &lt;a href=&quot;&#x2F;library&#x2F;metric&quot;&gt;metric&lt;&#x2F;a&gt;, or &lt;a href=&quot;&#x2F;library&#x2F;topology&quot;&gt;topology&lt;&#x2F;a&gt;, or something else which are &lt;a href=&quot;&#x2F;library&#x2F;traits&quot;&gt;traits&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;thing&quot;&gt;Thing&lt;&#x2F;h2&gt;
+&lt;p&gt;A definable [concept].&lt;&#x2F;p&gt;
+&lt;p&gt;These are the definitions we will use to begin, everything is evolutionary from here.&lt;&#x2F;p&gt;
+&lt;p&gt;We have defined these in Rust.&lt;&#x2F;p&gt;
 </content>
 	</entry>
 	<entry xml:lang="en">
