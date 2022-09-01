@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>Amaranthos IO</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    
+    <link
+      rel="stylesheet"
+      
+      href="https://bootswatch.com/5/slate/bootstrap.min.css"
+      
+    >
+    
+    <link rel="stylesheet" href="https://amaranthos.io/print.css" media="print">
+    <link rel="stylesheet" href="https://amaranthos.io/site.css">
+
+    
+      <link rel="alternate" type="application/atom+xml" title="RSS" href="https://amaranthos.io/atom.xml">
+    
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://amaranthos.io/js/blockquote.js"></script>
+    <script src="https://amaranthos.io/js/img.js"></script>
+    
+    <script defer src="https://amaranthos.io/elasticlunr.min.js"></script>
+    <script defer src="https://amaranthos.io/search_index.en.js"></script>
+    <script src="https://amaranthos.io/js/search.js"></script>
+    
+    
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    
+    
+      <div class="w-100">
+        <img src="https://amaranthos.io/img/banner-logo.png" class="w-100" />
+      </div>
+    
+    
+    
+    
+    <nav class="
+      navbar
+      navbar-expand-lg
+      navbar-dark
+      bg-dark
+    ">
+      <div class="container-fluid">
+        <a class="navbar-brand"
+          href="https:&#x2F;&#x2F;amaranthos.io&#x2F;"
+          title="We deliver your most important information"
+        >Amaranthos IO</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarColor02"
+          aria-controls="navbarColor02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav me-auto">
+            
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https:&#x2F;&#x2F;amaranthos.io&#x2F;articles"
+                >Articles</a>
+              </li>
+            
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https:&#x2F;&#x2F;amaranthos.io&#x2F;tools"
+                >Tooling</a>
+              </li>
+            
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https:&#x2F;&#x2F;amaranthos.io&#x2F;library"
+                >Library</a>
+              </li>
+            
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https:&#x2F;&#x2F;amaranthos.io&#x2F;tags"
+                >Topics</a>
+              </li>
+            
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https:&#x2F;&#x2F;amaranthos.io&#x2F;people"
+                >People</a>
+              </li>
+            
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https:&#x2F;&#x2F;amaranthos.io&#x2F;about"
+                >About</a>
+              </li>
+            
+          </ul>
+          
+          <form class="d-flex" onsubmit="return goSearch(event)">
+            <input
+              class="form-control me-sm-2"
+              type="text"
+              placeholder="Search"
+            />
+            <button
+              class="btn btn-secondary my-2 my-sm-0"
+              type="submit"
+            ><i class="fas fa-search"></i></button>
+          </form>
+          
+        </div>
+      </div>
+    </nav>
+    <main class="container mx-auto my-5">
+      
+<div class="post">
+  <h1 class="post-title">Build a datacenter</h1>
+  <span class="post-date">2022-09-01</span>
+  <h1 id="build-the-datacenter">Build the datacenter</h1>
+<p>We are bonding ceph with event store and projections to ipfs and other clients 
+https://youtu.be/7I9uxoEhUdY</p>
+<ul>
+<li>
+<p>ipfs talks to the public internet,</p>
+</li>
+<li>
+<p>ceph is the internal storage strategy,</p>
+</li>
+<li>
+<p>event store tells you what is there and how it got there.</p>
+</li>
+<li>
+<p>ceph is low level storage it talks to hardware </p>
+</li>
+<li>
+<p>ipfs talks to the web </p>
+</li>
+<li>
+<p>event store says what is there </p>
+</li>
+<li>
+<p>authentik protects it from outsiders
+​</p>
+</li>
+</ul>
+<h3 id="we-combine-lots-of-different-ideas-to-arrive-at-a-composable-information-machine">We combine lots of different ideas to arrive at a <a href="/library/cim">composable information machine</a>.</h3>
+<p>none of ceph or ipfs are typed... we add type systems and apis to more than just the Ansible Playbooks, we link NetBox, n8n Automation, <a href="/tools">and more</a></p>
+<p><img src="https://amaranthos.io/articles/build-a-datacenter/ceph-arch.png" alt="ceph-arch" /></p>
+<ul>
+<li>IPFS is another CLIENT</li>
+<li>RBD is ONLY about blocks in RADOS</li>
+<li>Event Store is MetaData about stuff INSIDE the blocks</li>
+<li>We tell CEPH to do some specific things for us to enable a better IPFS or any other Client. A Client could be SOLID or some Future way or sharing info</li>
+<li>ceph is for us... it's absolutely NOT public on our public side, this is how we talk to things inside a rack/datacenter/tenant. It helps us to partition information more wisely. </li>
+<li>The blocks in IPFS are a BLOCK storage device inside CEPH</li>
+</ul>
+<p>45 Drives can tell you how to build a STORAGE system... they tell you nothing about the information within the system.</p>
+<p>We are the processes sitting on top of this stuff.
+and you don't need to learn this hardware stuff to use it.
+Mostly you need to learn the Idea behind <a href="/library/n8n">n8n</a> and how we will be using it and acceptance tests to create business process.</p>
+<p>we need to talk a lot about business process, agile and the 'cone of uncertainty'. </p>
+<blockquote>
+<p>This is what we directly attack, chaos and uncertainty.</p>
+</blockquote>
+<p><img src="https://amaranthos.io/articles/build-a-datacenter/science.png" alt="science" /></p>
+<p><a href="build-from-nothing.md">Building from Nothing</a></p>
+
+</div>
+
+    </main>
+    
+    
+    
+<footer class="
+  mt-auto p-5
+  bg-dark
+  text-center
+  text-white
+">
+<div class="row">
+  <div class="col-4 fs-6">Copyright(c) 2020-2022 - Amaranthos IO, LLC.</div>
+  <div class="col-4">
+    
+    <a
+      class="text-reset mx-1 bg-transparent"
+      href="https:&#x2F;&#x2F;twitter.com&#x2F;amaranthosio"
+      title="Twitter"
+    ><i class="fab fa-twitter"></i></a>
+    
+    <a
+      class="text-reset mx-1 bg-transparent"
+      href="https:&#x2F;&#x2F;www.facebook.com&#x2F;amaranthosio"
+      title="Facebook"
+    ><i class="fab fa-facebook-f"></i></a>
+    
+    <a
+      class="text-reset mx-1 bg-transparent"
+      href="https:&#x2F;&#x2F;www.instagram.com&#x2F;amaranthosio"
+      title="Instagram"
+    ><i class="fab fa-instagram"></i></a>
+    
+    <a
+      class="text-reset mx-1 bg-transparent"
+      href="https:&#x2F;&#x2F;www.youtube.com&#x2F;amaranthosio"
+      title="YouTube"
+    ><i class="fab fa-youtube"></i></a>
+    
+  </div>
+  <div class="col-4">  
+    <a
+      href="mailto:info@amaranthos.io"
+      class="text-reset text-decoration-none"
+    >info@amaranthos.io</a>
+    
+  </div>
+</div>
+</footer>
+
+
+  </body>
+</html>
