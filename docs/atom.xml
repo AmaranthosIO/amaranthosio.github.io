@@ -15,33 +15,34 @@
 		<id>https://amaranthos.io/articles/build-a-datacenter/</id>
 		<content type="html">&lt;h1 id=&quot;build-the-datacenter&quot;&gt;Build the datacenter&lt;&#x2F;h1&gt;
 &lt;p&gt;We are bonding ceph with event store and projections to ipfs and other clients 
-https:&#x2F;&#x2F;youtu.be&#x2F;7I9uxoEhUdY&lt;&#x2F;p&gt;
+We will be building this from the ground up.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;basic-concepts&quot;&gt;Basic Concepts&lt;&#x2F;h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;ipfs talks to the public internet,&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;&#x2F;library&#x2F;ipfs&quot;&gt;ipfs&lt;&#x2F;a&gt; talks to the public internet,&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;li&gt;
-&lt;p&gt;ceph is the internal storage strategy,&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;&#x2F;library&#x2F;ceph&quot;&gt;ceph&lt;&#x2F;a&gt; is the internal (to Amaranthos) storage strategy&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;li&gt;
-&lt;p&gt;event store tells you what is there and how it got there.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;&#x2F;library&#x2F;event-store&quot;&gt;Event store&lt;&#x2F;a&gt; tells you what is there and how it got there.&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;li&gt;
-&lt;p&gt;ceph is low level storage it talks to hardware &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;&#x2F;library&#x2F;ceph.md&quot;&gt;ceph&lt;&#x2F;a&gt; is low level storage it talks to hardware &lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;li&gt;
-&lt;p&gt;ipfs talks to the web &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;&#x2F;library&#x2F;ipfs&quot;&gt;ipfs&lt;&#x2F;a&gt; talks to the web &lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;li&gt;
-&lt;p&gt;event store says what is there &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;&#x2F;library&#x2F;event-store&quot;&gt;event store&lt;&#x2F;a&gt; says what is there &lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;li&gt;
-&lt;p&gt;authentik protects it from outsiders
+&lt;p&gt;&lt;a href=&quot;&#x2F;library&#x2F;Authentik&quot;&gt;authentik&lt;&#x2F;a&gt; protects it from outsiders
 ​&lt;&#x2F;p&gt;
 &lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;h3 id=&quot;we-combine-lots-of-different-ideas-to-arrive-at-a-composable-information-machine&quot;&gt;We combine lots of different ideas to arrive at a &lt;a href=&quot;&#x2F;library&#x2F;cim&quot;&gt;composable information machine&lt;&#x2F;a&gt;.&lt;&#x2F;h3&gt;
-&lt;p&gt;none of ceph or ipfs are typed... we add type systems and apis to more than just the Ansible Playbooks, we link NetBox, n8n Automation, &lt;a href=&quot;&#x2F;tools&quot;&gt;and more&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;ceph and ipfs are typed, it&#x27;s not their responsibility. We add type systems, more than just &lt;a href=&quot;&#x2F;library&#x2F;ipld&quot;&gt;ipld&lt;&#x2F;a&gt;, and &lt;a href=&quot;&#x2F;library&#x2F;api&quot;&gt;several apis&lt;&#x2F;a&gt; to &lt;a href=&quot;&#x2F;library&#x2F;ansible&quot;&gt;Ansible Playbooks&lt;&#x2F;a&gt;, [NetBox]&#x2F;library&#x2F;NetBox, &lt;a href=&quot;&#x2F;library&#x2F;n8n&quot;&gt;n8n Automation&lt;&#x2F;a&gt;, &lt;a href=&quot;&#x2F;tools&quot;&gt;and more&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;amaranthos.io&#x2F;articles&#x2F;build-a-datacenter&#x2F;ceph-arch.png&quot; alt=&quot;ceph-arch&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;IPFS is another CLIENT&lt;&#x2F;li&gt;
@@ -60,15 +61,30 @@ Mostly you need to learn the Idea behind &lt;a href=&quot;&#x2F;library&#x2F;n8n
 &lt;p&gt;This is what we directly attack, chaos and uncertainty.&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
 &lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;amaranthos.io&#x2F;articles&#x2F;build-a-datacenter&#x2F;science.png&quot; alt=&quot;science&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;p&gt;&lt;a href=&quot;&#x2F;articles&#x2F;build-from-nothing.md&quot;&gt;Building from Nothing&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;&#x2F;articles&#x2F;build-from-nothing&quot;&gt;Building from Nothing&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;youtu.be&#x2F;7I9uxoEhUdY&quot;&gt;Introduction to ceph&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Authentik</title>
+		<published>2022-09-01T00:00:00+00:00</published>
+		<updated>2022-09-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://amaranthos.io/articles/build-a-datacenter/authentik/" type="text/html"/>
+		<id>https://amaranthos.io/articles/build-a-datacenter/authentik/</id>
+		<content type="html">&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;h2 id=&quot;authentik&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;goauthentik.io&#x2F;&quot;&gt;Authentik&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
 </content>
 	</entry>
 	<entry xml:lang="en">
 		<title>Build from nothing</title>
 		<published>2022-09-01T00:00:00+00:00</published>
 		<updated>2022-09-01T00:00:00+00:00</updated>
-		<link rel="alternate" href="https://amaranthos.io/build-from-nothing/" type="text/html"/>
-		<id>https://amaranthos.io/build-from-nothing/</id>
+		<link rel="alternate" href="https://amaranthos.io/articles/build-from-nothing/" type="text/html"/>
+		<id>https://amaranthos.io/articles/build-from-nothing/</id>
 		<content type="html">&lt;h1 id=&quot;build-from-nothing&quot;&gt;Build from nothing&lt;&#x2F;h1&gt;
 &lt;h2 id=&quot;where-do-i-start&quot;&gt;Where do I start?&lt;&#x2F;h2&gt;
 &lt;p&gt;We must be able to start from nothing. This means no external dependencies.
@@ -105,6 +121,40 @@ Anything added to that is a &lt;a href=&quot;&#x2F;library&#x2F;metric&quot;&gt;
 &lt;p&gt;A definable [concept].&lt;&#x2F;p&gt;
 &lt;p&gt;These are the definitions we will use to begin, everything is evolutionary from here.&lt;&#x2F;p&gt;
 &lt;p&gt;We have defined these in Rust.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Ansible</title>
+		<published>2022-09-01T00:00:00+00:00</published>
+		<updated>2022-09-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://amaranthos.io/library/ansible/" type="text/html"/>
+		<id>https://amaranthos.io/library/ansible/</id>
+		<content type="html">&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;h2 id=&quot;ansible-com&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.ansible.com&#x2F;&quot;&gt;Ansible.com&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>ceph</title>
+		<published>2022-09-01T00:00:00+00:00</published>
+		<updated>2022-09-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://amaranthos.io/library/ceph/" type="text/html"/>
+		<id>https://amaranthos.io/library/ceph/</id>
+		<content type="html">&lt;p&gt;Ceph is an open-source, distributed storage system.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ceph.com&#x2F;en&#x2F;&quot;&gt;ceph.com&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>NetBox</title>
+		<published>2022-09-01T00:00:00+00:00</published>
+		<updated>2022-09-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://amaranthos.io/library/netbox/" type="text/html"/>
+		<id>https://amaranthos.io/library/netbox/</id>
+		<content type="html">&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;netbox-community&quot;&gt;NetBox Community&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
 	</entry>
 	<entry xml:lang="en">

@@ -1,6 +1,6 @@
 +++
 title = "Build a datacenter"
-description = "A distributed knowledge encapsulation system based on Functional Reactive Programming and Event Sourcing"
+description = ""
 date = 2022-09-01
 weight = 0
 draft = false
@@ -18,20 +18,21 @@ image = "/img/dots.jpg"
 # Build the datacenter
 
 We are bonding ceph with event store and projections to ipfs and other clients 
-https://youtu.be/7I9uxoEhUdY
+We will be building this from the ground up.
 
-- ipfs talks to the public internet,
-- ceph is the internal storage strategy,
-- event store tells you what is there and how it got there.
+### Basic Concepts
+  - [ipfs](/library/ipfs) talks to the public internet,
+  - [ceph](/library/ceph) is the internal (to Amaranthos) storage strategy
+  - [Event store](/library/event-store) tells you what is there and how it got there.
 
-- ceph is low level storage it talks to hardware 
-- ipfs talks to the web 
-- event store says what is there 
-- authentik protects it from outsiders
+- [ceph](/library/ceph.md) is low level storage it talks to hardware 
+- [ipfs](/library/ipfs) talks to the web 
+- [event store](/library/event-store) says what is there 
+- [authentik](/library/Authentik) protects it from outsiders
 ​
 ### We combine lots of different ideas to arrive at a [composable information machine](/library/cim).
 
-none of ceph or ipfs are typed... we add type systems and apis to more than just the Ansible Playbooks, we link NetBox, n8n Automation, [and more](/tools)
+ceph and ipfs are typed, it's not their responsibility. We add type systems, more than just [ipld](/library/ipld), and [several apis](/library/api) to [Ansible Playbooks](/library/ansible), [NetBox]/library/NetBox, [n8n Automation](/library/n8n), [and more](/tools)
 
 ![ceph-arch](ceph-arch.png)    
 
@@ -53,4 +54,12 @@ we need to talk a lot about business process, agile and the 'cone of uncertainty
 
 ![science](science.png)
 
-[Building from Nothing](/articles/build-from-nothing.md)
+[Building from Nothing](/articles/build-from-nothing)
+
+---
+
+#### References
+
+[Introduction to ceph](https://youtu.be/7I9uxoEhUdY)
+
+---

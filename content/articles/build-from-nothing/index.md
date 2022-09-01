@@ -1,8 +1,7 @@
 +++
 title = "Build from nothing"
-path = "build-from-nothing"
 date = 2022-09-01
-weight = 0
+weight = 1
 draft = false
 in_search_index = true
 template = "page.html"

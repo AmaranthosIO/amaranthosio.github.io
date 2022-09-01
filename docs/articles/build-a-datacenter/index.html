@@ -133,33 +133,34 @@
   <span class="post-date">2022-09-01</span>
   <h1 id="build-the-datacenter">Build the datacenter</h1>
 <p>We are bonding ceph with event store and projections to ipfs and other clients 
-https://youtu.be/7I9uxoEhUdY</p>
+We will be building this from the ground up.</p>
+<h3 id="basic-concepts">Basic Concepts</h3>
 <ul>
 <li>
-<p>ipfs talks to the public internet,</p>
+<p><a href="/library/ipfs">ipfs</a> talks to the public internet,</p>
 </li>
 <li>
-<p>ceph is the internal storage strategy,</p>
+<p><a href="/library/ceph">ceph</a> is the internal (to Amaranthos) storage strategy</p>
 </li>
 <li>
-<p>event store tells you what is there and how it got there.</p>
+<p><a href="/library/event-store">Event store</a> tells you what is there and how it got there.</p>
 </li>
 <li>
-<p>ceph is low level storage it talks to hardware </p>
+<p><a href="/library/ceph.md">ceph</a> is low level storage it talks to hardware </p>
 </li>
 <li>
-<p>ipfs talks to the web </p>
+<p><a href="/library/ipfs">ipfs</a> talks to the web </p>
 </li>
 <li>
-<p>event store says what is there </p>
+<p><a href="/library/event-store">event store</a> says what is there </p>
 </li>
 <li>
-<p>authentik protects it from outsiders
+<p><a href="/library/Authentik">authentik</a> protects it from outsiders
 ​</p>
 </li>
 </ul>
 <h3 id="we-combine-lots-of-different-ideas-to-arrive-at-a-composable-information-machine">We combine lots of different ideas to arrive at a <a href="/library/cim">composable information machine</a>.</h3>
-<p>none of ceph or ipfs are typed... we add type systems and apis to more than just the Ansible Playbooks, we link NetBox, n8n Automation, <a href="/tools">and more</a></p>
+<p>ceph and ipfs are typed, it's not their responsibility. We add type systems, more than just <a href="/library/ipld">ipld</a>, and <a href="/library/api">several apis</a> to <a href="/library/ansible">Ansible Playbooks</a>, [NetBox]/library/NetBox, <a href="/library/n8n">n8n Automation</a>, <a href="/tools">and more</a></p>
 <p><img src="https://amaranthos.io/articles/build-a-datacenter/ceph-arch.png" alt="ceph-arch" /></p>
 <ul>
 <li>IPFS is another CLIENT</li>
@@ -178,7 +179,11 @@ Mostly you need to learn the Idea behind <a href="/library/n8n">n8n</a> and how 
 <p>This is what we directly attack, chaos and uncertainty.</p>
 </blockquote>
 <p><img src="https://amaranthos.io/articles/build-a-datacenter/science.png" alt="science" /></p>
-<p><a href="/articles/build-from-nothing.md">Building from Nothing</a></p>
+<p><a href="/articles/build-from-nothing">Building from Nothing</a></p>
+<hr />
+<h4 id="references">References</h4>
+<p><a href="https://youtu.be/7I9uxoEhUdY">Introduction to ceph</a></p>
+<hr />
 
 </div>
 
