@@ -15,41 +15,33 @@ template = "page.html"
 image = "/img/dots.jpg"
 
 +++
-# Build the datacenter
-
 We are bonding ceph with event store and projections to ipfs and other clients 
 We will be building this from the ground up.
 
 ### Basic Concepts
-  - [ipfs](/library/ipfs) talks to the public internet,
-  - [ceph](/library/ceph) is the internal (to Amaranthos) storage strategy
-  - [Event store](/library/event-store) tells you what is there and how it got there.
-
-- [ceph](/library/ceph.md) is low level storage it talks to hardware 
-- [ipfs](/library/ipfs) talks to the web 
-- [event store](/library/event-store) says what is there 
-- [authentik](/library/Authentik) protects it from outsiders
+  - [ipfs](/library/ipfs) talks to the public internet
+  - [ceph](/library/ceph) is low level storage, it talks to hardware (for us)
+  - [Event store](/library/event-store) tells you what is there and how it got there
+  - [authentik](/library/Authentik) protects it from outsiders
 ​
 ### We combine lots of different ideas to arrive at a [composable information machine](/library/cim).
 
-ceph and ipfs are typed, it's not their responsibility. We add type systems, more than just [ipld](/library/ipld), and [several apis](/library/api) to [Ansible Playbooks](/library/ansible), [NetBox]/library/NetBox, [n8n Automation](/library/n8n), [and more](/tools)
+ceph and ipfs are not typed, it's not their responsibility. We add our own [type systems](/library/type-system) as well as [ipld](/library/ipld), and [several apis](/library/api) to [Ansible Playbooks](/library/ansible), [NetBox]/library/NetBox, [n8n Automation](/library/n8n), [and more](/tools)
 
 ![ceph-arch](ceph-arch.png)    
 
   - IPFS is another CLIENT
   - RBD is ONLY about blocks in RADOS
-  - Event Store is MetaData about stuff INSIDE the blocks
-  - We tell CEPH to do some specific things for us to enable a better IPFS or any other Client. A Client could be SOLID or some Future way or sharing info
-  - ceph is for us... it's absolutely NOT public on our public side, this is how we talk to things inside a rack/datacenter/tenant. It helps us to partition information more wisely. 
-  - The blocks in IPFS are a BLOCK storage device inside CEPH
+  - Event Store is metadata about stuff inside the blocks
+  - We tell `ceph` to do some specific things for us to enable a better `ipfs` or any other Client. A Client could be [SOLID](https://solidproject.org/) or some other future way or sharing information.
+  - ceph is how we talk to things inside a rack/datacenter/tenant. It helps us to partition information more wisely. 
+  - blocks in `ipfs` are translated as a `block storage device` inside [ceph](/library/ceph)
 
-45 Drives can tell you how to build a STORAGE system... they tell you nothing about the information within the system.
+Excellent companies can tell you how to build a 'storage system'... they refrain from telling you about how to define things about the information within the storage. In fact most of them take great pride in avoiding it.
 
-We are the processes sitting on top of this stuff.
-and you don't need to learn this hardware stuff to use it.
- Mostly you need to learn the Idea behind [n8n](/library/n8n) and how we will be using it and acceptance tests to create business process.
+We are the processes sitting on top of this generic abstracted stuff.  Most people don't want to learn this hardware stuff to use it. We just want to know it works. You only need to learn the idea behind [n8n](/library/n8n), how we will be using it, and acceptance tests to create business process.
 
-we need to talk a lot about business process, agile and the 'cone of uncertainty'. 
+We will talk a lot about business process, agile and the 'cone of uncertainty'. 
 > This is what we directly attack, chaos and uncertainty.
 
 ![science](science.png)

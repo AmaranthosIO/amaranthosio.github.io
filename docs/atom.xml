@@ -13,50 +13,30 @@
 		<updated>2022-09-01T00:00:00+00:00</updated>
 		<link rel="alternate" href="https://amaranthos.io/articles/build-a-datacenter/" type="text/html"/>
 		<id>https://amaranthos.io/articles/build-a-datacenter/</id>
-		<content type="html">&lt;h1 id=&quot;build-the-datacenter&quot;&gt;Build the datacenter&lt;&#x2F;h1&gt;
-&lt;p&gt;We are bonding ceph with event store and projections to ipfs and other clients 
+		<content type="html">&lt;p&gt;We are bonding ceph with event store and projections to ipfs and other clients 
 We will be building this from the ground up.&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;basic-concepts&quot;&gt;Basic Concepts&lt;&#x2F;h3&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;&#x2F;library&#x2F;ipfs&quot;&gt;ipfs&lt;&#x2F;a&gt; talks to the public internet,&lt;&#x2F;p&gt;
-&lt;&#x2F;li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;&#x2F;library&#x2F;ceph&quot;&gt;ceph&lt;&#x2F;a&gt; is the internal (to Amaranthos) storage strategy&lt;&#x2F;p&gt;
-&lt;&#x2F;li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;&#x2F;library&#x2F;event-store&quot;&gt;Event store&lt;&#x2F;a&gt; tells you what is there and how it got there.&lt;&#x2F;p&gt;
-&lt;&#x2F;li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;&#x2F;library&#x2F;ceph.md&quot;&gt;ceph&lt;&#x2F;a&gt; is low level storage it talks to hardware &lt;&#x2F;p&gt;
-&lt;&#x2F;li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;&#x2F;library&#x2F;ipfs&quot;&gt;ipfs&lt;&#x2F;a&gt; talks to the web &lt;&#x2F;p&gt;
-&lt;&#x2F;li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;&#x2F;library&#x2F;event-store&quot;&gt;event store&lt;&#x2F;a&gt; says what is there &lt;&#x2F;p&gt;
-&lt;&#x2F;li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;&#x2F;library&#x2F;Authentik&quot;&gt;authentik&lt;&#x2F;a&gt; protects it from outsiders
-​&lt;&#x2F;p&gt;
-&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;library&#x2F;ipfs&quot;&gt;ipfs&lt;&#x2F;a&gt; talks to the public internet&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;library&#x2F;ceph&quot;&gt;ceph&lt;&#x2F;a&gt; is low level storage, it talks to hardware (for us)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;library&#x2F;event-store&quot;&gt;Event store&lt;&#x2F;a&gt; tells you what is there and how it got there&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;&#x2F;library&#x2F;Authentik&quot;&gt;authentik&lt;&#x2F;a&gt; protects it from outsiders
+​&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;h3 id=&quot;we-combine-lots-of-different-ideas-to-arrive-at-a-composable-information-machine&quot;&gt;We combine lots of different ideas to arrive at a &lt;a href=&quot;&#x2F;library&#x2F;cim&quot;&gt;composable information machine&lt;&#x2F;a&gt;.&lt;&#x2F;h3&gt;
-&lt;p&gt;ceph and ipfs are typed, it&#x27;s not their responsibility. We add type systems, more than just &lt;a href=&quot;&#x2F;library&#x2F;ipld&quot;&gt;ipld&lt;&#x2F;a&gt;, and &lt;a href=&quot;&#x2F;library&#x2F;api&quot;&gt;several apis&lt;&#x2F;a&gt; to &lt;a href=&quot;&#x2F;library&#x2F;ansible&quot;&gt;Ansible Playbooks&lt;&#x2F;a&gt;, [NetBox]&#x2F;library&#x2F;NetBox, &lt;a href=&quot;&#x2F;library&#x2F;n8n&quot;&gt;n8n Automation&lt;&#x2F;a&gt;, &lt;a href=&quot;&#x2F;tools&quot;&gt;and more&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;ceph and ipfs are not typed, it&#x27;s not their responsibility. We add our own &lt;a href=&quot;&#x2F;library&#x2F;type-system&quot;&gt;type systems&lt;&#x2F;a&gt; as well as &lt;a href=&quot;&#x2F;library&#x2F;ipld&quot;&gt;ipld&lt;&#x2F;a&gt;, and &lt;a href=&quot;&#x2F;library&#x2F;api&quot;&gt;several apis&lt;&#x2F;a&gt; to &lt;a href=&quot;&#x2F;library&#x2F;ansible&quot;&gt;Ansible Playbooks&lt;&#x2F;a&gt;, [NetBox]&#x2F;library&#x2F;NetBox, &lt;a href=&quot;&#x2F;library&#x2F;n8n&quot;&gt;n8n Automation&lt;&#x2F;a&gt;, &lt;a href=&quot;&#x2F;tools&quot;&gt;and more&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;amaranthos.io&#x2F;articles&#x2F;build-a-datacenter&#x2F;ceph-arch.png&quot; alt=&quot;ceph-arch&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;IPFS is another CLIENT&lt;&#x2F;li&gt;
 &lt;li&gt;RBD is ONLY about blocks in RADOS&lt;&#x2F;li&gt;
-&lt;li&gt;Event Store is MetaData about stuff INSIDE the blocks&lt;&#x2F;li&gt;
-&lt;li&gt;We tell CEPH to do some specific things for us to enable a better IPFS or any other Client. A Client could be SOLID or some Future way or sharing info&lt;&#x2F;li&gt;
-&lt;li&gt;ceph is for us... it&#x27;s absolutely NOT public on our public side, this is how we talk to things inside a rack&#x2F;datacenter&#x2F;tenant. It helps us to partition information more wisely. &lt;&#x2F;li&gt;
-&lt;li&gt;The blocks in IPFS are a BLOCK storage device inside CEPH&lt;&#x2F;li&gt;
+&lt;li&gt;Event Store is metadata about stuff inside the blocks&lt;&#x2F;li&gt;
+&lt;li&gt;We tell &lt;code&gt;ceph&lt;&#x2F;code&gt; to do some specific things for us to enable a better &lt;code&gt;ipfs&lt;&#x2F;code&gt; or any other Client. A Client could be &lt;a href=&quot;https:&#x2F;&#x2F;solidproject.org&#x2F;&quot;&gt;SOLID&lt;&#x2F;a&gt; or some other future way or sharing information.&lt;&#x2F;li&gt;
+&lt;li&gt;ceph is how we talk to things inside a rack&#x2F;datacenter&#x2F;tenant. It helps us to partition information more wisely. &lt;&#x2F;li&gt;
+&lt;li&gt;blocks in &lt;code&gt;ipfs&lt;&#x2F;code&gt; are translated as a &lt;code&gt;block storage device&lt;&#x2F;code&gt; inside &lt;a href=&quot;&#x2F;library&#x2F;ceph&quot;&gt;ceph&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;p&gt;45 Drives can tell you how to build a STORAGE system... they tell you nothing about the information within the system.&lt;&#x2F;p&gt;
-&lt;p&gt;We are the processes sitting on top of this stuff.
-and you don&#x27;t need to learn this hardware stuff to use it.
-Mostly you need to learn the Idea behind &lt;a href=&quot;&#x2F;library&#x2F;n8n&quot;&gt;n8n&lt;&#x2F;a&gt; and how we will be using it and acceptance tests to create business process.&lt;&#x2F;p&gt;
-&lt;p&gt;we need to talk a lot about business process, agile and the &#x27;cone of uncertainty&#x27;. &lt;&#x2F;p&gt;
+&lt;p&gt;Excellent companies can tell you how to build a &#x27;storage system&#x27;... they refrain from telling you about how to define things about the information within the storage. In fact most of them take great pride in avoiding it.&lt;&#x2F;p&gt;
+&lt;p&gt;We are the processes sitting on top of this generic abstracted stuff.  Most people don&#x27;t want to learn this hardware stuff to use it. We just want to know it works. You only need to learn the idea behind &lt;a href=&quot;&#x2F;library&#x2F;n8n&quot;&gt;n8n&lt;&#x2F;a&gt;, how we will be using it, and acceptance tests to create business process.&lt;&#x2F;p&gt;
+&lt;p&gt;We will talk a lot about business process, agile and the &#x27;cone of uncertainty&#x27;. &lt;&#x2F;p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;This is what we directly attack, chaos and uncertainty.&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
