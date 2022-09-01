@@ -70,6 +70,9 @@ template = "empty.html"
     * [Rust](https://rust-lang.org) based single executable with Sass compilation, syntax highlighting, table of contents for websites.
   * [Jupyter](https://jupyter.org/)
     * Creating and sharing computational documents. It offers a simple, streamlined, document-centric experience.
+  * [pfSense](https://www.pfsense.org/download/) Open Source Firewall
+    * [Install on KVM](https://kifarunix.com/install-pfsense-firewall-on-kvm/)
+    * [piHole](https://pi-hole.net/) or [pfblockerng](https://linuxincluded.com/block-ads-malvertising-on-pfsense-using-pfblockerng-dnsbl/)
   * [Ubiquiti](https://store.ui.com/collections/unifi-network-unifi-os-consoles)
     * [Consoles](https://ui.com/consoles) for network access
   * [StarLink](https://starlink.com)

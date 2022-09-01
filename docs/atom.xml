@@ -5,8 +5,64 @@
 	<link href="https://amaranthos.io/atom.xml" rel="self" type="application/atom+xml"/>
   <link href="https://amaranthos.io/"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2022-08-16T00:00:00+00:00</updated>
+	<updated>2022-09-01T00:00:00+00:00</updated>
 	<id>https://amaranthos.io/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Build a datacenter</title>
+		<published>2022-09-01T00:00:00+00:00</published>
+		<updated>2022-09-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://amaranthos.io/articles/build-a-datacenter/" type="text/html"/>
+		<id>https://amaranthos.io/articles/build-a-datacenter/</id>
+		<content type="html">&lt;h1 id=&quot;build-the-datacenter&quot;&gt;Build the datacenter&lt;&#x2F;h1&gt;
+&lt;p&gt;We are bonding ceph with event store and projections to ipfs and other clients 
+https:&#x2F;&#x2F;youtu.be&#x2F;7I9uxoEhUdY&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;ipfs talks to the public internet,&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;ceph is the internal storage strategy,&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;event store tells you what is there and how it got there.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;ceph is low level storage it talks to hardware &lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;ipfs talks to the web &lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;event store says what is there &lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;authentik protects it from outsiders
+​&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;we-combine-lots-of-different-ideas-to-arrive-at-a-composable-information-machine&quot;&gt;We combine lots of different ideas to arrive at a &lt;a href=&quot;&#x2F;library&#x2F;cim&quot;&gt;composable information machine&lt;&#x2F;a&gt;.&lt;&#x2F;h3&gt;
+&lt;p&gt;none of ceph or ipfs are typed... we add type systems and apis to more than just the Ansible Playbooks, we link NetBox, n8n Automation, &lt;a href=&quot;&#x2F;tools&quot;&gt;and more&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;amaranthos.io&#x2F;articles&#x2F;build-a-datacenter&#x2F;ceph-arch.png&quot; alt=&quot;ceph-arch&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;IPFS is another CLIENT&lt;&#x2F;li&gt;
+&lt;li&gt;RBD is ONLY about blocks in RADOS&lt;&#x2F;li&gt;
+&lt;li&gt;Event Store is MetaData about stuff INSIDE the blocks&lt;&#x2F;li&gt;
+&lt;li&gt;We tell CEPH to do some specific things for us to enable a better IPFS or any other Client. A Client could be SOLID or some Future way or sharing info&lt;&#x2F;li&gt;
+&lt;li&gt;ceph is for us... it&#x27;s absolutely NOT public on our public side, this is how we talk to things inside a rack&#x2F;datacenter&#x2F;tenant. It helps us to partition information more wisely. &lt;&#x2F;li&gt;
+&lt;li&gt;The blocks in IPFS are a BLOCK storage device inside CEPH&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;45 Drives can tell you how to build a STORAGE system... they tell you nothing about the information within the system.&lt;&#x2F;p&gt;
+&lt;p&gt;We are the processes sitting on top of this stuff.
+and you don&#x27;t need to learn this hardware stuff to use it.
+Mostly you need to learn the Idea behind &lt;a href=&quot;&#x2F;library&#x2F;n8n&quot;&gt;n8n&lt;&#x2F;a&gt; and how we will be using it and acceptance tests to create business process.&lt;&#x2F;p&gt;
+&lt;p&gt;we need to talk a lot about business process, agile and the &#x27;cone of uncertainty&#x27;. &lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is what we directly attack, chaos and uncertainty.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;amaranthos.io&#x2F;articles&#x2F;build-a-datacenter&#x2F;science.png&quot; alt=&quot;science&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;build-from-nothing.md&quot;&gt;Building from Nothing&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+	</entry>
 	<entry xml:lang="en">
 		<title>Causation</title>
 		<published>2022-08-16T00:00:00+00:00</published>
@@ -77,6 +133,17 @@ It is an analysis of patterns that form through &lt;a href=&quot;&#x2F;library&#
 </content>
 	</entry>
 	<entry xml:lang="en">
+		<title>n8n</title>
+		<published>2022-08-16T00:00:00+00:00</published>
+		<updated>2022-08-16T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://amaranthos.io/library/n8n/" type="text/html"/>
+		<id>https://amaranthos.io/library/n8n/</id>
+		<content type="html">&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;h2 id=&quot;n8n-io&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;n8n.io&quot;&gt;n8n.io&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
 		<title>Anti-Corruption Layer</title>
 		<published>2022-08-09T00:00:00+00:00</published>
 		<updated>2022-08-09T00:00:00+00:00</updated>
@@ -124,6 +191,7 @@ It is an analysis of patterns that form through &lt;a href=&quot;&#x2F;library&#
 &lt;blockquote&gt;
 &lt;p&gt;We want a &lt;a href=&quot;&#x2F;library&#x2F;cim&quot;&gt;Composable Information Machine&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
+&lt;p&gt;A &lt;a href=&quot;&#x2F;library&#x2F;cim&quot;&gt;Composable Information Machine&lt;&#x2F;a&gt; is a collection of computing devices (hardware), a collection of &lt;a href=&quot;&#x2F;library&#x2F;state&quot;&gt;states&lt;&#x2F;a&gt;, a &lt;a href=&quot;&#x2F;library&#x2F;type-system&quot;&gt;Type System&lt;&#x2F;a&gt;, and a recorded &lt;a href=&quot;&#x2F;library&#x2F;event-sourcing&quot;&gt;sequence of events&lt;&#x2F;a&gt; and a &lt;a href=&quot;&#x2F;library&#x2F;p2p&quot;&gt;peer-to-peer&lt;&#x2F;a&gt; &lt;a href=&quot;&#x2F;library&#x2F;messaging&quot;&gt;messaging system&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;We connect several &lt;a href=&quot;&#x2F;library&#x2F;sot&quot;&gt;Sources of Truth&lt;&#x2F;a&gt; to several &lt;a href=&quot;&#x2F;library&#x2F;sor&quot;&gt;Systems of Record&lt;&#x2F;a&gt; with a secure &lt;a href=&quot;https:&#x2F;&#x2F;www.merriam-webster.com&#x2F;dictionary&#x2F;peer-to-peer&quot;&gt;peer-to-peer&lt;&#x2F;a&gt; network where we control the peers and the channels. &lt;strong&gt;Everything can suddenly and securely talk.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;incorporate-information-decisions-into-our-daily-lives&quot;&gt;Incorporate information decisions into our daily lives&lt;&#x2F;h2&gt;
 &lt;p&gt;Currently we spend far to much time processing information that &lt;em&gt;&lt;a href=&quot;https:&#x2F;&#x2F;n8n.io&quot;&gt;could be fully automated&lt;&#x2F;a&gt;&lt;&#x2F;em&gt;. We can process information that exists all over the internet and obtain sensor input from all over the universe. Instead of re-centralizing or relocating all that information we can now adapt a new process to utilize it and optimize where it sits. Once we put everything in the cloud, retrieving it all at once becomes an impossible feat, even moving it around can become exceedingly difficult.&lt;&#x2F;p&gt;
@@ -246,6 +314,18 @@ It is an analysis of patterns that form through &lt;a href=&quot;&#x2F;library&#
 &lt;hr &#x2F;&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;1803.05316&quot;&gt;Applied Category Theory - PDF&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.appliedcategorytheory.org&#x2F;&quot;&gt;AppliedCategotyTheory.Org&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Axiom</title>
+		<published>2022-08-03T00:00:00+00:00</published>
+		<updated>2022-08-03T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://amaranthos.io/library/axiom/" type="text/html"/>
+		<id>https://amaranthos.io/library/axiom/</id>
+		<content type="html">&lt;p&gt;a statement accepted as true as the basis for argument or inference&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
 </content>
 	</entry>
 	<entry xml:lang="en">
@@ -413,6 +493,19 @@ There is always a feedback and identity mechanism&lt;&#x2F;p&gt;
 &lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
 &lt;hr &#x2F;&gt;
 &lt;p&gt;Compositional Game Theory - &lt;a href=&quot;https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;1603.04641&quot;&gt;PDF&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>concept</title>
+		<published>2022-08-03T00:00:00+00:00</published>
+		<updated>2022-08-03T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://amaranthos.io/library/concept/" type="text/html"/>
+		<id>https://amaranthos.io/library/concept/</id>
+		<content type="html">&lt;p&gt;an abstract or generic idea generalized from particular instances&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;something-conceived-in-the-mind&quot;&gt;something conceived in the mind&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;references&quot;&gt;References&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.merriam-webster.com&#x2F;dictionary&#x2F;concept&quot;&gt;Merriam-Webster&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
 </content>
 	</entry>
 	<entry xml:lang="en">
@@ -892,6 +985,16 @@ reference&lt;&#x2F;p&gt;
 </content>
 	</entry>
 	<entry xml:lang="en">
+		<title>p2p - aka peer-to-peer</title>
+		<published>2022-08-03T00:00:00+00:00</published>
+		<updated>2022-08-03T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://amaranthos.io/library/p2p/" type="text/html"/>
+		<id>https://amaranthos.io/library/p2p/</id>
+		<content type="html">&lt;p&gt;When you send a message to a friend over Facebook, WhatsApp, Discord, or most other messaging services, the message is relayed from you, the client, to a central server. The central server then routes the message to a second client: your friend. Very broadly, the client requests services, and the server fulfills them. This is called the client-server model. The client-server model is extremely common and is utilized by most of the online services you’re familiar with — everything from Netflix and Facebook to World of Warcraft. All of your data is stored by a third party, and you rely on them to completely. You have no way to verify that they’re handling your data responsibly, and you have to trust that they’ll continue to allow you to use their service.&lt;&#x2F;p&gt;
+&lt;p&gt;Peer-to-peer (P2P) services eliminate those problems. It is possible for computers to exchange information directly and completely skip the middleman. Instead of a client delivering a message to a server to relay to a second client, the clients just transmit data between themselves. In P2P messaging apps, each participant effectively functions as both a client and a server simultaneously.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
 		<title>Pattern Matching</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
@@ -1083,6 +1186,18 @@ Rust has a rich type system and ownership model to guarantee memory-safety and t
 		<id>https://amaranthos.io/library/sot/</id>
 		<content type="html">&lt;p&gt;The trusted source with a complete picture of the defined object as a whole. &lt;a href=&quot;&#x2F;library&#x2F;read-model&quot;&gt;a.k.a. Read Model&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;library&#x2F;read-model&quot;&gt;Read Models&lt;&#x2F;a&gt; are specific &lt;a href=&quot;&#x2F;library&#x2F;aggregate&quot;&gt;aggregates&lt;&#x2F;a&gt; of information designed to envelope the &lt;a href=&quot;&#x2F;library&#x2F;limits&quot;&gt;Limits&lt;&#x2F;a&gt; and &lt;a href=&quot;&#x2F;library&#x2F;boundaries&quot;&gt;boundaries&lt;&#x2F;a&gt; and &lt;a href=&quot;&#x2F;library&#x2F;behaviors&quot;&gt;behaviors&lt;&#x2F;a&gt; of a defined space.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>state</title>
+		<published>2022-08-03T00:00:00+00:00</published>
+		<updated>2022-08-03T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://amaranthos.io/library/state/" type="text/html"/>
+		<id>https://amaranthos.io/library/state/</id>
+		<content type="html">&lt;p&gt;The condition of a physical system with regard to phase, form, composition, or structure&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
 </content>
 	</entry>
 	<entry xml:lang="en">

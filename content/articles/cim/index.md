@@ -74,6 +74,8 @@ We need more knowledge, faster, more often. From 2020 to 2025 it will grow from 
 
 > We want a [Composable Information Machine](/library/cim).
 
+A [Composable Information Machine](/library/cim) is a collection of computing devices (hardware), a collection of [states](/library/state), a [Type System](/library/type-system), and a recorded [sequence of events](/library/event-sourcing) and a [peer-to-peer](/library/p2p) [messaging system](/library/messaging).
+
 We connect several [Sources of Truth](/library/sot) to several [Systems of Record](/library/sor) with a secure [peer-to-peer](https://www.merriam-webster.com/dictionary/peer-to-peer) network where we control the peers and the channels. **Everything can suddenly and securely talk.**
 
 ## Incorporate information decisions into our daily lives
