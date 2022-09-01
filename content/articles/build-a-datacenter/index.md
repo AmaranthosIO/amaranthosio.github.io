@@ -53,4 +53,4 @@ we need to talk a lot about business process, agile and the 'cone of uncertainty
 
 ![science](science.png)
 
-[Building from Nothing](build-from-nothing.md)
+[Building from Nothing](/articles/build-from-nothing.md)
