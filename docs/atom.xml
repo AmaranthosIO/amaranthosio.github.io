@@ -67,8 +67,7 @@ We will be building this from the ground up.&lt;&#x2F;p&gt;
 		<updated>2022-09-01T00:00:00+00:00</updated>
 		<link rel="alternate" href="https://amaranthos.io/articles/build-from-nothing/" type="text/html"/>
 		<id>https://amaranthos.io/articles/build-from-nothing/</id>
-		<content type="html">&lt;h1 id=&quot;build-from-nothing&quot;&gt;Build from nothing&lt;&#x2F;h1&gt;
-&lt;h2 id=&quot;where-do-i-start&quot;&gt;Where do I start?&lt;&#x2F;h2&gt;
+		<content type="html">&lt;h2 id=&quot;where-do-i-start&quot;&gt;Where do I start?&lt;&#x2F;h2&gt;
 &lt;p&gt;We must be able to start from nothing. This means no external dependencies.
 We want simplicity of scale, therefore we need to abstract.
 We also want something that can begin as a commodity and develop into more.
@@ -113,6 +112,14 @@ We need to define the way WE see the universe.&lt;&#x2F;p&gt;
 &lt;p&gt;We have defined these in &lt;a href=&quot;&#x2F;library&#x2F;rust&quot;&gt;Rust&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;articles&#x2F;building-the-base&quot;&gt;Building-the-base&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Build the base</title>
+		<published>2022-09-01T00:00:00+00:00</published>
+		<updated>2022-09-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://amaranthos.io/articles/build-the-base/" type="text/html"/>
+		<id>https://amaranthos.io/articles/build-the-base/</id>
+		<content type="html"></content>
 	</entry>
 	<entry xml:lang="en">
 		<title>Ansible</title>

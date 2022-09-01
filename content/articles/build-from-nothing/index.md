@@ -13,8 +13,6 @@ template = "page.html"
 [extra]
 image = "/img/cimState.png"
 +++
-# Build from nothing
-
 ## Where do I start?
 
 We must be able to start from nothing. This means no external dependencies.
