@@ -74,4 +74,4 @@ We have defined these in [Rust](/library/rust).
 
 ## Next
 
-[Building-the-base](/articles/building-the-base)
+[Building-the-base](/articles/build-the-base)
