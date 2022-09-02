@@ -128,7 +128,7 @@ We also want something that can begin as a commodity and develop into more.
 We need to define the way WE see the universe.&lt;&#x2F;p&gt;
 &lt;p&gt;In &lt;a href=&quot;&#x2F;library&#x2F;oop&quot;&gt;OOP&lt;&#x2F;a&gt;, you may start thinking of &lt;a href=&quot;&#x2F;library&#x2F;object&quot;&gt;Objects&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;In &lt;a href=&quot;&#x2F;library&#x2F;ddd&quot;&gt;DDD&lt;&#x2F;a&gt; you may start looking for &lt;a href=&quot;&#x2F;library&#x2F;aggregate&quot;&gt;Aggregates&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
-&lt;p&gt;In &lt;a href=&quot;&#x2F;library&#x2F;event-sourcing.md&quot;&gt;Event Sourcing&lt;&#x2F;a&gt; you may start looking at &lt;a href=&quot;&#x2F;library&#x2F;events&quot;&gt;Events&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;In &lt;a href=&quot;&#x2F;library&#x2F;event-sourcing&quot;&gt;Event Sourcing&lt;&#x2F;a&gt; you may start looking at &lt;a href=&quot;&#x2F;library&#x2F;events&quot;&gt;Events&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;For a &lt;code&gt;data center&lt;&#x2F;code&gt;, we have 3 particular areas of convergence:&lt;&#x2F;p&gt;
 &lt;ol&gt;
 &lt;li&gt;Network&lt;&#x2F;li&gt;
