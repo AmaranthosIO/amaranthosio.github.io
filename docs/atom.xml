@@ -174,7 +174,20 @@ We need to define the way WE see the universe.&lt;&#x2F;p&gt;
 		<updated>2022-09-01T00:00:00+00:00</updated>
 		<link rel="alternate" href="https://amaranthos.io/articles/build-the-base/" type="text/html"/>
 		<id>https://amaranthos.io/articles/build-the-base/</id>
-		<content type="html"></content>
+		<content type="html">&lt;p&gt;There are two distinct path we now have to take:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Development
+- How we proceed with interpreting process
+- &lt;a href=&quot;&#x2F;library&#x2F;rust&quot;&gt;Rust&lt;&#x2F;a&gt; is the language of development.&lt;&#x2F;li&gt;
+&lt;li&gt;Business
+- Define our processes 
+- &lt;a href=&quot;&#x2F;library&#x2F;n8n&quot;&gt;n8n&lt;&#x2F;a&gt; and &lt;a href=&quot;&#x2F;library&#x2F;events&quot;&gt;events&lt;&#x2F;a&gt; are the language of business.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;We will now bridge these two &lt;a href=&quot;&#x2F;library&#x2F;domain&quot;&gt;domains&lt;&#x2F;a&gt; and form a &lt;a href=&quot;&#x2F;library&#x2F;bounded-context&quot;&gt;bounded context&lt;&#x2F;a&gt;. This context allows us to bridge the technicalities between these two domain and help them to understand each other.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
+</content>
 	</entry>
 	<entry xml:lang="en">
 		<title>Ansible</title>
