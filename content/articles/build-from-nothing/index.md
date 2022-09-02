@@ -24,7 +24,7 @@ In [OOP](/library/oop), you may start thinking of [Objects](/library/object).
 
 In [DDD](/library/ddd) you may start looking for [Aggregates](/library/aggregate).
 
-In [Event Sourcing](/library/event-sourcing.md) you may start looking at [Events](/library/events).
+In [Event Sourcing](/library/event-sourcing) you may start looking at [Events](/library/events).
 
 For a `data center`, we have 3 particular areas of convergence:
 
