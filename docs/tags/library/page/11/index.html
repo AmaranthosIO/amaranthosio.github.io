@@ -145,10 +145,10 @@
   <h6 class="card-title">
     <a
       class="text-decoration-none text-reset"
-      href="https:&#x2F;&#x2F;amaranthos.io&#x2F;library&#x2F;functor&#x2F;"
+      href="https:&#x2F;&#x2F;amaranthos.io&#x2F;library&#x2F;effect&#x2F;"
       rel="bookmark"
-      title="Functor"
-    ><b>Functor</b></a>
+      title="Effect"
+    ><b>Effect</b></a>
   </h6>
   <p class="card-text">
     <small class="text-muted">
@@ -164,8 +164,10 @@
           
   <p class="card-text text-muted">
     
-      <small>A mapping between categories in the context of category theory.
-Call this Mappable
+      <small>Or side-effect, an idea that something outside my direct control could change.
++++
+create something, (input&#x2F;output)
+state change
 ...</small>
     
   </p>
@@ -190,10 +192,10 @@ Call this Mappable
   <h6 class="card-title">
     <a
       class="text-decoration-none text-reset"
-      href="https:&#x2F;&#x2F;amaranthos.io&#x2F;library&#x2F;geometric-algebra&#x2F;"
+      href="https:&#x2F;&#x2F;amaranthos.io&#x2F;library&#x2F;either&#x2F;"
       rel="bookmark"
-      title="Geometric Algebra"
-    ><b>Geometric Algebra</b></a>
+      title="Either"
+    ><b>Either</b></a>
   </h6>
   <p class="card-text">
     <small class="text-muted">
@@ -209,70 +211,7 @@ Call this Mappable
           
   <p class="card-text text-muted">
     
-      <small>This is an introduction to geometric algebra, an alternative to traditional vector algebra that expands on it in two ways:
-
-In addition to scalars and vectors, it defines new objects representing subspaces of any dimension.
-It defines a product that&#x27;s strongly motivated by geometry and can be taken between any two objects....</small>
-    
-  </p>
-
-          
-        </div>
-      </div>
-    </div>
-  
-
-	
-    
-  
-  
-  
-    <div class="card p-3 border-0">
-      <div class="row g-5">
-        
-        
-        <div class="col-md-12">
-          
-  <h6 class="card-title">
-    <a
-      class="text-decoration-none text-reset"
-      href="https:&#x2F;&#x2F;amaranthos.io&#x2F;library&#x2F;groups&#x2F;"
-      rel="bookmark"
-      title="Group"
-    ><b>Group</b></a>
-  </h6>
-  <p class="card-text">
-    <small class="text-muted">
-      
-  
-  
-  2022-08-03
-
-    </small>
-  </p>
-
-          
-          
-  <p class="card-text text-muted">
-    
-      <small>Two or more things which are distinct by:
-
-interaction 
-
-some type of relationship
-
-
-common identity 
-
-such as a name or feature
-
-
-defined boundary
-
-have a similarity boundary with things outside the group
-
-
-
+      <small>A choice requiring an answer selected only from the given set.
 ...</small>
     
   </p>
@@ -297,10 +236,10 @@ have a similarity boundary with things outside the group
   <h6 class="card-title">
     <a
       class="text-decoration-none text-reset"
-      href="https:&#x2F;&#x2F;amaranthos.io&#x2F;library&#x2F;information-theory&#x2F;"
+      href="https:&#x2F;&#x2F;amaranthos.io&#x2F;library&#x2F;event-sourcing&#x2F;"
       rel="bookmark"
-      title="Information Theory"
-    ><b>Information Theory</b></a>
+      title="Event Sourcing"
+    ><b>Event Sourcing</b></a>
   </h6>
   <p class="card-text">
     <small class="text-muted">
@@ -316,13 +255,11 @@ have a similarity boundary with things outside the group
           
   <p class="card-text text-muted">
     
-      <small>The mathematical treatment of the concepts, parameters and rules governing the transmission of messages through communication systems. It has evolved into a vigorous branch of mathematics fostering the development of other scientific fields, such as statistics, biology, behavioral science, neuroscience, and statistical mechanics.
+      <small>An alternative way to persist data. In contrast with state-oriented persistence that only keeps the latest version of the entity state, Event Sourcing stores each state mutation as a separate record called an event.
++++
+reference
 
-References
----s
-
-Information Theory
-Claude E. Shannon: Founder of Information Theory
+What Is Event Sourcing
 
 ...</small>
     
@@ -348,10 +285,10 @@ Claude E. Shannon: Founder of Information Theory
   <h6 class="card-title">
     <a
       class="text-decoration-none text-reset"
-      href="https:&#x2F;&#x2F;amaranthos.io&#x2F;library&#x2F;initial-state&#x2F;"
+      href="https:&#x2F;&#x2F;amaranthos.io&#x2F;library&#x2F;event-store&#x2F;"
       rel="bookmark"
-      title="Initial State"
-    ><b>Initial State</b></a>
+      title="Event Store"
+    ><b>Event Store</b></a>
   </h6>
   <p class="card-text">
     <small class="text-muted">
@@ -367,8 +304,52 @@ Claude E. Shannon: Founder of Information Theory
           
   <p class="card-text text-muted">
     
-      <small>The starting position for a Composable Information Machine. This state may take running scripts or doing setup manually, then the machine become self-regulatory.
-A known state of our environment from which all changes are tracked. The initial state must be constructed from and be reproducable with a known methodology. After such...</small>
+      <small>Stores changes to your data as a sequential series of immutable events. These events may be played back in order to recreate any state at any point in the sequence. It also allow divergence from previous points to be explored easily and for projections to other systems as events occur.
+Event...</small>
+    
+  </p>
+
+          
+        </div>
+      </div>
+    </div>
+  
+
+	
+    
+  
+  
+  
+    <div class="card p-3 border-0">
+      <div class="row g-5">
+        
+        
+        <div class="col-md-12">
+          
+  <h6 class="card-title">
+    <a
+      class="text-decoration-none text-reset"
+      href="https:&#x2F;&#x2F;amaranthos.io&#x2F;library&#x2F;events&#x2F;"
+      rel="bookmark"
+      title="Events"
+    ><b>Events</b></a>
+  </h6>
+  <p class="card-text">
+    <small class="text-muted">
+      
+  
+  
+  2022-08-03
+
+    </small>
+  </p>
+
+          
+          
+  <p class="card-text text-muted">
+    
+      <small>An encapsulation of something that has already happened.
+...</small>
     
   </p>
 
@@ -633,6 +614,30 @@ A known state of our environment from which all changes are tracked. The initial
             href="https:&#x2F;&#x2F;amaranthos.io&#x2F;tags&#x2F;library&#x2F;page&#x2F;21"
             
           >21</a>
+        </li>
+      
+        <li class="
+          page-item
+          
+        ">
+          <a
+            class="page-link"
+            
+            href="https:&#x2F;&#x2F;amaranthos.io&#x2F;tags&#x2F;library&#x2F;page&#x2F;22"
+            
+          >22</a>
+        </li>
+      
+        <li class="
+          page-item
+          
+        ">
+          <a
+            class="page-link"
+            
+            href="https:&#x2F;&#x2F;amaranthos.io&#x2F;tags&#x2F;library&#x2F;page&#x2F;23"
+            
+          >23</a>
         </li>
       
     </ul>

@@ -5,7 +5,7 @@ date = 2022-09-01
 [extra]
 #  image = cim.svg
 [taxonomies]
-   tags = ["ubiquitous-language", "library", "concept"]
+   tags = ["ubiquitous-language", "library", "concept", "dcim"]
 +++
 
 The underlying foundation or basic framework - as of a system or organization

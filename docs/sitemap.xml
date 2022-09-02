@@ -172,6 +172,14 @@
         <lastmod>2022-08-16</lastmod>
     </url>
     <url>
+        <loc>https://amaranthos.io/library/dcim/</loc>
+        <lastmod>2022-09-02</lastmod>
+    </url>
+    <url>
+        <loc>https://amaranthos.io/library/ddd/</loc>
+        <lastmod>2022-08-03</lastmod>
+    </url>
+    <url>
         <loc>https://amaranthos.io/library/devcontainer/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
@@ -181,6 +189,10 @@
     </url>
     <url>
         <loc>https://amaranthos.io/library/domain-object/</loc>
+        <lastmod>2022-08-03</lastmod>
+    </url>
+    <url>
+        <loc>https://amaranthos.io/library/domain/</loc>
         <lastmod>2022-08-03</lastmod>
     </url>
     <url>
@@ -238,6 +250,14 @@
     <url>
         <loc>https://amaranthos.io/library/information-theory/</loc>
         <lastmod>2022-08-03</lastmod>
+    </url>
+    <url>
+        <loc>https://amaranthos.io/library/infrastructure/</loc>
+        <lastmod>2022-09-01</lastmod>
+    </url>
+    <url>
+        <loc>https://amaranthos.io/library/inheritance/</loc>
+        <lastmod>2022-09-02</lastmod>
     </url>
     <url>
         <loc>https://amaranthos.io/library/initial-state/</loc>
@@ -310,6 +330,14 @@
     <url>
         <loc>https://amaranthos.io/library/network/</loc>
         <lastmod>2022-08-03</lastmod>
+    </url>
+    <url>
+        <loc>https://amaranthos.io/library/object/</loc>
+        <lastmod>2022-09-02</lastmod>
+    </url>
+    <url>
+        <loc>https://amaranthos.io/library/oop/</loc>
+        <lastmod>2022-09-02</lastmod>
     </url>
     <url>
         <loc>https://amaranthos.io/library/organic-growth/</loc>
@@ -508,6 +536,12 @@
         <loc>https://amaranthos.io/tags/act/page/1/</loc>
     </url>
     <url>
+        <loc>https://amaranthos.io/tags/alan-kay/</loc>
+    </url>
+    <url>
+        <loc>https://amaranthos.io/tags/alan-kay/page/1/</loc>
+    </url>
+    <url>
         <loc>https://amaranthos.io/tags/api/</loc>
     </url>
     <url>
@@ -548,6 +582,12 @@
     </url>
     <url>
         <loc>https://amaranthos.io/tags/composable/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://amaranthos.io/tags/compute/</loc>
+    </url>
+    <url>
+        <loc>https://amaranthos.io/tags/compute/page/1/</loc>
     </url>
     <url>
         <loc>https://amaranthos.io/tags/concept/</loc>
@@ -595,6 +635,12 @@
         <loc>https://amaranthos.io/tags/concept/page/21/</loc>
     </url>
     <url>
+        <loc>https://amaranthos.io/tags/concept/page/22/</loc>
+    </url>
+    <url>
+        <loc>https://amaranthos.io/tags/concept/page/23/</loc>
+    </url>
+    <url>
         <loc>https://amaranthos.io/tags/concept/page/3/</loc>
     </url>
     <url>
@@ -632,6 +678,12 @@
     </url>
     <url>
         <loc>https://amaranthos.io/tags/development/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://amaranthos.io/tags/domain/</loc>
+    </url>
+    <url>
+        <loc>https://amaranthos.io/tags/domain/page/1/</loc>
     </url>
     <url>
         <loc>https://amaranthos.io/tags/emergence/</loc>
@@ -709,6 +761,12 @@
         <loc>https://amaranthos.io/tags/library/page/21/</loc>
     </url>
     <url>
+        <loc>https://amaranthos.io/tags/library/page/22/</loc>
+    </url>
+    <url>
+        <loc>https://amaranthos.io/tags/library/page/23/</loc>
+    </url>
+    <url>
         <loc>https://amaranthos.io/tags/library/page/3/</loc>
     </url>
     <url>
@@ -730,6 +788,24 @@
         <loc>https://amaranthos.io/tags/library/page/9/</loc>
     </url>
     <url>
+        <loc>https://amaranthos.io/tags/network/</loc>
+    </url>
+    <url>
+        <loc>https://amaranthos.io/tags/network/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://amaranthos.io/tags/object/</loc>
+    </url>
+    <url>
+        <loc>https://amaranthos.io/tags/object/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://amaranthos.io/tags/oop/</loc>
+    </url>
+    <url>
+        <loc>https://amaranthos.io/tags/oop/page/1/</loc>
+    </url>
+    <url>
         <loc>https://amaranthos.io/tags/rust/</loc>
     </url>
     <url>
@@ -740,6 +816,12 @@
     </url>
     <url>
         <loc>https://amaranthos.io/tags/security/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://amaranthos.io/tags/storage/</loc>
+    </url>
+    <url>
+        <loc>https://amaranthos.io/tags/storage/page/1/</loc>
     </url>
     <url>
         <loc>https://amaranthos.io/tags/tests/</loc>
@@ -797,6 +879,12 @@
     </url>
     <url>
         <loc>https://amaranthos.io/tags/ubiquitous-language/page/21/</loc>
+    </url>
+    <url>
+        <loc>https://amaranthos.io/tags/ubiquitous-language/page/22/</loc>
+    </url>
+    <url>
+        <loc>https://amaranthos.io/tags/ubiquitous-language/page/23/</loc>
     </url>
     <url>
         <loc>https://amaranthos.io/tags/ubiquitous-language/page/3/</loc>

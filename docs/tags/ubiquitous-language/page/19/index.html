@@ -145,10 +145,10 @@
   <h6 class="card-title">
     <a
       class="text-decoration-none text-reset"
-      href="https:&#x2F;&#x2F;amaranthos.io&#x2F;library&#x2F;thing-type&#x2F;"
+      href="https:&#x2F;&#x2F;amaranthos.io&#x2F;library&#x2F;read-model&#x2F;"
       rel="bookmark"
-      title="Thing (Type)"
-    ><b>Thing (Type)</b></a>
+      title="Read Model"
+    ><b>Read Model</b></a>
   </h6>
   <p class="card-text">
     <small class="text-muted">
@@ -164,7 +164,50 @@
           
   <p class="card-text text-muted">
     
-      <small>A thing is a generic object (not a person or organization) that can interact. 
+      <small>The domain logic that we built in the previous section accepted commands from the outside world. Sending a command is a void operation; either the command is accepted and life goes on, or the command is rejected and an exception is thrown. So how does the outside world ever ask...</small>
+    
+  </p>
+
+          
+        </div>
+      </div>
+    </div>
+  
+
+	
+    
+  
+  
+  
+    <div class="card p-3 border-0">
+      <div class="row g-5">
+        
+        
+        <div class="col-md-12">
+          
+  <h6 class="card-title">
+    <a
+      class="text-decoration-none text-reset"
+      href="https:&#x2F;&#x2F;amaranthos.io&#x2F;library&#x2F;relationship&#x2F;"
+      rel="bookmark"
+      title="Relationship"
+    ><b>Relationship</b></a>
+  </h6>
+  <p class="card-text">
+    <small class="text-muted">
+      
+  
+  
+  2022-08-03
+
+    </small>
+  </p>
+
+          
+          
+  <p class="card-text text-muted">
+    
+      <small>A common link between two things.
 ...</small>
     
   </p>
@@ -189,10 +232,10 @@
   <h6 class="card-title">
     <a
       class="text-decoration-none text-reset"
-      href="https:&#x2F;&#x2F;amaranthos.io&#x2F;library&#x2F;thing&#x2F;"
+      href="https:&#x2F;&#x2F;amaranthos.io&#x2F;library&#x2F;rust&#x2F;"
       rel="bookmark"
-      title="Thing"
-    ><b>Thing</b></a>
+      title="Rust"
+    ><b>Rust</b></a>
   </h6>
   <p class="card-text">
     <small class="text-muted">
@@ -208,8 +251,9 @@
           
   <p class="card-text text-muted">
     
-      <small>Used to refer in an object that is not a person or organization.
-Thing Type
+      <small>Rust
+Rust has a rich type system and ownership model to guarantee memory-safety and thread-safety.
+Getting started
 ...</small>
     
   </p>
@@ -234,10 +278,10 @@ Thing Type
   <h6 class="card-title">
     <a
       class="text-decoration-none text-reset"
-      href="https:&#x2F;&#x2F;amaranthos.io&#x2F;library&#x2F;things&#x2F;"
+      href="https:&#x2F;&#x2F;amaranthos.io&#x2F;library&#x2F;sor&#x2F;"
       rel="bookmark"
-      title="Things"
-    ><b>Things</b></a>
+      title="System of Record"
+    ><b>System of Record</b></a>
   </h6>
   <p class="card-text">
     <small class="text-muted">
@@ -253,7 +297,9 @@ Thing Type
           
   <p class="card-text text-muted">
     
-      <small>Things are a term for any definable collection, physical, mental, or imaginary.
+      <small>The authoritative data source for a given piece of information.
+The repository where the objects as a whole are maintained. This maintenance includes creation, updating, modifying and deleting, a.k.a. the Write Model.
+The SOR is the source that is used for audit or regulatory reporting purposes.
 ...</small>
     
   </p>
@@ -278,10 +324,10 @@ Thing Type
   <h6 class="card-title">
     <a
       class="text-decoration-none text-reset"
-      href="https:&#x2F;&#x2F;amaranthos.io&#x2F;library&#x2F;topologies&#x2F;"
+      href="https:&#x2F;&#x2F;amaranthos.io&#x2F;library&#x2F;sot&#x2F;"
       rel="bookmark"
-      title="Topologies"
-    ><b>Topologies</b></a>
+      title="Source of Truth"
+    ><b>Source of Truth</b></a>
   </h6>
   <p class="card-text">
     <small class="text-muted">
@@ -297,57 +343,8 @@ Thing Type
           
   <p class="card-text text-muted">
     
-      <small>...</small>
-    
-  </p>
-
-          
-        </div>
-      </div>
-    </div>
-  
-
-	
-    
-  
-  
-  
-    <div class="card p-3 border-0">
-      <div class="row g-5">
-        
-        
-        <div class="col-md-12">
-          
-  <h6 class="card-title">
-    <a
-      class="text-decoration-none text-reset"
-      href="https:&#x2F;&#x2F;amaranthos.io&#x2F;library&#x2F;traits&#x2F;"
-      rel="bookmark"
-      title="Trait"
-    ><b>Trait</b></a>
-  </h6>
-  <p class="card-text">
-    <small class="text-muted">
-      
-  
-  
-  2022-08-03
-
-    </small>
-  </p>
-
-          
-          
-  <p class="card-text text-muted">
-    
-      <small>A quality that makes one thing different from another
-in Rust:
-A trait describes an abstract interface that types can implement. This interface consists of associated items, which come in three varieties:
-
-functions
-types
-constants
-
+      <small>The trusted source with a complete picture of the defined object as a whole. a.k.a. Read Model
+Read Models are specific aggregates of information designed to envelope the Limits and boundaries and behaviors of a defined space.
 ...</small>
     
   </p>
@@ -613,6 +610,30 @@ constants
             href="https:&#x2F;&#x2F;amaranthos.io&#x2F;tags&#x2F;ubiquitous-language&#x2F;page&#x2F;21"
             
           >21</a>
+        </li>
+      
+        <li class="
+          page-item
+          
+        ">
+          <a
+            class="page-link"
+            
+            href="https:&#x2F;&#x2F;amaranthos.io&#x2F;tags&#x2F;ubiquitous-language&#x2F;page&#x2F;22"
+            
+          >22</a>
+        </li>
+      
+        <li class="
+          page-item
+          
+        ">
+          <a
+            class="page-link"
+            
+            href="https:&#x2F;&#x2F;amaranthos.io&#x2F;tags&#x2F;ubiquitous-language&#x2F;page&#x2F;23"
+            
+          >23</a>
         </li>
       
     </ul>

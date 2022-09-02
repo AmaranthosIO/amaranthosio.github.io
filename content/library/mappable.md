@@ -13,6 +13,7 @@ Objects in the category can be mapped.
 
 #### References
 
+Mathematical [Functor](/library/functor)
+
 ---
 
-Mathematical [Functor](/library/functor)

@@ -5,8 +5,62 @@
 	<link href="https://amaranthos.io/atom.xml" rel="self" type="application/atom+xml"/>
   <link href="https://amaranthos.io/"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2022-09-01T00:00:00+00:00</updated>
+	<updated>2022-09-02T00:00:00+00:00</updated>
 	<id>https://amaranthos.io/atom.xml</id>
+	<entry xml:lang="en">
+		<title>DCIM - Data center infrastructure management</title>
+		<published>2022-09-02T00:00:00+00:00</published>
+		<updated>2022-09-02T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://amaranthos.io/library/dcim/" type="text/html"/>
+		<id>https://amaranthos.io/library/dcim/</id>
+		<content type="html">&lt;p&gt;The union of information technology and data center facility management disciplines.
+This enables the idea of &lt;code&gt;infrastructure&lt;&#x2F;code&gt; to be managed as a single &lt;a href=&quot;&#x2F;library&#x2F;domain&quot;&gt;Domain&lt;&#x2F;a&gt;.
+It is closely related to &lt;a href=&quot;&#x2F;library&#x2F;hyperconvergence&quot;&gt;hyperconvergence&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Inheritance</title>
+		<published>2022-09-02T00:00:00+00:00</published>
+		<updated>2022-09-02T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://amaranthos.io/library/inheritance/" type="text/html"/>
+		<id>https://amaranthos.io/library/inheritance/</id>
+		<content type="html">&lt;p&gt;Objects inherit, or assume all thr capabilities of the parent &lt;a href=&quot;&#x2F;library&#x2F;object&quot;&gt;object&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;p&gt;Mathematical &lt;a href=&quot;&#x2F;library&#x2F;functor&quot;&gt;Functor&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Object</title>
+		<published>2022-09-02T00:00:00+00:00</published>
+		<updated>2022-09-02T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://amaranthos.io/library/object/" type="text/html"/>
+		<id>https://amaranthos.io/library/object/</id>
+		<content type="html">&lt;p&gt;In the object-oriented programming paradigm, object can be a combination of variables, functions, and data structures; in particular in class-based variations of the paradigm it refers to a particular instance of a class.&lt;&#x2F;p&gt;
+&lt;p&gt;In the relational model of database management, an object can be a table or column, or an association between data and a database entity (such as relating a person&#x27;s age to a specific person).&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Object Oriented Programming - OOP</title>
+		<published>2022-09-02T00:00:00+00:00</published>
+		<updated>2022-09-02T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://amaranthos.io/library/oop/" type="text/html"/>
+		<id>https://amaranthos.io/library/oop/</id>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;OOP (Object-oriented programming) is a programming paradigm based on the concept of &amp;quot;objects&amp;quot;, which can contain data and code: data in the form of fields (often known as attributes or properties), and code, in the form of procedures (often known as methods). - &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Object-oriented_programming&quot;&gt;Wikipedia&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;hr &#x2F;&gt;
+&lt;h3 id=&quot;references&quot;&gt;References&lt;&#x2F;h3&gt;
+&lt;hr &#x2F;&gt;
+</content>
+	</entry>
 	<entry xml:lang="en">
 		<title>Build a datacenter</title>
 		<published>2022-09-01T00:00:00+00:00</published>
@@ -72,10 +126,10 @@ We will be building this from the ground up.&lt;&#x2F;p&gt;
 We want simplicity of scale, therefore we need to abstract.
 We also want something that can begin as a commodity and develop into more.
 We need to define the way WE see the universe.&lt;&#x2F;p&gt;
-&lt;p&gt;In &lt;a href=&quot;&#x2F;library&#x2F;oop&quot;&gt;OOP&lt;&#x2F;a&gt;, you may start thinking of &lt;a href=&quot;&#x2F;library&#x2F;objects&quot;&gt;Objects&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
-&lt;p&gt;In &lt;a href=&quot;&#x2F;library&#x2F;ddd&quot;&gt;DDD&lt;&#x2F;a&gt; you may start looking for &lt;a href=&quot;&#x2F;library&#x2F;aggregates&quot;&gt;Aggregates&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
-&lt;p&gt;In &lt;a href=&quot;&#x2F;library&#x2F;event-sourcing.md&quot;&gt;Event Sourcing&lt;&#x2F;a&gt; you may start looking at &lt;a href=&quot;&#x2F;library&#x2F;event-storming&quot;&gt;Events&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
-&lt;p&gt;For a data center, we have 3 particular areas of convergence:&lt;&#x2F;p&gt;
+&lt;p&gt;In &lt;a href=&quot;&#x2F;library&#x2F;oop&quot;&gt;OOP&lt;&#x2F;a&gt;, you may start thinking of &lt;a href=&quot;&#x2F;library&#x2F;object&quot;&gt;Objects&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;In &lt;a href=&quot;&#x2F;library&#x2F;ddd&quot;&gt;DDD&lt;&#x2F;a&gt; you may start looking for &lt;a href=&quot;&#x2F;library&#x2F;aggregate&quot;&gt;Aggregates&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;In &lt;a href=&quot;&#x2F;library&#x2F;event-sourcing.md&quot;&gt;Event Sourcing&lt;&#x2F;a&gt; you may start looking at &lt;a href=&quot;&#x2F;library&#x2F;events&quot;&gt;Events&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;For a &lt;code&gt;data center&lt;&#x2F;code&gt;, we have 3 particular areas of convergence:&lt;&#x2F;p&gt;
 &lt;ol&gt;
 &lt;li&gt;Network&lt;&#x2F;li&gt;
 &lt;li&gt;Compute&lt;&#x2F;li&gt;
@@ -103,13 +157,14 @@ We need to define the way WE see the universe.&lt;&#x2F;p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;A place in a defined location in the universe.&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
-&lt;p&gt;Anything added to that is a &lt;a href=&quot;&#x2F;library&#x2F;metric&quot;&gt;metric&lt;&#x2F;a&gt;, or &lt;a href=&quot;&#x2F;library&#x2F;topology&quot;&gt;topology&lt;&#x2F;a&gt;, or something else which are &lt;a href=&quot;&#x2F;library&#x2F;traits&quot;&gt;traits&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Anything added to that is a &lt;a href=&quot;&#x2F;library&#x2F;metric-space&quot;&gt;metric&lt;&#x2F;a&gt;, or &lt;a href=&quot;&#x2F;library&#x2F;topologies&quot;&gt;topology&lt;&#x2F;a&gt;, or something else which are &lt;a href=&quot;&#x2F;library&#x2F;traits&quot;&gt;traits&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;thing&quot;&gt;Thing&lt;&#x2F;h2&gt;
 &lt;blockquote&gt;
-&lt;p&gt;A definable [concept].&lt;&#x2F;p&gt;
+&lt;p&gt;A definable &lt;a href=&quot;&#x2F;library&#x2F;concept&quot;&gt;concept&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
 &lt;p&gt;These are the definitions we will use to begin, everything is evolutionary from here.&lt;&#x2F;p&gt;
 &lt;p&gt;We have defined these in &lt;a href=&quot;&#x2F;library&#x2F;rust&quot;&gt;Rust&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;next&quot;&gt;Next&lt;&#x2F;h2&gt;
 &lt;p&gt;&lt;a href=&quot;&#x2F;articles&#x2F;building-the-base&quot;&gt;Building-the-base&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -154,6 +209,19 @@ We need to define the way WE see the universe.&lt;&#x2F;p&gt;
 &lt;hr &#x2F;&gt;
 &lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
 &lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.networkworld.com&#x2F;article&#x2F;3207567&#x2F;what-is-hyperconvergence.html&quot;&gt;What is Hyperconvergence&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Infrastructure</title>
+		<published>2022-09-01T00:00:00+00:00</published>
+		<updated>2022-09-01T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://amaranthos.io/library/infrastructure/" type="text/html"/>
+		<id>https://amaranthos.io/library/infrastructure/</id>
+		<content type="html">&lt;p&gt;The underlying foundation or basic framework - as of a system or organization
+&lt;em&gt;also:&lt;&#x2F;em&gt; the resources (such as personnel, buildings, or equipment) required for an activity&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
 &lt;hr &#x2F;&gt;
 </content>
 	</entry>
@@ -708,6 +776,18 @@ There is always a feedback and identity mechanism&lt;&#x2F;p&gt;
 </content>
 	</entry>
 	<entry xml:lang="en">
+		<title>Domain Driven Design</title>
+		<published>2022-08-03T00:00:00+00:00</published>
+		<updated>2022-08-03T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://amaranthos.io/library/ddd/" type="text/html"/>
+		<id>https://amaranthos.io/library/ddd/</id>
+		<content type="html">&lt;p&gt;A framework for making design decisions and a technical vocabulary for discussing &lt;a href=&quot;&#x2F;library&#x2F;domain&quot;&gt;domain&lt;&#x2F;a&gt; design. This &lt;a href=&quot;&#x2F;library&#x2F;&quot;&gt;library&lt;&#x2F;a&gt; is an example that provides the &lt;a href=&quot;&#x2F;library&#x2F;ubiquitous-language&quot;&gt;ubiquitous language&lt;&#x2F;a&gt; for the &lt;a href=&quot;&#x2F;library&#x2F;cim&quot;&gt;composable information machine&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;h2 id=&quot;domain-driven-design-tackling-complexity-in-the-heart-of-software-eric-evans&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.dddcommunity.org&#x2F;book&#x2F;evans_2003&#x2F;&quot;&gt;Domain-Driven Design: Tackling Complexity in the Heart of Software - Eric Evans&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
 		<title>Devcontainer</title>
 		<published>2022-08-03T00:00:00+00:00</published>
 		<updated>2022-08-03T00:00:00+00:00</updated>
@@ -752,6 +832,18 @@ for production level IT Environments. &lt;a href=&quot;https:&#x2F;&#x2F;github.
 		<link rel="alternate" href="https://amaranthos.io/library/domain-object/" type="text/html"/>
 		<id>https://amaranthos.io/library/domain-object/</id>
 		<content type="html"></content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Domain</title>
+		<published>2022-08-03T00:00:00+00:00</published>
+		<updated>2022-08-03T00:00:00+00:00</updated>
+		<link rel="alternate" href="https://amaranthos.io/library/domain/" type="text/html"/>
+		<id>https://amaranthos.io/library/domain/</id>
+		<content type="html">&lt;p&gt;Domain is a scope of where and how one works. The space of the problem for which we are acting: the &lt;a href=&quot;&#x2F;library&#x2F;limits&quot;&gt;limits&lt;&#x2F;a&gt;, the [boundaries](&#x2F;library&#x2F;boundaries], and the &lt;a href=&quot;&#x2F;library&#x2F;behaviors&quot;&gt;behaviors&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;unique-domains-are-essential-it-s-your-own-way-of-doing-things-the-business-differential-the-brand-these-are-your-unique-insights-that-make-your-business-process-different-and-helpful-to-you&quot;&gt;Unique Domains are essential, it&#x27;s your own way of doing things, the business differential, the brand. These are your unique insights that make your business process different and helpful to you.&lt;&#x2F;h2&gt;
+&lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
+&lt;hr &#x2F;&gt;
+</content>
 	</entry>
 	<entry xml:lang="en">
 		<title>Effect</title>
@@ -986,8 +1078,8 @@ reference&lt;&#x2F;p&gt;
 		<content type="html">&lt;p&gt;Objects in the category can be mapped.&lt;&#x2F;p&gt;
 &lt;hr &#x2F;&gt;
 &lt;h4 id=&quot;references&quot;&gt;References&lt;&#x2F;h4&gt;
-&lt;hr &#x2F;&gt;
 &lt;p&gt;Mathematical &lt;a href=&quot;&#x2F;library&#x2F;functor&quot;&gt;Functor&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
 </content>
 	</entry>
 	<entry xml:lang="en">

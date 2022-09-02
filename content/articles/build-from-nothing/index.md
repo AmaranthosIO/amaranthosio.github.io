@@ -20,13 +20,13 @@ We want simplicity of scale, therefore we need to abstract.
 We also want something that can begin as a commodity and develop into more.
 We need to define the way WE see the universe.
 
-In [OOP](/library/oop), you may start thinking of [Objects](/library/objects).
+In [OOP](/library/oop), you may start thinking of [Objects](/library/object).
 
-In [DDD](/library/ddd) you may start looking for [Aggregates](/library/aggregates).
+In [DDD](/library/ddd) you may start looking for [Aggregates](/library/aggregate).
 
-In [Event Sourcing](/library/event-sourcing.md) you may start looking at [Events](/library/event-storming).
+In [Event Sourcing](/library/event-sourcing.md) you may start looking at [Events](/library/events).
 
-For a data center, we have 3 particular areas of convergence:
+For a `data center`, we have 3 particular areas of convergence:
 
   1. Network
   2. Compute
@@ -62,14 +62,16 @@ We support things acting as humans, but they are not people, we will talk about 
 
 > A place in a defined location in the universe.
 
-Anything added to that is a [metric](/library/metric), or [topology](/library/topology), or something else which are [traits](/library/traits).
+Anything added to that is a [metric](/library/metric-space), or [topology](/library/topologies), or something else which are [traits](/library/traits).
 
 ## Thing
 
-> A definable [concept].
+> A definable [concept](/library/concept).
 
 These are the definitions we will use to begin, everything is evolutionary from here.
 
 We have defined these in [Rust](/library/rust).
+
+## Next
 
 [Building-the-base](/articles/building-the-base)
